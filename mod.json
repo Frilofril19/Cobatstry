@@ -1,0 +1,12 @@
+name: "cobatstry"
+displayName: "COBATSTRY"
+author: "FriloFril"
+description: "Цей мод доповньює гру новою планетою - Фраліон синя планета яку захопили ворожі дрони. У моді багато нових турелі, ворогів та ресурсів. Покищо є лише українська локалізація, а все ще попереду.
+
+This mod adds a new planet to the game - Fralion, a blue planet captured by enemy drones. The mod features many new turrets, enemies, and resources. Currently, only the Ukrainian localization is available, but there is much more to come."
+version: "V.0.1"
+subtitle: "Alfa version!"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false
+hideBrowser: false
