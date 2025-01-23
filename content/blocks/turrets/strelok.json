@@ -1,0 +1,44 @@
+type: "ItemTurret"
+name:"Стрілець"
+description: "Стріляє блискавками та електричними самонавідними пулями"
+health: 125
+size:2
+research: "ion"
+requirements:[
+litiy/20
+silver/10
+]
+"consumes": {
+"power": 3.5
+},
+canOverdrive: false
+coolant: {
+type: ConsumeCoolant
+allowLiquid: true
+amount: 0.1
+}
+shootY: 0
+targetAir: false
+targetGround: true
+reload: 80
+range: 150
+shoot:{shots:1
+shotDelay: 80
+autoTarget: true }
+rotateSpeed: 3
+shootSound: star_shot
+ammoTypes:{silver:{type:"LightningBulletType", damage:100, lifeTime:100, speed:2, lightningLength: 30, lightningColor: 6352D0, smokeEffect: shootBigSmoke,       	chargeEffect: lightningCharge, 
+	delayFrags: true, fragSpread: 90, fragBullets: 2, fragOffsetMax: 1, fragVelocityMin: 1, fragVelocityMax: 1, fragAngle: 225, fragRandomSpread:0,
+
+	fragBullet: {type:"BasicBulletType", damage:0, lifeTime:10, speed:0.5,  trailLength: 5, trailWidth: 1, backColor: 6352D0, frontColor: 6352D0, 
+	despawnSound: shootAlt,
+	delayFrags: true, fragSpread: 0, fragBullets: 1, fragOffsetMax: 1, fragVelocityMin: 1, fragVelocityMax: 1, fragAngle:180, fragRandomSpread:0
+			fragBullet: { 
+				type:"MissileBulletType", 
+
+		damage:50, lifeTime:1500, speed:5, trailLength: 30, trailWidth: 2, pierce: true, backColor: 6352D0, trailColor: 6352D0, frontColor: 6352D0,
+
+ 		bulletInterval: 5, intervalBullets: 4, intervalRandomSpread: 0, intervalSpread: 180, intervalAngle: 90,	
+		intervalBullet: { type:"LightningBulletType", damage:3, lifeTime:1, speed:1, lightningLength: 5, lightningColor: 6352D0 } },
+} } } } },
+category: "turret",

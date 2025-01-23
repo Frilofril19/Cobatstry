@@ -1,0 +1,31 @@
+type: "GenericCrafter"
+name: "Магнетитна піч"
+description: "Окисляє кобальт до стану магнетиту"
+"health": 62
+"size":2,
+research: {
+parent: "beginer-dril"
+objectives: [
+{
+type: onSector
+preset: "lost_karier" 
+} ] }
+requirements:[
+cobalt/30
+],
+squareSprite: false
+hasPower: false
+hasitem: true
+hasliquids: false
+craftTime:90
+consumes: {
+items: [
+cobalt/2
+]
+}
+updateEffect: "electrified"
+category: "crafting"
+idleSoundVolume: 0.5
+itemCapacity: 30
+outputItem: magnetit/3
+

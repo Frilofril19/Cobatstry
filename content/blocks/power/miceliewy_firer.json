@@ -1,0 +1,40 @@
+type: "ConsumeGenerator"
+name: "Біогенератор"
+description: "Спалює міцелій та генерує енергію"
+health: 125
+size: 2
+squareSprite: false
+research: "galvanic_reaktor"
+requirements: [
+galiy/30
+litiy/55
+silver/65
+]
+hasPower: true
+hasItems: true
+outputsPower: true
+itemCapacity: 30
+"consumes": {
+"items": [
+miceliy/5
+]
+}
+itemDuration: 50
+powerProduction: 2
+category: "power"
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: -base
+layer: -1
+}
+{
+type: DrawRegion
+suffix: -rotate
+rotateSpeed: 10
+layer: 0
+}
+]
+}

@@ -1,0 +1,9 @@
+type: "material",
+"name": "Міцелій",
+"description": "Органічний мінерал що має унікальні здібності для високорівневій хімії та він блокує деякі сигнали",
+"color": "a678d0",
+"flammability": 0.25,
+"hardness": 4,
+"cost": 1f,
+research: "acid"
+

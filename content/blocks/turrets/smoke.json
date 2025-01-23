@@ -1,0 +1,31 @@
+type: "liquidTurret",
+name:"Туман",
+description: "Далекобійна турель зі швидкими знарядами",
+health: 137,
+size: 2,
+research: "hemix",
+category: "turret",
+requirements:[
+miceliy/5
+quarc/25
+litiy/30
+],
+canOverdrive: false
+targetAir: true,
+targetGround: true,
+
+recoilTime: 60
+cooldownTime: 60
+
+reload: 60,
+range: 80,
+shoot:{shots: 1,
+shotDelay: 0,
+autoTarget: true },
+ammoPerShot: 300,
+rotateSpeed: 3,
+inaccuracy: 0,
+shootSound: shoot,
+ammoTypes:{selitra:{type:"ContinuousLaserBulletType", damage: 4, lifeTime:500, speed:0, fadeTime: 15, length: 80, damageInterval: 5, 
+divisions: 100, status: "frize_sus", colors: [939748, a5aa54, b9bd6d], backLength: 7, oscMag: 5, width: 2
+}, }

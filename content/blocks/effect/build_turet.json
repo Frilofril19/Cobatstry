@@ -1,0 +1,19 @@
+type: "BuildTurret",
+"name":"Будівельник",
+"description" :"Допомагає будувати споруди та відновлює втрачені"
+"health": 125,
+"size":1,
+research: "heal_stantion"
+"requirements":[
+kristalit/15
+litiy/30
+],
+coolant: {
+type: ConsumeCoolant
+allowLiquid: true
+amount: 0.01
+}
+buildSpeed: 0.5
+range: 100
+"category": "effect"
+

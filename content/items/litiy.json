@@ -1,0 +1,13 @@
+type: "item",
+name: "Літій"
+description: "Метал що має великі бронювальні можливості та властивості для початкової хімічної промисловості"
+color: "9C9C9C"
+flammability: 0
+hardness: 3
+cost: 2
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+research: "cobalt"
+

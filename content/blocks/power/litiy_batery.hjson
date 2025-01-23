@@ -1,0 +1,31 @@
+type: "Battery"
+name: "Літієва батарея"
+description: "Зберігає велику кількість енергії"
+category: "power"
+size: 2
+health: 187
+squareSprite: false
+conductivePower: true
+consumes: {
+powerBuffered: 3000
+}
+requirements: [
+litiy/15
+galiy/20
+]
+research: "cobalt_batery"
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawGlowRegion
+suffix: -glow
+color: EFEFEF
+}
+{
+type: DrawRegion
+suffix: -base
+layer: -1
+}
+]
+}

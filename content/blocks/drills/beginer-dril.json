@@ -1,0 +1,20 @@
+type: "Drill",
+name: "Початковий бур",
+description: "Добуває ресурси з поверхні планети",
+health: 50,
+size: 2,
+research: "core1"
+researchCost: [
+cobalt/25
+]
+"requirements":[
+cobalt/15
+],
+tier: 3
+liquidBoostIntensity: -1
+hasLiquids: false
+liquidCapacity: 0
+drillTime: 150
+drawMineItem: true,
+drawSpinSprite: false,
+category: "production",

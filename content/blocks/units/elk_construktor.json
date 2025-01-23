@@ -1,0 +1,41 @@
+"type": "UnitFactory",
+"name": "Електричний конструктор",
+"description": "Виробляє дрони",
+"health": 175 ,
+"size": 3 ,
+"category": "units",
+"research": "mech_construktor",
+"requirements":[
+silver/30 ,
+galiy/35
+],
+"squareSprite": false ,
+"consumes": {
+"power": 4
+},
+"plans": [
+	{
+	"unit": bee,
+	"requirements":[
+		silver/20 ,
+		galiy/25
+		],
+	"time": 200
+	},
+	{
+	"unit": lightin,
+	"requirements":[
+		silver/35 ,
+		galiy/40
+		],
+	"time": 350
+	},
+	{
+	"unit": sporevy,
+	"requirements":[
+		silver/50 ,
+		galiy/55
+		],
+	"time": 500
+	}
+	]

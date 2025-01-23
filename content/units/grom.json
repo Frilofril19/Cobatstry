@@ -1,0 +1,82 @@
+type: flying
+name: "Грім"
+description: "Повільний літаючий дрон що стріляє дробом, блискавкою та малими пулями"
+health: 275
+speed: 0.7
+flying: true
+faceTarget: true
+hitSize: 15
+trailLength: 10
+//research: "lightin"
+weapons: [{
+name: "grom1"
+x: 0
+y: 0
+rotate: false
+mirror:false
+shoot: {
+	shots: 25
+	shotDelay: 0
+	autoTarget: true
+	}
+inaccuracy: 25
+reload: 150
+shootSound: "artillery"
+bullet:{ 
+	type:"BasicBulletType"
+	damage: 12
+	lifetime: 50
+	speed: 0.5
+	trailLength: 10
+	trailWidth: 1
+	} 
+} 
+{
+name: "grom2"
+x: 3
+y: 0
+rotate: false
+mirror: true
+shoot: {
+	shots: 2
+	shotDelay: 20
+	autoTarget: true
+	}
+inaccuracy: 25
+reload: 150
+shootSound: "artillery"
+bullet:{ 
+	type:"LightningBulletType"
+	damage: 50
+	lifetime: 50
+	speed: 0
+	trailLength: 5
+	trailWidth: 1
+	} 
+} 
+{
+x: 0
+y: 0
+rotate: false
+mirror:false
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true
+	}
+inaccuracy: 25
+reload: 200
+shootSound: "shootAlt"
+bullet:{ 
+	type:"BasicBulletType"
+	lifetime: 150
+	speed: 1
+	trailLength: 15
+	trailWidth: 1
+	bulletInterval: 5, intervalBullets: 2, intervalRandomSpread: 0, intervalSpread: 180, intervalAngle: 180
+	intervalBullet: { type:"BasicBulletType", damage:25, lifeTime:100, speed:1, trailLength: 5, trailWidth: 1 }
+	} 
+} 
+]
+abilities: [
+	]

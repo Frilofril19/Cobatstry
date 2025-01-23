@@ -1,0 +1,12 @@
+type: "wall",
+name: "Велика кристалітова стіна",
+description: "Захищяє споруди від снарядів ворога та відбиває деякі",
+health: 512,
+size: 2,
+research: "kristalit_wall"
+requirements: [
+kristalit/24
+],
+flashHit: true,
+chanceDeflect: 20,
+category: "defense",

@@ -1,0 +1,13 @@
+type: "item",
+name: "Магнетит"
+description: "Метал що використовується у деяких генераторах та у електроніці"
+color: "979685"
+flammability: 0
+hardness: 2
+cost: 2
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+research: "cobalt"
+

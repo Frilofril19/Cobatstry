@@ -1,0 +1,15 @@
+localizedName: "Тунельні тропи"
+description: "Цей сектор складається з декільох галявин об'єднаних малими тунелями щом правильно транспортувати ресурси потрібно буде дослідити механічну катапульту"
+captureWave: 20
+difficulty: 6
+planet: "fralion"
+sector: 7
+research: {
+parent: "miceliy_moth"
+objectives: [
+{
+type: SectorComplete
+preset: "miceliy_moth"
+}
+]
+}

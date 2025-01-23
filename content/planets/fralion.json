@@ -1,0 +1,81 @@
+generator: {
+  octaves: 2
+  persistence: 0.58
+  scale: 24
+  mag: 0.79
+  thresh: 1.14
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.3
+  carbonChance: 0.32
+  berylChance: 0.2
+  ferricChance: 0.2
+}
+
+localizedName: "Фраліон"
+parent: sun
+iconColor: 6782B7
+orbitRadius: 35
+hasAtmosphere: true,
+updateLighting: true,
+atmosphereRadIn: 0,
+atmosphereRadOut: 0.3,
+atmosphereColor: 6782B7,
+drawOrbit: true,
+itemWhitelist: [
+"cobalt"
+"litiy"
+"magnetit"
+"kristalit"
+"quarc"
+"miceliy"
+"silver"
+"galiy"
+]
+prebuildBase: true
+accessible: true
+alwaysUnlocked: true
+defaltCore: "core1"
+sectorSeed: 14513
+bloom: true
+visible: true
+startSector: 1
+sectorSize: 1
+clearSectorOnLose: true
+allowSectorInvasion: true
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+
+	
+cloudMesh: {
+  type: HexSkyMesh
+  planet: fralion
+  seed: 52
+  speed: 1
+  radius: 0.15
+  divisions: 4
+  color: 8E9FC3
+  octaves: 4
+  persistence: 4
+  scl: 0.25
+  thresh: 0.5
+}
+
+mesh: [
+{
+	type: NoiseMesh
+	planet: fralion
+	seed: 7
+	color1: 4564A2
+	color2: 677289
+	divisions: 4
+	radius: 0.8
+	octaves: 4
+	persistence: 4
+	scl: 0.9
+	mag: 2.4
+}
+]
+launchCandidates: []

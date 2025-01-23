@@ -1,0 +1,26 @@
+type: "OverdriveProjector",
+"name":"Прискорювальна станція",
+"description" :"Прискоює все, крім окремих споруд, у своєму радіусі, потребує енергію"
+"health": 162,
+"size": 2,
+research: {
+parent: "large_heal_stantion"
+objectives: [
+{
+type: onSector
+preset: "Unlok_driwer"
+}
+]
+}
+"consumes": {
+"power": 6,
+}
+"requirements":[
+miceliy/20
+litiy/15
+],
+reload: 120
+range: 60
+speedBoost: 3
+"category": "effect",
+

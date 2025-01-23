@@ -1,0 +1,15 @@
+type: "OverflowGate"
+name: "Механічний надмірний люк"
+description: "Переносить ресурси в перед, якщо передній вивід заблокований переносить у вільні"
+health: 50
+size: 1
+research: "mech_router"
+invert: false
+speed: 0.09
+requirements:[
+cobalt/10
+]
+connectedPower: false
+consumesPower: false
+category: "distribution"
+

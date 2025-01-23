@@ -1,0 +1,62 @@
+type: "GenericCrafter"
+name: "Селітровий змішувач"
+description: "Змішує міцелій, кварц та кислоту щоб отримати селітру"
+"health": 200
+"size":3,
+research: "acid_furnanse"
+requirements:[
+miceliy/25
+litiy/20
+quarc/55
+],
+squareSprite: false,
+hasPower: false,
+hasitem: true,
+hasliquids: true,
+craftTime: 125
+consumes:{
+liquids:[
+acid/1
+]
+items: [
+quarc/1
+miceliy/1
+]
+}
+updateEffect: "sporeSlowed"
+category: "crafting"
+idleSoundVolume: 0.5
+itemCapacity: 35
+liquidCapacity: 65
+outputLiquid: selitra/6
+
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawParticles
+color: a5aa54 
+particles: 30
+particleSize: 6
+reverse: true
+}
+{
+type: DrawGlowRegion
+suffix: -glow
+color: a5aa54
+}
+{
+type: DrawRegion
+suffix: -rotate
+spinSprite: true
+rotateSpeed: 16
+layer: -1
+}
+{
+type: DrawRegion
+suffix: -base
+layer: -2
+}
+]
+}
+

@@ -1,0 +1,28 @@
+type: "MendProjector",
+"name":"Велика відновлювальна станція",
+"description" :"Ремонтує будівлі у невеликому радіусі, потребує енергію"
+"health": 125,
+"size":2,
+research: {
+parent: "heal_stantion"
+objectives: [
+{
+type: onSector
+preset: "Unlok_driwer"
+}
+]
+}
+
+"consumes": {
+"power": 2.5,
+}
+"requirements":[
+galiy/50
+litiy/15
+],
+itemCapacity: 0
+range: 45
+healPercent: 1.5
+reload: 75
+"category": "effect",
+

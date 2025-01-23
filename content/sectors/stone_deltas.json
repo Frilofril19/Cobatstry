@@ -1,0 +1,15 @@
+localizedName: "Кам'яні дельти"
+description: "На цьому секторі буде дуже багато повітряних дронів підготуйтесь до сурпизів"
+captureWave: 15
+difficulty: 4
+planet: "fralion"
+sector: 3
+research: {
+parent: "lost_karier"
+objectives: [
+{
+type: SectorComplete
+preset: "lost_karier"
+}
+]
+}

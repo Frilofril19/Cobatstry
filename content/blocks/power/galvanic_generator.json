@@ -1,0 +1,56 @@
+type: "ConsumeGenerator"
+name: "Гальванічний генератор"
+description: "Використовує магнетит для добування енергії"
+health: 75
+size: 2
+squareSprite: false
+research: {
+parent: "beginer-dril"
+objectives: [
+{
+type: SectorComplete
+preset: "cold_start"
+}
+]
+}
+requirements: [
+cobalt/25
+]
+hasPower: true
+hasItems: true
+outputsPower: true
+itemCapacity: 10
+"consumes": {
+"items": [
+magnetit/6
+]
+}
+itemDuration: 90
+powerProduction: 1.7
+category: "power"
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawParticles
+color: E1EF62 
+particles: 10
+rotateScl: 10
+}
+{
+type: DrawGlowRegion
+suffix: -glow
+color: EFEFEF
+}
+{
+type: DrawRegion
+suffix: -top
+layer: 0
+}
+{
+type: DrawRegion
+suffix: -down
+layer: -1
+}
+]
+}

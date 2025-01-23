@@ -1,0 +1,43 @@
+type: "GenericCrafter"
+name: "Галієва фабрика"
+description: "Об'єднаючи срібло та магнетит виробляє галій"
+"health": 125
+"size":3,
+research: "magnetit_furnanse"
+requirements:[
+litiy/30
+silver/20
+],
+squareSprite: false
+hasPower: true
+hasitem: true
+hasliquids: false
+craftTime: 50,
+consumes: {
+power: 3
+items: [
+silver/2
+magnetit/1
+]
+}
+updateEffect: "reactorsmoke"
+craftEffect: "smokePuff"
+category: "crafting"
+idleSoundVolume: 0.5
+itemCapacity: 30
+outputItem: galiy/1
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: -base
+layer: -1
+}
+{
+type: DrawGlowRegion
+suffix: -glow
+color: d0dc6d
+}
+]
+}

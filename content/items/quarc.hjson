@@ -1,0 +1,9 @@
+type: "material",
+"name": "Кварц",
+"description": "Мінерал що використовується у рідій логістиці",
+"color": "FFFFFFFF",
+"flammability": 0,
+"hardness": 1,
+"cost": 1f,
+research: "litiy"
+

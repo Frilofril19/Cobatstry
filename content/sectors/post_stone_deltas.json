@@ -1,0 +1,15 @@
+localizedName: "Мраморні поля"
+description: "На цьому секторі більшість наземних роботів"
+captureWave: 15
+difficulty: 3
+planet: "fralion"
+sector: 4
+research: {
+parent: "stone_deltas"
+objectives: [
+{
+type: SectorComplete
+preset: "stone_deltas"
+}
+]
+}

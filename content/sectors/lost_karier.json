@@ -1,0 +1,18 @@
+localizedName: "Загублений кар'єр"
+description: "На цьому секторі вороги можуть бути набагато підступнішими та скоріше усьго будть давити кількістю"
+captureWave: 10
+difficulty: 1
+planet: "fralion"
+sector: 2
+transportcost:{
+item:[{item: "cobalt" amount: 300}]
+}
+research: {
+parent: "cold_start"
+objectives: [
+{
+type: SectorComplete
+preset: "cold_start"
+}
+]
+}

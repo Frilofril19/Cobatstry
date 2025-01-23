@@ -1,0 +1,12 @@
+type: Liquid
+name: Селітра
+description: "Вибухова рідина"
+color: a5aa54
+explosiveness: 0.85
+flammability: 0.6
+temperature: 0.5
+heatCapacity: 0
+viscosity: 0.0
+coolant: false
+alwaysUnlocked: false
+research: "miceliy"

@@ -1,0 +1,35 @@
+type: tank
+name: "Вартовий"
+description: "Повільний не міцний але сильний танк"
+health: 75
+speed: 1
+flying: false
+faceTarget: true
+range: 50
+research: "mech_construktor"
+weapons: [{
+name: "warnior1"
+x: 0
+y: 0
+rotate: true
+mirror:false
+shoot: {
+	shots: 2
+	shotDelay: 15
+	autoTarget: true
+	}
+inaccuracy: 10
+reload:100
+shootSound: "artillery"
+bullet:{ 
+	type:"BasicBulletType"
+	damage: 37
+	lifetime: 100
+	speed: 2 
+	trailLength: 5
+	trailWidth: 1
+	} 
+} 
+]
+abilities: [
+	]

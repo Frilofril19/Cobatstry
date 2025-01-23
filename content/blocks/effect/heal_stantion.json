@@ -1,0 +1,19 @@
+type: "MendProjector",
+"name":"Відновлювальна станція",
+"description" :"Ремонтує будівлі у малому радіусі, потребує енергію"
+"health": 75,
+"size":1,
+research: "core1"
+"consumes": {
+"power": 2,
+}
+"requirements":[
+cobalt/50
+litiy/15
+],
+itemCapacity: 0
+range: 30
+healPercent: 1.0
+reload: 100
+"category": "effect",
+

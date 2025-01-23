@@ -1,0 +1,13 @@
+type: "wall",
+name: "Велика кобальтова стіна",
+description: "Захищяє споруди від снарядів ворога",
+health: 350,
+size: 2,
+research: "cobalt_wall"
+researchCostMultiplier: 0.4
+requirements: [
+cobalt/25
+],
+flashHit: true,
+chanceDeflect: 0,
+category: "defense",

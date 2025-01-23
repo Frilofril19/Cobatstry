@@ -1,0 +1,15 @@
+localizedName: "Невідома печера"
+description: "Малий сектор де вороги будуть йти без зупинки"
+captureWave: 30
+difficulty: 7
+planet: "fralion"
+sector: 8
+research: {
+parent: "Unlok_driwer"
+objectives: [
+{
+type: SectorComplete
+preset: "Unlok_driwer"
+}
+]
+}

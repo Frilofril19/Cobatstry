@@ -1,0 +1,9 @@
+type: "material",
+"name": "Галій",
+"description": "Метал що ідеально підходить для електросистем",
+"color": "adb38b",
+"flammability": 0,
+"hardness": 5,
+"cost": 2f,
+research: "silver"
+

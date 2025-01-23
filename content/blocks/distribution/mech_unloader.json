@@ -1,0 +1,14 @@
+type: "Unloader"
+name: "Механічний вантажник"
+description: "Розвантажує споруди"
+health: 50
+size: 1
+research: "mech_router"
+speed: 0.01
+requirements:[
+cobalt/10
+]
+connectedPower: false
+consumesPower: false
+category: "distribution"
+

@@ -1,0 +1,15 @@
+type: "OverflowGate"
+name: "Механічний недостатній люк"
+description: "Переносить ресурси у боки, якщо боковий вивід заблокований переносить у перед"
+health: 50
+size: 1
+research: "mech_owerflow"
+invert: true
+speed: 0.09
+requirements:[
+cobalt/10
+]
+connectedPower: false
+consumesPower: false
+category: "distribution"
+

@@ -1,0 +1,15 @@
+localizedName: "Епіцентр ураження"
+description: "На цьому секторі первині пагони міцелію, потрібно ваше дослідження"
+captureWave: 15
+difficulty: 6
+planet: "fralion"
+sector: 6
+research: {
+parent: "galtanis"
+objectives: [
+{
+type: SectorComplete
+preset: "galtanis"
+}
+]
+}

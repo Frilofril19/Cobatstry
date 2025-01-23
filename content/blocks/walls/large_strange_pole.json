@@ -1,0 +1,16 @@
+type: "ForceProjector",
+name: "Силове поле",
+description: "Створює у повітрі поле що захищяє споруди під ним",
+health: 112,
+size: 2,
+research: "large_kristalit_wall"
+requirements: [
+miceliy/24
+],
+consumeCoolant: false
+cooldownNormal: 0.5
+cooldownLiquid: 0.9
+radius: 50
+sides: 100
+shieldHealth: 500
+category: "defense",
