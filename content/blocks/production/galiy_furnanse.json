@@ -1,6 +1,6 @@
 type: "GenericCrafter"
-name: "Галієва фабрика"
-description: "Об'єднаючи срібло та магнетит виробляє галій"
+name: "Gallium Factory"
+description: "Combining silver and magnetite produces gallium"
 "health": 125
 "size":3,
 research: "magnetit_furnanse"

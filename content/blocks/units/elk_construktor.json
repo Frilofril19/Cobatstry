@@ -1,6 +1,6 @@
 "type": "UnitFactory",
-"name": "Електричний конструктор",
-"description": "Виробляє дрони",
+"name": "Electrical designer",
+"description": "Produces drones",
 "health": 175 ,
 "size": 3 ,
 "category": "units",

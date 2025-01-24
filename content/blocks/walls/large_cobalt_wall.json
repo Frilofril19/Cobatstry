@@ -1,6 +1,6 @@
 type: "wall",
-name: "Велика кобальтова стіна",
-description: "Захищяє споруди від снарядів ворога",
+name: "Large Cobalt Wall",
+description: "Protects structures from enemy shells",
 health: 350,
 size: 2,
 research: "cobalt_wall"

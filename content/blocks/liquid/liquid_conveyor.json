@@ -1,6 +1,6 @@
 type: "Conduit"
-name:"Рідинний шлях"
-description: "Переносить рідини"
+name:"Liquid path"
+description: "Transports liquids"
 health: 50
 size:1
 requirements:[

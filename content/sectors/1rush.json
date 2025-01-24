@@ -1,5 +1,5 @@
-localizedName: "Невідома печера"
-description: "Малий сектор де вороги будуть йти без зупинки"
+localizedName: "Unknown cave"
+description: "A small sector where enemies will move without stopping"
 captureWave: 30
 difficulty: 7
 planet: "fralion"

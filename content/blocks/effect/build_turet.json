@@ -1,6 +1,6 @@
 type: "BuildTurret",
-"name":"Будівельник",
-"description" :"Допомагає будувати споруди та відновлює втрачені"
+"name":"Builder",
+"description" :"Helps build structures and restores lost ones"
 "health": 125,
 "size":1,
 research: "heal_stantion"

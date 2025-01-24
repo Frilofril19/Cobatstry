@@ -1,6 +1,6 @@
 type: "GenericCrafter"
-name: "Селітровий змішувач"
-description: "Змішує міцелій, кварц та кислоту щоб отримати селітру"
+name: "Saltpeter mixer"
+description: "Mixes mycelium, quartz, and acid to make saltpeter"
 "health": 200
 "size":3,
 research: "acid_furnanse"

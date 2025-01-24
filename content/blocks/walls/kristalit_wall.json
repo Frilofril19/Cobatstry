@@ -1,7 +1,7 @@
 {
 "type": "wall",
-"name": "Кристалітова стіна",
-"description": "Захищяє споруди від снарядів ворога та відбиває деякі",
+"name": "Crystallite wall",
+"description": "Protects structures from enemy shells and repels some",
 "health": 225,
 "size": 1,
 "research": "large_cobalt_wall",

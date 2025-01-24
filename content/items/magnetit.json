@@ -1,6 +1,6 @@
 type: "item",
-name: "Магнетит"
-description: "Метал що використовується у деяких генераторах та у електроніці"
+name: "Magnetite"
+description: "A metal used in some generators and electronics"
 color: "979685"
 flammability: 0
 hardness: 2

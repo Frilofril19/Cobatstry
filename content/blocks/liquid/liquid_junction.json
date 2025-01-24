@@ -1,6 +1,6 @@
 type: "LiquidJunction"
-name:"Шляхове перехрестя"
-description: "Проводить шляхи через інші шляхи не об'єднуючи їх"
+name:"Path crossroads"
+description: "Routes paths through other paths without merging them."
 health: 50
 size:1
 squareSprite: false

@@ -1,6 +1,6 @@
 type: "wall",
-name: "Кобальтова стіна",
-description: "Захищяє споруди від снарядів ворога",
+name: "Cobalt Wall",
+description: "Protects structures from enemy shells",
 health: 112,
 size: 1,
 research: "qwazar"

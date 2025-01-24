@@ -1,6 +1,6 @@
 type: "Drill",
-name: "Початковий бур",
-description: "Добуває ресурси з поверхні планети",
+name: "Initial drill",
+description: "Extracts resources from the planet's surface",
 health: 50,
 size: 2,
 research: "core1"

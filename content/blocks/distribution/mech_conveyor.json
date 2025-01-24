@@ -1,6 +1,6 @@
 type: "conveyor"
-name:"Механічна стрічка"
-description: "Переносить ресурси"
+name:"Mechanical tape"
+description: "Transfers resources"
 health: 25
 size:1
 requirements:[

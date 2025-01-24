@@ -1,6 +1,6 @@
 type: "material",
-"name": "Галій",
-"description": "Метал що ідеально підходить для електросистем",
+"name": "Gallium",
+"description": "Metal that is ideal for electrical systems",
 "color": "adb38b",
 "flammability": 0,
 "hardness": 5,

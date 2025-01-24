@@ -1,6 +1,6 @@
 type: "ConsumeGenerator"
-name: "Гальванічний генератор"
-description: "Використовує магнетит для добування енергії"
+name: "Galvanic generator"
+description: "Uses magnetite to extract energy"
 health: 75
 size: 2
 squareSprite: false

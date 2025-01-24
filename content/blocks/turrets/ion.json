@@ -1,6 +1,6 @@
 type: "powerTurret"
-name: "Іон"
-description: "Електрична турель що стріляє чергою блискавок з малою силою ураження"
+name: "Ion"
+description: "Electric turret that fires a barrage of lightning bolts with low damage"
 health: 88
 size: 2
 research: {

@@ -1,6 +1,6 @@
 type: "MendProjector",
-"name":"Відновлювальна станція",
-"description" :"Ремонтує будівлі у малому радіусі, потребує енергію"
+"name":"Recovery station",
+"description" :"Repairs buildings in a small radius, requires energy"
 "health": 75,
 "size":1,
 research: "core1"

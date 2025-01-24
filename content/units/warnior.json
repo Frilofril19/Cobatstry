@@ -1,6 +1,6 @@
 type: tank
-name: "Вартовий"
-description: "Повільний не міцний але сильний танк"
+name: "Sentinel"
+description: "Slow, not durable but strong tank"
 health: 75
 speed: 1
 flying: false

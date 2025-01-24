@@ -1,6 +1,6 @@
 type: "LiquidRouter"
-name:"Шляховий маршрутизатор"
-description: "Розподіляє рідини"
+name:"Path router"
+description: "Distributes liquids"
 health: 50
 size:1
 squareSprite: false

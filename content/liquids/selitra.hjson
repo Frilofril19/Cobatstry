@@ -1,6 +1,6 @@
 type: Liquid
-name: Селітра
-description: "Вибухова рідина"
+name: "Saltpeter"
+description: "Explosive liquid"
 color: a5aa54
 explosiveness: 0.85
 flammability: 0.6

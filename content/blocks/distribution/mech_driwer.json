@@ -1,6 +1,6 @@
 type: "MassDriver"
-name: "Механічна катапульта"
-description: "Стріляє ресурсами до іншої катапульти тим самим передаючи ресурси у своєму радіусі"
+name: "Mechanical catapult"
+description: "Shoots resources to another catapult, thereby transferring resources within its radius"
 health: 150
 size: 2
 research: {

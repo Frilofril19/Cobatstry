@@ -1,6 +1,6 @@
 type: "router"
-name: "Механічний маршрутизатор"
-description: "Розподілює ресурси"
+name: "Mechanical router"
+description: "Allocates resources"
 health:25
 size:1
 research: "mech_junction"

@@ -1,6 +1,6 @@
 type: "Battery"
-name: "Кобальтова батарея"
-description: "Зберігає енергію"
+name: "Cobalt battery"
+description: "Conserves energy"
 category: "power"
 size: 1
 health: 35

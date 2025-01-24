@@ -1,6 +1,6 @@
 type: "UnitFactory",
-name: "Механічний конструктор",
-description: "Виробляє роботів",
+name: "Mechanical designer",
+description: "Produces robots",
 health: 150,
 size: 3,
 squareSprite: false

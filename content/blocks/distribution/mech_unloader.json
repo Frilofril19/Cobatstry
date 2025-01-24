@@ -1,6 +1,6 @@
 type: "Unloader"
-name: "Механічний вантажник"
-description: "Розвантажує споруди"
+name: "Mechanical loader"
+description: "Unloads buildings"
 health: 50
 size: 1
 research: "mech_router"

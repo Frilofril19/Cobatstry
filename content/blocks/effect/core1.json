@@ -1,6 +1,6 @@
 type: "CoreBlock",
-name:"Ядро Повільйон",
-description: "Ядро вашої бази. Може зберігати не велику кількість ресурсів та літати по секторах планети. При знищені усі контакти на секторі та з ним обриваються, недопустіть це"
+name:"Core Pavilion",
+description: "The core of your base. Can store a small amount of resources and fly around sectors of the planet. When destroyed, all contacts on and with the sector are cut off, do not let this happen"
 health: 500,
 size:3
 requirements:[

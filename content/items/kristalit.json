@@ -1,6 +1,6 @@
 type: "item",
-name: "Кристаліт"
-description: "Високоміцний матеріал що використовується у обороні та тяжких боєприпасах"
+name: "Crystallite"
+description: "High-strength material used in defense and heavy ammunition"
 color: "d96f6f"
 flammability: 0
 hardness: 2

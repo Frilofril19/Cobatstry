@@ -1,6 +1,6 @@
 type: "ArmoredConveyor"
-name:"Броньована стрічка"
-description: "На багато міцніша за механічну стрічку та не приймає ресурси з боків"
+name:"Armored tape"
+description: "Much stronger than mechanical tape and does not take resources from the sides"
 health: 75
 size:1
 requirements:[

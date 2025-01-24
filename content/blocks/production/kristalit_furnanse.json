@@ -1,6 +1,6 @@
 type: "GenericCrafter"
-name: "Кристалізатор"
-description: "Об'єднує літій та кварц у кристаліт"
+name: "Crystallizer"
+description: "Combines lithium and quartz into a crystallite"
 "health": 87
 "size":2,
 research: {

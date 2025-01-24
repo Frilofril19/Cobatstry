@@ -1,16 +1,16 @@
-type: "ForceProjector",
-name: "Силове поле",
-description: "Створює у повітрі поле що захищяє споруди під ним",
+type: "DirectionalForceProjector",
+name: "Force field",
+description: "Creates a force arc that protects against enemy projectiles",
 health: 112,
-size: 2,
+size: 1,
 research: "large_kristalit_wall"
 requirements: [
 miceliy/24
 ],
-consumeCoolant: false
 cooldownNormal: 0.5
 cooldownLiquid: 0.9
-radius: 50
+width: 60
+length: 40
 sides: 100
 shieldHealth: 500
 category: "defense",

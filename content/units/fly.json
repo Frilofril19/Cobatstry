@@ -1,6 +1,6 @@
 type: tank
-name: "Муха"
-description: "Швидкий малий не сильний, але якщо їх багато чекай біди"
+name: "Fly"
+description: "A fast little one is not strong, but if there are many of them, expect trouble."
 health: 12
 speed: 2.5
 flying: false

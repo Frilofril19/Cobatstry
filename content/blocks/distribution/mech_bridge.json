@@ -1,6 +1,6 @@
 type: "ItemBridge"
-name:"Механічний міст"
-description: "Переносить ресурси на невеликі відстані"
+name:"Mechanical bridge"
+description: "Transports resources over short distances"
 health: 37
 size:1
 research: "mech_router"

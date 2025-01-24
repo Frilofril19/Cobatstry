@@ -1,6 +1,6 @@
 type: "PowerNode"
-name:"Силова вежа"
-description: "Предає енергію на невеликі відстані"
+name:"Power tower"
+description: "Transmits energy over short distances"
 health: 25
 size:1
 squareSprite: false

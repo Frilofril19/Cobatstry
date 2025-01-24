@@ -14,7 +14,7 @@ generator: {
   ferricChance: 0.2
 }
 
-localizedName: "Фраліон"
+localizedName: "Fralion"
 parent: sun
 iconColor: 6782B7
 orbitRadius: 35

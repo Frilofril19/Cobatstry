@@ -1,6 +1,6 @@
 type: "OverdriveProjector",
-"name":"Прискорювальна станція",
-"description" :"Прискоює все, крім окремих споруд, у своєму радіусі, потребує енергію"
+"name":"Accelerator station",
+"description" :"Pins everything except individual structures within its radius, requires energy"
 "health": 162,
 "size": 2,
 research: {

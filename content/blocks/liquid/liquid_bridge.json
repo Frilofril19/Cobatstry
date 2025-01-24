@@ -1,6 +1,6 @@
 type: "LiquidBridge"
-name:"Шляховий міст"
-description: "Переносить ресурси над спорудами"
+name:"Path bridge"
+description: "Moves resources over structures"
 health: 50
 size:1
 squareSprite: false

@@ -1,6 +1,6 @@
 type: "GenericCrafter"
-name: "Магнетитна піч"
-description: "Окисляє кобальт до стану магнетиту"
+name: "Magnetic furnace"
+description: "Oxidizes cobalt to magnetite"
 "health": 62
 "size":2,
 research: {

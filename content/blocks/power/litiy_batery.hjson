@@ -1,6 +1,6 @@
 type: "Battery"
-name: "Літієва батарея"
-description: "Зберігає велику кількість енергії"
+name: "Lithium battery"
+description: "Stores a large amount of energy"
 category: "power"
 size: 2
 health: 187

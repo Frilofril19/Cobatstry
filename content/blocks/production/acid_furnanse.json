@@ -1,6 +1,6 @@
 type: "GenericCrafter"
-name: "Кислотний змішувач"
-description: "Перетворює літій на кислоту"
+name: "Acid mixer"
+description: "Converts lithium to acid"
 "health": 100
 "size":3,
 research: "beginer-dril"

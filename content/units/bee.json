@@ -1,6 +1,6 @@
 type: flying
-name: "Джміль"
-description: "Літаючий дрон що стріляє самонавідними знарядами"
+name: "Bumblebee"
+description: "A flying drone that fires homing weapons"
 health: 125
 speed: 1.1
 flying: true

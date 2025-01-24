@@ -1,6 +1,6 @@
 type: "ItemTurret"
-name:"Стрілець"
-description: "Стріляє блискавками та електричними самонавідними пулями"
+name: "Archer"
+description: "Shoots lightning bolts and electric homing bullets"
 health: 125
 size:2
 research: "ion"

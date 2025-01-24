@@ -1,6 +1,6 @@
 type: "liquidTurret",
-name:"Хемикс",
-description: "Турель що стріляє кислотою по повітряним цілям та тушить пожежі",
+name:"Hemix",
+description: "Turret that shoots acid at aerial targets and extinguishes fires",
 health: 82,
 size:1,
 research: "qwazar",

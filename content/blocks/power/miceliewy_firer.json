@@ -1,6 +1,6 @@
 type: "ConsumeGenerator"
-name: "Біогенератор"
-description: "Спалює міцелій та генерує енергію"
+name: "Biogenerator"
+description: "Burns mycelium and generates energy"
 health: 125
 size: 2
 squareSprite: false

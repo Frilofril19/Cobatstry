@@ -1,6 +1,6 @@
 type: "junction"
-name: "Механічне перехрестя"
-description: "Прокладає шляхи через стрічки не об'єднуючи їх"
+name: "Mechanical intersection"
+description: "Creates paths through ribbons without merging them"
 health: 25
 size: 1
 research: "mech_conveyor" 

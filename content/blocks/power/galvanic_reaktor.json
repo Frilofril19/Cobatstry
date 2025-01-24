@@ -1,6 +1,6 @@
 type: "ConsumeGenerator"
-name: "Гальванічний реактор"
-description: "Використовує магнетит та його реакцію з кислотою для добування енергії"
+name: "Galvanic reactor"
+description: "Uses magnetite and its reaction with acid to produce energy"
 health: 137
 size: 3
 squareSprite: false

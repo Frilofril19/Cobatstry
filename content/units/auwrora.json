@@ -1,6 +1,6 @@
 type: flying
-name: "Аврора"
-description: "Захищяє ядро Повільйон, будує споруди"
+name: "Aurora"
+description: "Protects the core Pavilion, builds structures"
 health: 50
 speed: 2
 flying: true

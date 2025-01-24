@@ -1,6 +1,6 @@
 type: flying
-name: "Гроза"
-description: "Повільний літаючий дрон що стріляє дробом з малих пуль"
+name: "Thunderstorm"
+description: "A slow-flying drone that shoots small bullets"
 health: 150
 speed: 0.8
 flying: true

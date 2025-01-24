@@ -1,5 +1,5 @@
-localizedName: "Тунельні тропи"
-description: "Цей сектор складається з декільох галявин об'єднаних малими тунелями щом правильно транспортувати ресурси потрібно буде дослідити механічну катапульту"
+localizedName: "Tunnel trails"
+description: "This sector consists of several clearings connected by small tunnels. In order to properly transport resources, you will need to research a mechanical catapult."
 captureWave: 20
 difficulty: 6
 planet: "fralion"

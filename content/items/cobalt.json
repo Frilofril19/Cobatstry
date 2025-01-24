@@ -1,6 +1,6 @@
 type: "item",
-name: "Кобальт"
-description: "Метал що можна використоувати у початкових спорудах та у механічких приладах"
+name: "Cobalt"
+description: "Metal that can be used in basic structures and mechanical devices"
 color: "677CD0"
 flammability: 0
 hardness: 2

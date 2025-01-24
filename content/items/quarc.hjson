@@ -1,6 +1,6 @@
 type: "material",
-"name": "Кварц",
-"description": "Мінерал що використовується у рідій логістиці",
+"name": "Quartz",
+"description": "Mineral used in liquid logistics",
 "color": "FFFFFFFF",
 "flammability": 0,
 "hardness": 1,

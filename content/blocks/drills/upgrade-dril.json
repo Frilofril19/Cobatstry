@@ -1,6 +1,6 @@
 type: "Drill",
-name: "Просунутий бур",
-description: "Добуває бфльш важкі ресурси з поверхні планети",
+name: "Advanced drill",
+description: "Extracts more heavy resources from the planet's surface",
 health: 137,
 size: 2,
 research: "beginer-dril"

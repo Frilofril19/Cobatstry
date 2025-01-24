@@ -1,6 +1,6 @@
 type: "ItemTurret"
-name:"Квазар"
-description: "Стріляє кулями що розділяються на осколкові кулі"
+name:"Quasar"
+description: "Shoots bullets that split into fragmentation bullets"
 health:75
 size:1
 research: "core1"

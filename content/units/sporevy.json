@@ -1,6 +1,6 @@
 type: flying
-name: "Споровик"
-description: "Не великий літаючий корабель що створює танки тиму - Муха"
+name: "Sporovyk"
+description: "Not a big flying ship that creates tanks for the team - Fly"
 health: 212
 speed: 0.5
 hitSize: 10

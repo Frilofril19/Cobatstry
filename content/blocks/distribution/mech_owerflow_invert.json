@@ -1,6 +1,6 @@
 type: "OverflowGate"
-name: "Механічний недостатній люк"
-description: "Переносить ресурси у боки, якщо боковий вивід заблокований переносить у перед"
+name: "Mechanically insufficient hatch"
+description: "Moves resources to the sides, if the side output is blocked, moves to the front"
 health: 50
 size: 1
 research: "mech_owerflow"
