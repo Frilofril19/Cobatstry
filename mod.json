@@ -4,7 +4,7 @@ author: "FriloFril"
 description: "Цей мод доповньює гру новою планетою - Фраліон синя планета яку захопили ворожі дрони. У моді багато нових турелі, ворогів та ресурсів.
 
 This mod adds a new planet to the game - Fralion, a blue planet captured by enemy drones. The mod features many new turrets, enemies, and resources."
-version: "V.0.1"
+version: "V0.2"
 subtitle: "Alfa version!"
 minGameVersion: "146"
 dependencies: [ ]
