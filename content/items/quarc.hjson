@@ -1,7 +1,7 @@
 type: "material",
 "name": "Quartz",
 "description": "Mineral used in liquid logistics",
-"color": "FFFFFFFF",
+"color": "95bbd0",
 "flammability": 0,
 "hardness": 1,
 "cost": 1f,

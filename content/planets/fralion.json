@@ -13,7 +13,7 @@ generator: {
   berylChance: 0.2
   ferricChance: 0.2
 }
-
+Name: "fralion"
 localizedName: "Fralion"
 parent: sun
 iconColor: 6782B7

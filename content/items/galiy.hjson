@@ -1,7 +1,7 @@
 type: "material",
 "name": "Gallium",
 "description": "Metal that is ideal for electrical systems",
-"color": "adb38b",
+"color": "c6be8f",
 "flammability": 0,
 "hardness": 5,
 "cost": 2f,

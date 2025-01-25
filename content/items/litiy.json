@@ -1,7 +1,7 @@
 type: "item",
 name: "Lithium"
 description: "Metal with great armoring capabilities and properties for the primary chemical industry"
-color: "9C9C9C"
+color: "c6b5b5"
 flammability: 0
 hardness: 3
 cost: 2

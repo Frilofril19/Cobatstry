@@ -1,7 +1,7 @@
 type: "item",
 name: "Crystallite"
 description: "High-strength material used in defense and heavy ammunition"
-color: "d96f6f"
+color: "d96767"
 flammability: 0
 hardness: 2
 cost: 2

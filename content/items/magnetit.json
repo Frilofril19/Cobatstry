@@ -1,7 +1,7 @@
 type: "item",
 name: "Magnetite"
 description: "A metal used in some generators and electronics"
-color: "979685"
+color: "979575"
 flammability: 0
 hardness: 2
 cost: 2

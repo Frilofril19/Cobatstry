@@ -1,7 +1,7 @@
 type: Liquid
 name: "Acid"
 description: "A simpler chemical reagent and can be used to cool some turrets"
-color: a0c6a0
+color: 95d095
 temperature: 0
 heatCapacity: 0.5
 viscosity: 0.5
