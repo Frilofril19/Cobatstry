@@ -1,9 +1,0 @@
-type: "material",
-"name": "Mycelium",
-"description": "An organic mineral that has unique abilities for high-level chemistry",
-"color": "a678d0",
-"flammability": 0.25,
-"hardness": 4,
-"cost": 1f,
-research: "acid"
-
