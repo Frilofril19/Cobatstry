@@ -1,12 +1,12 @@
 type: "GenericCrafter"
 name: "Gallium Factory"
-description: "Combining silver and magnetite produces gallium"
+description: "Combining sulfur and magnetite produces gallium"
 "health": 125
 "size":3,
 research: "magnetit_furnanse"
 requirements:[
 litiy/30
-silver/20
+kristalit/20
 ],
 squareSprite: false
 hasPower: true
@@ -16,7 +16,7 @@ craftTime: 50,
 consumes: {
 power: 3
 items: [
-silver/2
+sulfur/2
 magnetit/1
 ]
 }

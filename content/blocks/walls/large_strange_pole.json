@@ -5,7 +5,7 @@ health: 112,
 size: 1,
 research: "large_kristalit_wall"
 requirements: [
-miceliy/24
+galiy/24
 ],
 cooldownNormal: 0.5
 cooldownLiquid: 0.9

@@ -10,7 +10,6 @@ flying: false
 faceTarget: true
 research: "knight"
 targetPriority: 1
-mineTier: 4
 weapons: [ {
 name: "king1"
 x: 15

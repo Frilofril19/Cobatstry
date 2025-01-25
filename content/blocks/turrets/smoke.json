@@ -1,4 +1,4 @@
-type: "liquidTurret",
+type: "ItemTurret",
 name: "Fog",
 description: "Turret that shoots saltpeter lasers that slow down enemies",
 health: 137,
@@ -6,7 +6,7 @@ size: 2,
 research: "hemix",
 category: "turret",
 requirements:[
-miceliy/5
+galiy/5
 quarc/25
 litiy/30
 ],

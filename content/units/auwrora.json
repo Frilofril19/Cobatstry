@@ -9,6 +9,7 @@ range: 40
 buildSpeed: 2
 mineTier: 2
 mineSpeed:5
+mineWalls: true
 coreUnitDock: true
 trailLength: 5
 weapons: [{

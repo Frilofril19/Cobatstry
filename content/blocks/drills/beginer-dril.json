@@ -1,6 +1,6 @@
-type: "Drill",
+type: "BeamDrill",
 name: "Initial drill",
-description: "Extracts resources from the planet's surface",
+description: "Extracts resources from the walls",
 health: 50,
 size: 2,
 research: "core1"
@@ -10,11 +10,9 @@ cobalt/25
 "requirements":[
 cobalt/15
 ],
-tier: 3
-liquidBoostIntensity: -1
 hasLiquids: false
-liquidCapacity: 0
-drillTime: 150
-drawMineItem: true,
-drawSpinSprite: false,
+squareSprite: false
+tier: 3
+range: 1
+drillTime: 175
 category: "production",

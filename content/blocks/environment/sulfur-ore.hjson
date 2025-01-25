@@ -1,8 +1,8 @@
 "type": "OreBlock",
 "oreDefault": true,	
-"oreScale": 3,
+"oreScale": 5,
 "oreThreshold": 1,
 oreDefault: true
 wallOre: true
-"itemDrop": "quarc"
+"itemDrop": "sulfur"
 

@@ -5,5 +5,9 @@ type: "material",
 "flammability": 0,
 "hardness": 1,
 "cost": 1f,
+hiddenOnPlanets: [
+serpulo
+erekir
+]
 research: "litiy"
 

@@ -3,5 +3,6 @@
 "oreScale": 4,
 "oreThreshold": 1,
 oreDefault: true
+wallOre: true
 "itemDrop": "litiy"
 

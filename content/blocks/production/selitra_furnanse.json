@@ -1,11 +1,11 @@
 type: "GenericCrafter"
 name: "Saltpeter mixer"
-description: "Mixes mycelium, quartz, and acid to make saltpeter"
+description: "Mixes sulfur, quartz, and acid to make saltpeter"
 "health": 200
 "size":3,
-research: "acid_furnanse"
+research: "kristalit_furnanse"
 requirements:[
-miceliy/25
+kristalit/25
 litiy/20
 quarc/55
 ],
@@ -20,7 +20,7 @@ acid/1
 ]
 items: [
 quarc/1
-miceliy/1
+sulfur/1
 ]
 }
 updateEffect: "sporeSlowed"
@@ -28,7 +28,7 @@ category: "crafting"
 idleSoundVolume: 0.5
 itemCapacity: 35
 liquidCapacity: 65
-outputLiquid: selitra/6
+outputItem: selitra/3
 
 drawer: {
 type: DrawMulti

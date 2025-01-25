@@ -6,7 +6,7 @@
 "category": "units",
 "research": "mech_construktor",
 "requirements":[
-silver/30 ,
+litiy/30 ,
 galiy/35
 ],
 "squareSprite": false ,
@@ -17,7 +17,6 @@ galiy/35
 	{
 	"unit": bee,
 	"requirements":[
-		silver/20 ,
 		galiy/25
 		],
 	"time": 200
@@ -25,7 +24,6 @@ galiy/35
 	{
 	"unit": lightin,
 	"requirements":[
-		silver/35 ,
 		galiy/40
 		],
 	"time": 350
@@ -33,7 +31,6 @@ galiy/35
 	{
 	"unit": sporevy,
 	"requirements":[
-		silver/50 ,
 		galiy/55
 		],
 	"time": 500

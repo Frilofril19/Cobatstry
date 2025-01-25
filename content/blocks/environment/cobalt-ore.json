@@ -3,5 +3,6 @@
 "oreScale": 5,
 "oreThreshold": 1,
 oreDefault: true
+wallOre: true
 "itemDrop": "cobalt"
 
