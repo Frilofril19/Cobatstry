@@ -1,9 +1,0 @@
-type: "material",
-"name": "Silver",
-"description": "Precious metal in metal alloys and high-end electronics",
-"color": "E2E2E2",
-"flammability": 0,
-"hardness": 5,
-"cost": 2f,
-research: "magnetit"
-
