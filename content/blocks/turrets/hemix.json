@@ -1,0 +1,25 @@
+type: "liquidTurret",
+name:"Hemix",
+description: "Turret that shoots acid at aerial targets and extinguishes fires",
+health: 82,
+size:1,
+research: "qwazar",
+requirements:[
+litiy/30
+quarc/20
+],
+canOverdrive: false
+targetAir: true,
+targetGround: false,
+reload: 10,
+range: 110,
+shoot:{shots:1,
+shotDelay: 1,
+autoTarget: true },
+rotateSpeed: 10,
+inaccuracy: 10,
+ammoTypes:{acid:{type:"LiquidBulletType", liquid:"acid", damage:5, lifeTime:500, speed:3, hitColor:a0c6a0,
+	intervalBullet: { type:"BasicBulletType", damage:5, lifeTime:250, speed:2, backColor:a0c6a0, frontColor:a0c6a0},
+	bulletInterval: 10, intervalBullets: 2, intervalRandomSpread: 0, intervalSpread: 180, intervalAngle: 90
+} } },
+category: "turret"

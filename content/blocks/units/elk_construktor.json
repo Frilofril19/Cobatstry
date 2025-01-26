@@ -1,0 +1,38 @@
+"type": "UnitFactory",
+"name": "Electrical designer",
+"description": "Produces drones",
+"health": 175 ,
+"size": 3 ,
+"category": "units",
+"research": "mech_construktor",
+"requirements":[
+litiy/30 ,
+galiy/35
+],
+"squareSprite": false ,
+"consumes": {
+"power": 4
+},
+"plans": [
+	{
+	"unit": bee,
+	"requirements":[
+		galiy/25
+		],
+	"time": 200
+	},
+	{
+	"unit": lightin,
+	"requirements":[
+		galiy/40
+		],
+	"time": 350
+	},
+	{
+	"unit": sporevy,
+	"requirements":[
+		galiy/55
+		],
+	"time": 500
+	}
+	]

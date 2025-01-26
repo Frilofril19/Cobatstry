@@ -1,0 +1,60 @@
+type: "ConsumeGenerator"
+name: "Galvanic reactor"
+description: "Uses magnetite and its reaction with acid to produce energy"
+health: 137
+size: 3
+squareSprite: false
+research: "galvanic_generator"
+requirements: [
+cobalt/50
+litiy/20
+quarc/15
+]
+hasPower: true
+hasItems: true
+outputsPower: true
+itemCapacity: 20
+liquidCapacity: 30
+"consumes": {
+"liquid": acid/2
+"items": [
+magnetit/9
+]
+}
+outputitem: cobalt/1
+itemDuration: 120
+powerProduction: 4.2
+category: "power"
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawParticles
+color: E1EF62 
+particles: 20
+rotateScl: 10
+}
+{
+type: DrawGlowRegion
+suffix: -glow
+color: EFEFEF
+}
+{
+type: DrawRegion
+suffix: -top
+layer: 0
+}
+{
+type: DrawRegion
+suffix: -down
+layer: -1
+}
+{
+type: DrawRegion
+suffix: -rotate
+spinSprite: true
+rotateSpeed: 5
+layer: -3
+}
+]
+}

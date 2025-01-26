@@ -1,0 +1,16 @@
+name: "miceliy_moth"
+localizedName: "Epicenter of the lesion"
+description: "In this sector, primary shoots of mycelium, your research is needed"
+captureWave: 15
+difficulty: 6
+planet: "fralion"
+sector: 6
+research: {
+parent: "galtanis"
+objectives: [
+{
+type: SectorComplete
+preset: "galtanis"
+}
+]
+}

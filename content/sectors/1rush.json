@@ -1,0 +1,16 @@
+name: "1rush"
+localizedName: "Unknown cave"
+description: "A small sector where enemies will move without stopping"
+captureWave: 30
+difficulty: 7
+planet: "fralion"
+sector: 8
+research: {
+parent: "Unlok_driwer"
+objectives: [
+{
+type: SectorComplete
+preset: "Unlok_driwer"
+}
+]
+}

@@ -1,0 +1,17 @@
+type: "ItemBridge"
+name:"Mechanical bridge"
+description: "Transports resources over short distances"
+health: 37
+size:1
+research: "mech_router"
+researchCostMultiplier: 0.4
+requirements:[
+cobalt/8
+],
+connectedPower: false
+consumesPower: false
+timerCheckMoved: 0.4
+transportTime: 0.09
+range: 4
+category: "distribution"
+

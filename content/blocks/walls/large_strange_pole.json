@@ -1,0 +1,16 @@
+type: "DirectionalForceProjector",
+name: "Force field",
+description: "Creates a force arc that protects against enemy projectiles",
+health: 112,
+size: 1,
+research: "large_kristalit_wall"
+requirements: [
+galiy/24
+],
+cooldownNormal: 0.5
+cooldownLiquid: 0.9
+width: 60
+length: 40
+sides: 100
+shieldHealth: 500
+category: "defense",

@@ -1,0 +1,36 @@
+type: "Battery"
+name: "Cobalt battery"
+description: "Conserves energy"
+category: "power"
+size: 1
+health: 35
+squareSprite: false
+conductivePower: true
+consumes: {
+powerBuffered: 500
+}
+requirements: [
+cobalt/30
+magnetit/5
+]
+research: "cobalt_node"
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawGlowRegion
+suffix: -glow
+color: EFEFEF
+}
+{
+type: DrawRegion
+suffix: -top
+layer: 0
+}
+{
+type: DrawRegion
+suffix: -down
+layer: -1
+}
+]
+}

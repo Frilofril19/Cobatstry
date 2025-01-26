@@ -1,0 +1,15 @@
+type: "router"
+name: "Mechanical router"
+description: "Allocates resources"
+health:25
+size:1
+research: "mech_junction"
+researchCostMultiplier: 0.4
+speed: 0.09
+requirements:[
+cobalt/3
+]
+connectedPower: false
+consumesPower: false
+category: "distribution"
+

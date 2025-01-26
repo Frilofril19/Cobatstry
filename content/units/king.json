@@ -1,0 +1,93 @@
+type: tank
+name: "Король"
+description: "Величніший вісник проблем звеликою парою кулеметів"
+health: 775
+speed: 0.8
+hitSize: 20
+rotateSpeed: 2
+baseRotateSpeed: 2
+flying: false
+faceTarget: true
+research: "knight"
+targetPriority: 1
+weapons: [ {
+name: "king1"
+x: 15
+y: 0
+shake: 10
+rotate: false
+mirror: true
+shoot: {
+	shots: 2
+	shotDelay: 0
+	autoTarget: true
+	}
+inaccuracy: 20
+reload: 100
+shootSound: "shoot_up"
+bullet:{ 
+	type:"LaserBoltBulletType"
+	damage: 100
+	lifetime: 100
+	speed: 3.1
+	trailLength: 15
+	trailWidth: 1
+	backColor: FF0606, trailColor: CD0000, frontColor: CD0000,
+	bulletInterval: 1, intervalBullets: 2, intervalRandomSpread: 180, intervalSpread:45, intervalAngle: 90,	
+		intervalBullet: {
+			type:"BasicBulletType"
+			damage: 100
+			lifetime: 100
+			speed: 4
+			trailLength: 14
+			trailWidth: 1
+			backColor: FF0606, trailColor: FF0606, frontColor: FF0606,
+} }
+} 
+{
+name: "king2"
+x: 0
+y: 0
+rotateSpeed: 2
+shake: 10
+rotate: true
+mirror: false
+shoot: {
+	shots: 3
+	shotDelay: 1
+	autoTarget: true
+	}
+inaccuracy: 5
+reload: 50
+shootSound: "cannon"
+bullet:{ 
+	type:"BombBulletType"
+	splashDamage: 100
+	lifetime: 200
+	speed: 5
+	scaledSplashDamage: true
+	splashDamagePierce: true
+	splashDamageRadius: 30
+	trailLength: 15
+	trailWidth: 1
+	backColor: FF0606, trailColor: FF0606, frontColor: FF0606, pierce: true
+	bulletInterval: 1, intervalBullets: 2, intervalRandomSpread: 180, intervalSpread:45, intervalAngle: 90,	
+		intervalBullet: {
+			type:"BombBulletType"
+			splashDamage: 100
+			lifetime: 50
+			speed: 2
+			scaledSplashDamage: true
+			splashDamageRadius: 10
+			trailLength: 5
+			trailWidth: 1
+			backColor: E54747, trailColor: E54747, frontColor: E54747,
+	} 
+} } ]
+
+abilities: [ {
+	type: "RegenAbility"
+	percentAmount: 0.1
+	amount:0.1
+	}
+	]

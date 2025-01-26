@@ -1,0 +1,41 @@
+type: flying
+name: "Sporovyk"
+description: "Not a big flying ship that creates tanks for the team - Fly"
+health: 212
+speed: 0.5
+hitSize: 10
+flying: true
+faceTarget: true
+trailLength: 5
+research: "elk_construktor"
+weapons: [{
+name: "sporevy1"
+x: 3
+y: -2
+rotate: true
+mirror: true
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true
+	}
+inaccuracy: 0
+reload:50
+shootSound: "cannon"
+bullet:{ 
+	type:"BasicBulletType"
+	damage: 50
+	lifetime: 150
+	speed: 1
+	trailLength: 5
+	trailWidth: 1
+	} 
+} 
+]
+abilities: [
+ {
+	"type": "UnitSpawnAbility",
+	unit: "fly"
+	spawnTime: 900
+            }
+	]

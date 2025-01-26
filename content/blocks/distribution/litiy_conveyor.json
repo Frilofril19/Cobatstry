@@ -1,0 +1,16 @@
+type: "ArmoredConveyor"
+name:"Armored tape"
+description: "Much stronger than mechanical tape and does not take resources from the sides"
+health: 75
+size:1
+requirements:[
+litiy/1
+]
+connectedPower: false
+consumesPower: false
+speed: 0.15
+displayedSpeed: 0.08
+junctionReplacement: "mech_junction"
+bridgeReplacement: "mech_bridge"
+category: "distribution"
+research: "mech_bridge"

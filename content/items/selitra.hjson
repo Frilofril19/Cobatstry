@@ -1,0 +1,14 @@
+type: "item",
+"name": "Saltpeter",
+"description": "explosive",
+"color": "d0844d",
+"flammability": 2,
+explosiveness: 1,
+"hardness": 5,
+"cost": 1f,
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+research: "acid"
+

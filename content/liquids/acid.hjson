@@ -1,0 +1,9 @@
+type: Liquid
+name: "Acid"
+description: "A simpler chemical reagent and can be used to cool some turrets"
+color: 95d095
+temperature: 0
+heatCapacity: 0.5
+viscosity: 0.5
+alwaysUnlocked: false
+research: quarc

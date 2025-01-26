@@ -1,0 +1,17 @@
+type: "BeamDrill",
+name: "Advanced drill",
+description: "Extracts more heavy resources from the planet's surface",
+health: 137,
+size: 2,
+research: "beginer-dril"
+"requirements":[
+litiy/25
+kristalit/30
+],
+hasLiquids: false
+squareSprite: false
+tier: 5
+range: 1
+drillTime: 125
+itemCapacity: 20
+category: "production",

@@ -1,0 +1,25 @@
+type: "MassDriver"
+name: "Mechanical catapult"
+description: "Shoots resources to another catapult, thereby transferring resources within its radius"
+health: 150
+size: 2
+research: {
+parent: "mech_bridge"
+objectives: [
+{
+type: onSector
+preset: "Unlok_driwer"
+}
+]
+}
+requirements:[
+litiy/10
+kristalit/25
+]
+connectedPower: false
+consumesPower: false
+category: "distribution"
+range: 200
+rotateSpeed: 15
+bulletSpeed: 10
+shake: 1

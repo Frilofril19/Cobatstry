@@ -1,0 +1,37 @@
+type: legs
+name: "Explosion"
+description: "A slow mech that stops at nothing, like its laser"
+health: 175
+speed: 1
+hitSize: 10
+flying: false
+faceTarget: true
+research: "mech_construktor"
+weapons: [{
+name: "exp1"
+x: 0
+y: -1
+rotate: false
+mirror:false
+shoot: {
+	shots: 1
+	shotDelay: 0.5
+	autoTarget: true
+	}
+inaccuracy: 0
+reload:200
+//shootSound: "artillery"
+bullet:{ 
+type:"LaserBulletType"
+damage: 12
+lifetime: 90
+speed: 0
+length: 90
+width: 5
+sideLength: 15
+sideAngle: 45
+	} 
+} 
+]
+abilities: [
+	]

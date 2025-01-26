@@ -1,0 +1,25 @@
+type: "CoreBlock",
+name:"Core Pavilion",
+description: "The core of your base. Can store a small amount of resources and fly around sectors of the planet. When destroyed, all contacts on and with the sector are cut off, do not let this happen"
+health: 500,
+size:3
+requirements:[
+cobalt/1000
+litiy/2000
+quarc/1500
+],
+itemCapacity: 5000
+unitCapModifier: 5
+unitType: "auwrora"
+incinerateNonBuildable: True
+isFirstTier: true
+requiresCoreZone: true
+squareSprite: false
+category: "effect"
+research: {
+root: true
+name: Фраліон
+planet: fralion
+}
+alwaysUnlocked: true
+

@@ -1,0 +1,13 @@
+type: "item",
+"name": "Sulfur",
+"description": "Mineral thet burns well and is used in many high-level factories",
+"color": "ecc34f",
+"flammability": 0.50,
+"hardness": 5,
+"cost": 1f,
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+research: "quarc"
+

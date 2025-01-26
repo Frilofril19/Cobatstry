@@ -1,0 +1,37 @@
+type: "ItemTurret"
+name:"Facet"
+description: "Long-range turret that fires in bursts"
+health: 88
+size:1
+research: "qwazar"
+requirements:[
+litiy/30
+kristalit/10
+]
+coolant: {
+type: ConsumeCoolant
+allowLiquid: true
+amount: 0.09
+}
+canOverdrive: false
+targetAir: true
+targetGround: true
+reload: 50
+range: 200
+shoot:{shots:5
+shotDelay:2.5
+autoTarget: true }
+rotateSpeed: 5
+inaccuracy: 15
+shootSound: "cannon"
+ammoTypes:{quarc:{type:"BasicBulletType", damage:10, lifeTime:500, speed:4, trailLength: 8, trailWidth: 1, trailSize: 2, backColor: FFFFFF, trailColor: FFFFFF, frontColor: DBDBDB,
+
+	fragBullet: {type:"BasicBulletType", damage:0.5, lifeTime:200, speed:1, trailLength: 2, trailWidth: 1, trailSize: 1, backColor: FFFFFF, trailColor: FFFFFF, frontColor: DBDBDB,
+},
+	delayFrags: true, fragSpread: 5, fragBullets: 10, fragOffsetMax: 1, fragVelocityMin: 1, fragVelocityMax: 1, fragRandomSpread: 0
+},
+kristalit:{type:"BasicBulletType", damage:15, lifeTime:500, speed:5, trailLength: 10, trailWidth: 1, trailSize: 2, backColor: FFFFFF, trailColor: FFFFFF, 
+	frontColor: DBDBDB,
+
+},},
+category: "turret"

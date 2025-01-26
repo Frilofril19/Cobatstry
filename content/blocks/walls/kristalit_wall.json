@@ -1,0 +1,13 @@
+{
+"type": "wall",
+"name": "Crystallite wall",
+"description": "Protects structures from enemy shells and repels some",
+"health": 225,
+"size": 1,
+"research": "large_cobalt_wall",
+"requirements": [
+kristalit/4
+],
+"chanceDeflect": 25,
+"category": "defense"
+}
