@@ -12,6 +12,6 @@ hasLiquids: false
 squareSprite: false
 tier: 5
 range: 1
-drillTime: 125
+drillTime: 160
 itemCapacity: 20
 category: "production",

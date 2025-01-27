@@ -18,14 +18,13 @@ recoilTime: 60
 cooldownTime: 60
 
 reload: 60,
-range: 80,
-shoot:{shots: 1,
+range: 100,
+shoot:{shots: 2,
 shotDelay: 0,
 autoTarget: true },
-ammoPerShot: 300,
 rotateSpeed: 3,
-inaccuracy: 0,
+inaccuracy: 10,
 shootSound: shoot,
-ammoTypes:{selitra:{type:"ContinuousLaserBulletType", damage: 4, lifeTime:500, speed:0, fadeTime: 15, length: 80, damageInterval: 5, 
-divisions: 100, status: "frize_sus", colors: [939748, a5aa54, b9bd6d], backLength: 7, oscMag: 5, width: 2
+ammoTypes:{selitra:{type:"LaserBulletType", damage:30, lifeTime:500, speed:0, length: 100, width: 7, sideLength: 5, sideAngle: 5, status: "frize_sus", 
+colors: [939748, a5aa54, b9bd6d]
 }, }

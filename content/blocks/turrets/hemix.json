@@ -11,15 +11,16 @@ quarc/20
 canOverdrive: false
 targetAir: true,
 targetGround: false,
-reload: 10,
-range: 110,
-shoot:{shots:1,
-shotDelay: 1,
-autoTarget: true },
-rotateSpeed: 10,
-inaccuracy: 10,
-ammoTypes:{acid:{type:"LiquidBulletType", liquid:"acid", damage:5, lifeTime:500, speed:3, hitColor:a0c6a0,
-	intervalBullet: { type:"BasicBulletType", damage:5, lifeTime:250, speed:2, backColor:a0c6a0, frontColor:a0c6a0},
-	bulletInterval: 10, intervalBullets: 2, intervalRandomSpread: 0, intervalSpread: 180, intervalAngle: 90
-} } },
+reload: 100,
+range: 240,
+shoot: {shots:3,
+shotDelay: 5,
+autoTarget: true
+},
+ammoPerShot: 20,
+rotateSpeed: 5,
+inaccuracy: 0,
+shootSound: shoot
+ammoTypes:{ acid:{ type: "LiquidBulletType", liquid: "acid", damage: 12, lifeTime: 5000, speed: 7, hitColor: a0c6a0,  hitSize: 15, drawSize: 150, trailLength: 25
+} },
 category: "turret"
