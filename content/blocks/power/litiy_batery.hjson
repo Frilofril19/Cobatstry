@@ -12,6 +12,7 @@ powerBuffered: 3000
 requirements: [
 litiy/15
 galiy/20
+magnetit/15
 ]
 research: "cobalt_batery"
 drawer: {

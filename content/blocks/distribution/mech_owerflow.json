@@ -8,6 +8,7 @@ invert: false
 speed: 0.09
 requirements:[
 cobalt/10
+litiy/5
 ]
 connectedPower: false
 consumesPower: false

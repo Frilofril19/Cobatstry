@@ -3,7 +3,7 @@ name:"Hemix",
 description: "Turret that shoots acid at aerial targets and extinguishes fires",
 health: 82,
 size:1,
-research: "qwazar",
+research: "ion",
 requirements:[
 litiy/30
 quarc/20
@@ -21,6 +21,6 @@ ammoPerShot: 20,
 rotateSpeed: 5,
 inaccuracy: 0,
 shootSound: shoot
-ammoTypes:{ acid:{ type: "LiquidBulletType", liquid: "acid", damage: 12, lifeTime: 5000, speed: 7, hitColor: a0c6a0,  hitSize: 15, drawSize: 150, trailLength: 25
+ammoTypes:{ acid:{ type: "LiquidBulletType", liquid: "acid", damage: 12, lifeTime: 5000, speed: 7, hitColor: a0c6a0,  hitSize: 15, drawSize: 150, trailLength: 25, buildingDamageMultiplier: 0.0
 } },
 category: "turret"

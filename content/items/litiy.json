@@ -3,7 +3,7 @@ name: "Lithium"
 description: "Metal with great armoring capabilities and properties for the primary chemical industry"
 color: "c6b5b5"
 flammability: 0
-hardness: 3
+hardness: 2
 cost: 2
 hiddenOnPlanets: [
 serpulo

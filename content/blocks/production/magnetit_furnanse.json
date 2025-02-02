@@ -17,7 +17,7 @@ squareSprite: false
 hasPower: false
 hasitem: true
 hasliquids: false
-craftTime:90
+craftTime: 135
 consumes: {
 items: [
 cobalt/2

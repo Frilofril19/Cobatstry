@@ -3,7 +3,7 @@ name: "Archer"
 description: "Shoots lightning bolts and electric homing bullets"
 health: 125
 size:2
-research: "ion"
+research: "qwazar"
 requirements:[
 litiy/20
 galiy/10

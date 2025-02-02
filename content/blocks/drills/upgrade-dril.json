@@ -8,10 +8,16 @@ research: "beginer-dril"
 litiy/25
 kristalit/30
 ],
+"consumes": {
+"power": 1
+},
+sparkColor: d96f6f
+heatColor: d96f6f
+sparks: 14
 hasLiquids: false
 squareSprite: false
-tier: 5
-range: 1
-drillTime: 160
+tier: 3
+range: 2
+drillTime: 250
 itemCapacity: 20
 category: "production",

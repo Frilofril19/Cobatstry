@@ -7,7 +7,7 @@ flying: true
 faceTarget: true
 range: 40
 buildSpeed: 2
-mineTier: 2
+mineTier: 1
 mineSpeed:5
 mineWalls: true
 coreUnitDock: true

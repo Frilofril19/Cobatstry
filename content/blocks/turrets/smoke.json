@@ -1,6 +1,6 @@
 type: "ItemTurret",
 name: "Fog",
-description: "Turret that shoots saltpeter lasers that slow down enemies",
+description: "Turret that shoots lasers that slow down enemies",
 health: 137,
 size: 2,
 research: "hemix",
@@ -26,5 +26,8 @@ rotateSpeed: 3,
 inaccuracy: 10,
 shootSound: shoot,
 ammoTypes:{selitra:{type:"LaserBulletType", damage:30, lifeTime:500, speed:0, length: 100, width: 7, sideLength: 5, sideAngle: 5, status: "frize_sus", 
-colors: [939748, a5aa54, b9bd6d]
+colors: [e39257, d0844d, bd743f]
+},
+sulfur:{type:"LaserBulletType", damage:15, lifeTime:500, speed:0, length: 100, width: 7, sideLength: 5, sideAngle: 15, status: "frize_sus", 
+colors: [ecc34f, d9b245, c6a138]
 }, }

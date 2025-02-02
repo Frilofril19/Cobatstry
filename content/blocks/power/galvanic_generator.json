@@ -15,6 +15,7 @@ preset: "cold_start"
 }
 requirements: [
 cobalt/25
+magnetit/15
 ]
 hasPower: true
 hasItems: true
@@ -25,7 +26,7 @@ itemCapacity: 10
 magnetit/6
 ]
 }
-itemDuration: 90
+itemDuration: 140
 powerProduction: 1.7
 category: "power"
 drawer: {

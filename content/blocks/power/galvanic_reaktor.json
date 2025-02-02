@@ -9,6 +9,7 @@ requirements: [
 cobalt/50
 litiy/20
 quarc/15
+magnetit/25
 ]
 hasPower: true
 hasItems: true
@@ -21,8 +22,7 @@ liquidCapacity: 30
 magnetit/9
 ]
 }
-outputitem: cobalt/1
-itemDuration: 120
+itemDuration: 165
 powerProduction: 4.2
 category: "power"
 drawer: {

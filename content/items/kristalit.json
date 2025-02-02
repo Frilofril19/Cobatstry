@@ -3,7 +3,7 @@ name: "Crystallite"
 description: "High-strength material used in defense and heavy ammunition"
 color: "d96767"
 flammability: 0
-hardness: 2
+hardness: 4
 cost: 2
 hiddenOnPlanets: [
 serpulo

@@ -6,7 +6,8 @@ size: 1
 research: "mech_router"
 speed: 0.01
 requirements:[
-cobalt/10
+kristalit/15
+litiy/5
 ]
 connectedPower: false
 consumesPower: false

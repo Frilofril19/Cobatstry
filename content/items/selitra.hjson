@@ -4,7 +4,7 @@ type: "item",
 "color": "d0844d",
 "flammability": 2,
 explosiveness: 1,
-"hardness": 5,
+"hardness": 4,
 "cost": 1f,
 hiddenOnPlanets: [
 serpulo

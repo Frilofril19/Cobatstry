@@ -32,5 +32,11 @@ litiy:{type:"BasicBulletType", damage:75, lifeTime:100, speed:0.5, trailLength: 
 	delayFrags: true, fragSpread: 10, fragBullets: 3, fragOffsetMax: 1, fragVelocityMin: 0.5, fragVelocityMax: 0.5, fragRandomSpread:0
 	fragBullet: {type:"BasicBulletType", damage:25, lifeTime:300, speed:3, trailLength: 7, trailWidth: 1},
 
+},
+
+sulfur:{type:"BasicBulletType", damage:50, lifeTime:100, speed:1.5, trailLength: 8, trailWidth: 1, reloadMultiplier: 2.0
+	delayFrags: true, fragSpread: 90, fragBullets: 4, fragOffsetMax: 1, fragVelocityMin: 0.5, fragVelocityMax: 0.5, fragRandomSpread:0
+	fragBullet: {type:"BasicBulletType", damage:13, lifeTime:100, speed:1, trailLength: 7, trailWidth: 1},
+
 },},
 category: "turret",

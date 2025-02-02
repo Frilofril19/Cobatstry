@@ -2,7 +2,7 @@ type: "BeamDrill",
 name: "Initial drill",
 description: "Extracts resources from the walls",
 health: 50,
-size: 2,
+size: 1,
 research: "core1"
 researchCost: [
 cobalt/25
@@ -12,7 +12,7 @@ cobalt/15
 ],
 hasLiquids: false
 squareSprite: false
-tier: 3
+tier: 2
 range: 1
-drillTime: 300
+drillTime: 550
 category: "production",

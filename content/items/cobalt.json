@@ -3,7 +3,7 @@ name: "Cobalt"
 description: "Metal that can be used in basic structures and mechanical devices"
 color: "858bd9"
 flammability: 0
-hardness: 2
+hardness: 1
 cost: 2
 hiddenOnPlanets: [
 serpulo
