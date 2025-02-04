@@ -27,7 +27,7 @@ items: [
 litiy/2
 quarc/1
 ]
-power: 2.1
+power: 0.75
 }
 updateEffect: "smeltsmoke"
 category: "crafting"

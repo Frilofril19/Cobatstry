@@ -6,7 +6,7 @@ size:1
 squareSprite: false
 research: "galvanic_generator"
 requirements:[
-magnetit/3
+magnetit/8
 ]
 laserRange: 12
 maxNodes: 6

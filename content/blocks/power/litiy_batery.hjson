@@ -7,7 +7,7 @@ health: 187
 squareSprite: false
 conductivePower: true
 consumes: {
-powerBuffered: 3000
+powerBuffered: 1800
 }
 requirements: [
 litiy/15

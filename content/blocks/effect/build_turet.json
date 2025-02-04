@@ -6,7 +6,7 @@ type: "BuildTurret",
 research: "heal_stantion"
 "requirements":[
 kristalit/15
-litiy/30
+cobalt/30
 ],
 coolant: {
 type: ConsumeCoolant

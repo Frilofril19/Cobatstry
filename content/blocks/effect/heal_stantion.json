@@ -5,7 +5,7 @@ type: "MendProjector",
 "size":1,
 research: "core1"
 "consumes": {
-"power": 2,
+"power": 0.5,
 }
 "requirements":[
 cobalt/50

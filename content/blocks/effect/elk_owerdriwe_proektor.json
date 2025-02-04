@@ -13,11 +13,11 @@ preset: "Unlok_driwer"
 ]
 }
 "consumes": {
-"power": 6,
+"power": 4.75,
 }
 "requirements":[
 galiy/20
-litiy/15
+kristalit/15
 ],
 reload: 120
 range: 60

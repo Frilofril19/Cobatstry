@@ -14,15 +14,14 @@ generator: {
   ferricChance: 0.2
 }
 Name: "fralion"
-localizedName: "Fralion"
 parent: sun
-iconColor: 6782B7
+iconColor: 9da2ec
 orbitRadius: 35
 hasAtmosphere: true,
 updateLighting: true,
 atmosphereRadIn: 0,
-atmosphereRadOut: 0.3,
-atmosphereColor: 6782B7,
+atmosphereRadOut: 0.2,
+atmosphereColor: 7d80aa,
 drawOrbit: true,
 itemWhitelist: [
 "cobalt"
@@ -42,40 +41,53 @@ sectorSeed: 14513
 bloom: true
 visible: true
 startSector: 1
-sectorSize: 1
+sectorSize: 2
 clearSectorOnLose: true
 allowSectorInvasion: true
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
+launchCandidates: []
 
-	
-cloudMesh: {
+cloudMesh: [{
   type: HexSkyMesh
   planet: fralion
   seed: 52
-  speed: 1
+  speed: 4
+  radius: 0.1
+  divisions: 5
+  color: 9da2ec
+  octaves: 2
+  persistence: 5
+  scl: 0.25
+  thresh: 0.5
+}
+{
+  type: HexSkyMesh
+  planet: fralion
+  seed: 52
+  speed: 2
   radius: 0.15
-  divisions: 4
-  color: 8E9FC3
-  octaves: 4
-  persistence: 4
+  divisions: 5
+  color: 6f75c6
+  octaves: 2
+  persistence: 10
   scl: 0.25
   thresh: 0.5
 }
 
+]
 mesh: [
 {
 	type: NoiseMesh
 	planet: fralion
 	seed: 7
-	color1: 4564A2
-	color2: 677289
-	divisions: 4
+	color1: 8484c6
+	color2: 6565a1
+	divisions: 5
 	radius: 0.8
-	octaves: 4
-	persistence: 4
-	scl: 0.9
+	octaves: 3
+	persistence: 2
+	scl: 1.2
 	mag: 2.4
 }
 ]
-launchCandidates: []

@@ -3,14 +3,9 @@ name: "Magnetic furnace"
 description: "Oxidizes cobalt to magnetite"
 "health": 62
 "size":2,
-research: {
-parent: "beginer-dril"
-objectives: [
-{
-type: onSector
-preset: "lost_karier" 
-} ] }
+research: "beginer-dril"
 requirements:[
+litiy/10
 cobalt/30
 ],
 squareSprite: false

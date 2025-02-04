@@ -14,9 +14,10 @@ preset: "Unlok_driwer"
 }
 
 "consumes": {
-"power": 2.5,
+"power": 1.5,
 }
 "requirements":[
+kristalit/25
 galiy/50
 litiy/15
 ],

@@ -7,7 +7,7 @@ research: "kristalit_furnanse"
 requirements:[
 kristalit/25
 litiy/20
-quarc/55
+galiy/15
 ],
 squareSprite: false,
 hasPower: false,
@@ -15,6 +15,7 @@ hasitem: true,
 hasliquids: true,
 craftTime: 125
 consumes:{
+power: 1.5
 liquids:[
 acid/1
 ]

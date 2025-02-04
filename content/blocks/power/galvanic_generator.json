@@ -27,7 +27,7 @@ magnetit/6
 ]
 }
 itemDuration: 140
-powerProduction: 1.7
+powerProduction: 1
 category: "power"
 drawer: {
 type: DrawMulti

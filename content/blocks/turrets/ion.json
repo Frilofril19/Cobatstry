@@ -3,15 +3,7 @@ name: "Ion"
 description: "Electric turret that fires a barrage of lightning bolts with low damage"
 health: 88
 size: 2
-research: {
-parent: "qwazar"
-objectives: [
-{
-type: OnSector
-preset: "lost_karier"
-}
-]
-}
+research: "qwazar"
 coolant: {
 type: ConsumeCoolant
 allowLiquid: true
@@ -22,20 +14,23 @@ cobalt/40
 litiy/10
 ]
 consumes: {
-power: 2.2
+power: 1
 }
+recoilTime: 50
+cooldownTime: 150
+recoils: 5
+heatColor: FF0000
 canOverdrive: true
 targetAir: true
 targetGround: true
-reload: 10
+reload: 150
 range: 70
-shoot:{shots:2
+shoot:{shots: 5
 shotDelay: 10
 autoTarget: true }
 rotateSpeed: 5
 shootSound: shootAlt
 inaccuracy: 10
-cooldownTime: 50
 shootType: {
 type: "LightningBulletType"
 lifetime: 100

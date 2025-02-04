@@ -11,7 +11,7 @@ galiy/35
 ],
 "squareSprite": false ,
 "consumes": {
-"power": 4
+"power": 2.5
 },
 "plans": [
 	{

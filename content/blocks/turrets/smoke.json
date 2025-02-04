@@ -23,7 +23,7 @@ shoot:{shots: 2,
 shotDelay: 0,
 autoTarget: true },
 rotateSpeed: 3,
-inaccuracy: 10,
+inaccuracy: 5,
 shootSound: shoot,
 ammoTypes:{selitra:{type:"LaserBulletType", damage:30, lifeTime:500, speed:0, length: 100, width: 7, sideLength: 5, sideAngle: 5, status: "frize_sus", 
 colors: [e39257, d0844d, bd743f]

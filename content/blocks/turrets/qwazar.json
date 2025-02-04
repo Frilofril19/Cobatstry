@@ -22,6 +22,7 @@ shoot:{shots:1
 shotDelay:150
 autoTarget: true }
 rotateSpeed: 5
+inaccuracy: 2
 shootSound: shoot
 ammoTypes:{cobalt:{type:"BasicBulletType", damage:62, lifeTime:200, speed:1, trailLength: 5, trailWidth: 1, 
 	delayFrags: true, fragSpread: 10, fragBullets: 2, fragOffsetMax: 1, fragVelocityMin: 0.5, fragVelocityMax: 0.5, fragRandomSpread:0

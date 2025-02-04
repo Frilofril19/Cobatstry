@@ -9,7 +9,7 @@ litiy/25
 kristalit/30
 ],
 "consumes": {
-"power": 1
+"power": 0.25
 },
 sparkColor: d96f6f
 heatColor: d96f6f
