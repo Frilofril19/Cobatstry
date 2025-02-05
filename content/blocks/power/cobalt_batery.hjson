@@ -20,7 +20,7 @@ drawers: [
 {
 type: DrawGlowRegion
 suffix: -glow
-color: EFEFEF
+color: e3bd54
 }
 {
 type: DrawRegion

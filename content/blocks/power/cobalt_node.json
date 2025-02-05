@@ -13,8 +13,8 @@ maxNodes: 6
 autolink: True
 hasPower: true
 laserScale: 0.5
-laserColor1: "d0c83a"
-laserColor2: "b3ad39"
+laserColor1: "e3bd54"
+laserColor2: "d0ab45"
 category: "power"
 
 
