@@ -3,7 +3,7 @@ name: "Gallium Factory"
 description: "Combining sulfur and magnetite produces gallium"
 "health": 125
 "size":3,
-research: "magnetit_furnanse"
+research: "kristalit_furnanse"
 requirements:[
 litiy/30
 kristalit/20

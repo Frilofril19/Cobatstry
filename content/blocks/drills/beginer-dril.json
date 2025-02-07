@@ -3,7 +3,7 @@ name: "Initial drill",
 description: "Extracts resources from the walls",
 health: 50,
 size: 1,
-research: "core1"
+research: "core_fralion"
 researchCost: [
 cobalt/25
 ]

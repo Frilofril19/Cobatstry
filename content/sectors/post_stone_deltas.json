@@ -1,5 +1,3 @@
-name: "post_stone_deltas"
-description: "In this sector, most ground robots"
 captureWave: 15
 difficulty: 3
 planet: "fralion"

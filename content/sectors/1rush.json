@@ -1,5 +1,3 @@
-name: "1rush"
-description: "A small sector where enemies will move without stopping"
 captureWave: 30
 difficulty: 7
 planet: "fralion"

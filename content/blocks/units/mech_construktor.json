@@ -5,7 +5,7 @@ health: 150,
 size: 3,
 squareSprite: false
 research: {
-	parent: "core1"
+	parent: "core_fralion"
 	objectives: [
 		{
 		type: SectorComplete

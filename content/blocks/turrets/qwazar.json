@@ -3,7 +3,7 @@ name:"Quasar"
 description: "Shoots bullets that split into fragmentation bullets"
 health:75
 size:1
-research: "core1"
+research: "core_fralion"
 researchCostMultiplier: 0.4
 requirements:[
 cobalt/30

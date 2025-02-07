@@ -3,7 +3,7 @@ name: "Acid mixer"
 description: "Converts lithium to acid"
 "health": 100
 "size":3,
-research: "beginer-dril"
+research: "magnetit_furnanse"
 requirements:[
 cobalt/60
 litiy/25

@@ -3,7 +3,7 @@ name: "Saltpeter mixer"
 description: "Mixes sulfur, quartz, and acid to make saltpeter"
 "health": 200
 "size":3,
-research: "kristalit_furnanse"
+research: "galiy_furnanse"
 requirements:[
 kristalit/25
 litiy/20

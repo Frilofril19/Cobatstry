@@ -13,5 +13,5 @@ displayedSpeed: 0.5
 junctionReplacement: "mech_junction"
 bridgeReplacement: "mech_bridge"
 category: "distribution"
-research: "core1"
+research: "core_fralion"
 researchCostMultiplier: 0.4
