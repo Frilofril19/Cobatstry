@@ -1,9 +1,7 @@
 name: "cobatstry"
-displayName: "Fralion"
+displayName: "Cobatstry"
 author: "FriloFril"
 description: "Мод доповнює гру новою планетою Фраліон великий холодний ад що є чимось схожим на основні компанії але повністью інший
-
-Доступно лише 2 мови: Англіська та Українська
 
 Мод щя в стадії розробки тому вибачайте за баги
 
@@ -13,13 +11,11 @@ description: "Мод доповнює гру новою планетою Фра�
 
 The mod adds a new planet to the game, Fralion, a great cold hell, which is somewhat similar to the main companies, but completely different
 
-Only 2 languages ​​are available: English and Ukrainian
-
 The mod is still under development, so sorry for the bugs
 
 If you liked the mod or have some ideas for exploration, look for the corresponding post in my telegram (x) @Frilofrill"
-version: "V0.4.2"
-subtitle: "V0.4.2 Alfa!"
+version: "V0.4.3"
+subtitle: "V0.4.3 Alfa!"
 minGameVersion: "146"
 dependencies: [ ]
 hidden: false
