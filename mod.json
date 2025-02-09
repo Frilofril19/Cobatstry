@@ -3,7 +3,7 @@ displayName: "Cobatstry"
 author: "FriloFril"
 description: "Мод доповнює гру новою планетою Фраліон великий холодний ад що є чимось схожим на основні компанії але повністью інший
 
-Мод щя в стадії розробки тому вибачайте за баги
+Мод ще в стадії розробки тому вибачайте за баги
 
 Якщо вам сподобався мод  чи у вас є деякі ідеї для розвидку шукайте відповідний пост у моєму telegram (x) @Frilofrill
 
@@ -14,8 +14,8 @@ The mod adds a new planet to the game, Fralion, a great cold hell, which is some
 The mod is still under development, so sorry for the bugs
 
 If you liked the mod or have some ideas for exploration, look for the corresponding post in my telegram (x) @Frilofrill"
-version: "V0.4.3"
-subtitle: "V0.4.3 Alfa!"
+version: "V0.5"
+subtitle: "V0.5 Alfa!"
 minGameVersion: "146"
 dependencies: [ ]
 hidden: false
