@@ -53,6 +53,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: true
+alwaysUnlocked: true
 
 cloudMesh: [{
   type: HexSkyMesh
