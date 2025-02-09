@@ -13,14 +13,25 @@ targetAir: true,
 targetGround: false,
 reload: 100,
 range: 240,
-shoot: {shots:3,
-shotDelay: 5,
+shoot: {shots: 9,
+shotDelay: 10,
 autoTarget: true
 },
 ammoPerShot: 20,
 rotateSpeed: 5,
 inaccuracy: 0,
 shootSound: shoot
-ammoTypes:{ acid:{ type: "LiquidBulletType", liquid: "acid", damage: 12, lifeTime: 5000, speed: 7, hitColor: a0c6a0,  hitSize: 15, drawSize: 150, trailLength: 25, buildingDamageMultiplier: 0.0
+ammoTypes:{ acid:{
+	type: "LiquidBulletType"
+	liquid: "acid"
+	damage: 12
+	lifeTime: 5000
+	speed: 7
+	hitColor: a0c6a0
+	trailColor: a0c6a0
+	hitSize: 15
+	drawSize: 150
+	trailLength: 25
+	buildingDamageMultiplier: 0.0
 } },
 category: "turret"

@@ -4,44 +4,54 @@ description: "Produces robots",
 health: 150,
 size: 3,
 squareSprite: false
-research: {
-	parent: "core_fralion"
-	objectives: [
-		{
-		type: SectorComplete
-		preset: "stone_deltas"
-		}
-		]
-	}
+research: "flag"
 requirements: [
-	cobalt/30
-	kristalit/35
-	],
+litiy/40
+cobalt/30
+kristalit/35
+],
+consumes: {
+power: 1
+}
 plans: [
 	{
-	unit: fly
+	unit: d1_inter
 	requirements: [
-		kristalit/15
-		cobalt/10
+		quarc/10
+		kristalit/45
+		]
+	time: 50
+	}
+	{
+	unit: a1_quark
+	requirements: [
+		cobalt/30
+		kristalit/45
 		]
 	time: 200
 	}
 	{
-	unit: warnior
+	unit: b1_vector
 	requirements: [
-		kristalit/35
-		cobalt/30
+		litiy/25
+		kristalit/45
 		]
 	time: 300
 	}
 	{
-	unit: exp
+	unit: c1_primum
 	requirements: [
-		kristalit/55
-		cobalt/45
+		magnetit/40
+		kristalit/45
 		]
-	time: 550
+	time: 400
 	}
-
+	{
+	unit: e1_Indu
+	requirements: [
+		kristalit/90
+		]
+	time: 500
+	}
 ]
 category: "units",

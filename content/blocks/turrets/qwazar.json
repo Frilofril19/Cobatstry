@@ -1,5 +1,5 @@
 type: "ItemTurret"
-name:"Quasar"
+name:"quantum"
 description: "Shoots bullets that split into fragmentation bullets"
 health:75
 size:1
@@ -24,20 +24,89 @@ autoTarget: true }
 rotateSpeed: 5
 inaccuracy: 2
 shootSound: shoot
-ammoTypes:{cobalt:{type:"BasicBulletType", damage:62, lifeTime:200, speed:1, trailLength: 5, trailWidth: 1, 
-	delayFrags: true, fragSpread: 10, fragBullets: 2, fragOffsetMax: 1, fragVelocityMin: 0.5, fragVelocityMax: 0.5, fragRandomSpread:0
-	fragBullet: {type:"BasicBulletType", damage:31, lifeTime:200, speed:2, trailLength: 2, trailWidth: 1},
- },
-
-litiy:{type:"BasicBulletType", damage:75, lifeTime:100, speed:0.5, trailLength: 5, trailWidth: 1, 
-	delayFrags: true, fragSpread: 10, fragBullets: 3, fragOffsetMax: 1, fragVelocityMin: 0.5, fragVelocityMax: 0.5, fragRandomSpread:0
-	fragBullet: {type:"BasicBulletType", damage:25, lifeTime:300, speed:3, trailLength: 7, trailWidth: 1},
-
+ammoTypes:{cobalt:{
+	type:"BasicBulletType"
+	damage:62
+	lifeTime:200
+	speed:1
+	trailLength: 20
+	trailWidth: 1
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	delayFrags: true
+	fragSpread: 10
+	fragBullets: 2
+	fragOffsetMax: 1
+	fragVelocityMin: 0.5
+	fragVelocityMax: 0.5
+	fragRandomSpread:0
+	fragBullet: {type:"BasicBulletType"
+		damage:31
+		lifeTime:200
+		speed:2
+		trailLength: 20
+		trailWidth: 1	
+		backColor: FFFFFF
+		trailColor: FFFFFF
+		frontColor: DBDBDB
+	},
 },
-
-sulfur:{type:"BasicBulletType", damage:50, lifeTime:100, speed:1.5, trailLength: 8, trailWidth: 1, reloadMultiplier: 2.0
-	delayFrags: true, fragSpread: 90, fragBullets: 4, fragOffsetMax: 1, fragVelocityMin: 0.5, fragVelocityMax: 0.5, fragRandomSpread:0
-	fragBullet: {type:"BasicBulletType", damage:13, lifeTime:100, speed:1, trailLength: 7, trailWidth: 1},
-
+litiy:{
+	type:"BasicBulletType"
+	damage:75
+	lifeTime:100
+	speed:0.5
+	trailLength: 20
+	trailWidth: 1, 
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	delayFrags: true
+	fragSpread: 10
+	fragBullets: 3
+	fragOffsetMax: 1
+	fragVelocityMin: 0.5
+	fragVelocityMax: 0.5
+	fragRandomSpread:0
+	fragBullet: {type:"BasicBulletType"
+		damage:25
+		lifeTime:300
+		speed:3
+		trailLength: 20
+		trailWidth: 1
+		backColor: FFFFFF
+		trailColor: FFFFFF
+		frontColor: DBDBDB
+	},
+},
+sulfur:{
+	type:"BasicBulletType"
+	damage:50
+	lifeTime:100
+	speed:1.5
+	trailLength: 20
+	trailWidth: 1
+	reloadMultiplier: 2.0
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	delayFrags: true
+	fragSpread: 90
+	fragBullets: 4
+	fragOffsetMax: 1
+	fragVelocityMin: 0.5
+	fragVelocityMax: 0.5
+	fragRandomSpread:0
+	fragBullet: {type:"BasicBulletType"
+		damage:13
+		lifeTime:100
+		speed:1
+		trailLength: 20
+		trailWidth: 1
+		backColor: FFFFFF
+		trailColor: FFFFFF
+		frontColor: DBDBDB
+	},
 },},
 category: "turret",

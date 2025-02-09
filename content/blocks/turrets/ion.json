@@ -32,10 +32,11 @@ rotateSpeed: 5
 shootSound: shootAlt
 inaccuracy: 10
 shootType: {
-type: "LightningBulletType"
-lifetime: 100
-damage: 9
-lightningLength: 10
-lightningLengthRand: 6
+	type: "LightningBulletType"
+	lifetime: 100
+	damage: 9
+	lightningLength: 10
+	lightningLengthRand: 6
+	lightningColor:  FFFFFF
 }
 category: "turret",

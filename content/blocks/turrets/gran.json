@@ -24,20 +24,52 @@ autoTarget: true }
 rotateSpeed: 5
 inaccuracy: 15
 shootSound: "cannon"
-ammoTypes:{quarc:{type:"BasicBulletType", damage:10, speed:4, trailLength: 8, trailWidth: 1, backColor: FFFFFF, buildingDamageMultiplier: 0.5
-trailColor: FFFFFF, frontColor: DBDBDB, 
-fragBullet: {type:"BasicBulletType", damage:0.5, lifeTime:200, speed:1, trailLength: 2, trailWidth: 1, 
-backColor: FFFFFF, trailColor: FFFFFF, frontColor: DBDBDB, buildingDamageMultiplier: 0.5
+ammoTypes:{quarc:{
+	type:"BasicBulletType"
+	damage:10
+	speed:5
+	trailLength: 20
+	trailWidth: 1
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	buildingDamageMultiplier: 0.5
 },
-delayFrags: true, fragSpread: 5, fragBullets: 10, fragOffsetMax: 1, fragVelocityMin: 1, fragVelocityMax: 1, fragRandomSpread: 0
+kristalit:{
+	type:"MissileBulletType"
+	damage:15
+	speed:5
+	trailLength: 20
+	trailWidth: 2
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	buildingDamageMultiplier: 0.5
 },
-kristalit:{type:"BasicBulletType", damage:15, speed:5, trailLength: 10, trailWidth: 1, trailSize: 2, backColor: FFFFFF, 
-trailColor: FFFFFF, frontColor: DBDBDB, buildingDamageMultiplier: 0.5
+sulfur:{
+	type:"BasicBulletType"
+	damage:10
+	splashDamageRadius: 15
+	splashDamage:10
+	speed:5
+	trailLength: 20
+	trailWidth: 1
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	buildingDamageMultiplier: 0.5,
 },
-sulfur:{type:"BasicBulletType", damage:10, splashDamageRadius: 15, splashDamage:10, speed:5, trailLength: 10, trailWidth: 1, backColor: FFFFFF, trailColor: FFFFFF,
-frontColor: DBDBDB, buildingDamageMultiplier: 0.5,
-},
-selitra:{type:"BasicBulletType", damage:15, splashDamageRadius: 10, splashDamage:10, speed:5, trailLength: 20, trailWidth: 1, backColor: FFFFFF, trailColor: FFFFFF,
-frontColor: DBDBDB, buildingDamageMultiplier: 0.5, 
+selitra:{
+	type:"BasicBulletType"
+	damage:15
+	splashDamageRadius: 10,
+	splashDamage:10
+	speed:5
+	trailLength: 20
+	trailWidth: 1
+	backColor: FFFFFF
+	trailColor: FFFFFF,
+	frontColor: DBDBDB
+	buildingDamageMultiplier: 0.5, 
 },},
 category: "turret"

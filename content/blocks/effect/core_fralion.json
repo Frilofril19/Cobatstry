@@ -9,8 +9,8 @@ litiy/2000
 quarc/1500
 ],
 itemCapacity: 5000
-unitCapModifier: 5
-unitType: "auwrora"
+unitCapModifier: 0
+unitType: "00_auwrora"
 incinerateNonBuildable: True
 isFirstTier: true
 requiresCoreZone: true

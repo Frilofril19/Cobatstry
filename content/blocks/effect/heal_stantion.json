@@ -3,7 +3,7 @@ type: "MendProjector",
 "description" :"Repairs buildings in a small radius, requires energy"
 "health": 75,
 "size":1,
-research: "core_fralion"
+research: "galvanic_generator"
 "consumes": {
 "power": 0.5,
 }
