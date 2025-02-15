@@ -86,3 +86,12 @@ shootType:{
 				lightningColor:  FFFFFF 
 } } } },
 category: "turret",
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+
+]
+}
+

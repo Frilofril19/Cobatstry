@@ -19,8 +19,11 @@ kristalit/30
 ]
 }
 },
+constructTime: 270
 upgrades: [
 [b1_vector, b2_radikal], 
 [a1_quark, a2_atom], 
 [c1_primum, c2_sekundo], 
+[d1_inter, d2_winter], 
+[e1_Indu, e2_grom], 
 ]

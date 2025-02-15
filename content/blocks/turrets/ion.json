@@ -19,7 +19,6 @@ power: 1
 recoilTime: 50
 cooldownTime: 150
 recoils: 5
-heatColor: FF0000
 canOverdrive: true
 targetAir: true
 targetGround: true
@@ -40,3 +39,13 @@ shootType: {
 	lightningColor:  FFFFFF
 }
 category: "turret",
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+{
+type: Default
+}
+]
+}

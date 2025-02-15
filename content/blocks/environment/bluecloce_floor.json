@@ -1,2 +1,6 @@
 type: Floor
 name: Машліон
+emitLight: true
+lightRadius: 35
+albedo: 60
+lightColor: 463C83

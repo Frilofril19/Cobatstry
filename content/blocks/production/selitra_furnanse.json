@@ -1,5 +1,5 @@
 type: "GenericCrafter"
-name: "Saltpeter mixer"
+name: "Saltpeter double furnace"
 description: "Mixes sulfur, quartz, and acid to make saltpeter"
 "health": 200
 "size":3,
@@ -24,7 +24,7 @@ quarc/1
 sulfur/1
 ]
 }
-updateEffect: "sporeSlowed"
+updateEffect: "drillSteam"
 category: "crafting"
 idleSoundVolume: 0.5
 itemCapacity: 35
@@ -35,28 +35,18 @@ drawer: {
 type: DrawMulti
 drawers: [
 {
-type: DrawParticles
-color: a5aa54 
-particles: 30
-particleSize: 6
-reverse: true
+type: DrawDefault
 }
 {
-type: DrawGlowRegion
-suffix: -glow
-color: a5aa54
+type: DrawFlame
+flameRadius: 1
+flameRadiusIn: 0.4
+flameRadiusScl: 1.5
+flameRadiusMag: 0.5
+flameRadiusInMag: 0.5
 }
 {
-type: DrawRegion
-suffix: -rotate
-spinSprite: true
-rotateSpeed: 16
-layer: -1
-}
-{
-type: DrawRegion
-suffix: -base
-layer: -2
+type: DrawCrucibleFlame
 }
 ]
 }

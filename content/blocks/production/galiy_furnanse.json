@@ -12,19 +12,19 @@ squareSprite: false
 hasPower: true
 hasitem: true
 hasliquids: false
-craftTime: 50,
+craftTime: 100,
 consumes: {
 power: 3
 items: [
-sulfur/2
-magnetit/1
+sulfur/4
+magnetit/2
 ]
 }
 updateEffect: "reactorsmoke"
 craftEffect: "smokePuff"
 category: "crafting"
 idleSoundVolume: 0.5
-itemCapacity: 30
+itemCapacity: 60
 outputItem: galiy/1
 drawer: {
 type: DrawMulti
@@ -37,7 +37,7 @@ layer: -1
 {
 type: DrawGlowRegion
 suffix: -glow
-color: d0dc6d
+color: e3bd54
 }
 ]
 }

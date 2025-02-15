@@ -15,7 +15,8 @@ incinerateNonBuildable: True
 isFirstTier: true
 requiresCoreZone: true
 squareSprite: false
-category: "effect"
+hidden: true
+incinerateNonBuildable: true
 research: {
 root: true
 name: Fralion

@@ -1,2 +1,6 @@
 type: StaticWall
 name: Машліон(стіна)
+emitLight: true
+lightRadius: 20
+albedo: 75
+lightColor: 463C83

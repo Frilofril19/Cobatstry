@@ -31,3 +31,24 @@ colors: [e39257, d0844d, bd743f]
 sulfur:{type:"LaserBulletType", damage:15, lifeTime:500, speed:0, length: 100, width: 7, sideLength: 5, sideAngle: 15, status: "frize_sus", 
 colors: [ecc34f, d9b245, c6a138]
 }, }
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+{
+type: RegionPart
+suffix: -center
+mirror: false
+under: false
+
+moveX: 0
+moveY: -2
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+]
+}

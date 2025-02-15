@@ -18,9 +18,20 @@ items: [
 cobalt/2
 ]
 }
-updateEffect: "electrified"
+updateEffect: "smeltsmoke"
 category: "crafting"
 idleSoundVolume: 0.5
 itemCapacity: 30
 outputItem: magnetit/3
 
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawDefault
+}
+{
+type: DrawFlame
+}
+]
+}

@@ -32,6 +32,68 @@ ammoTypes:{ acid:{
 	hitSize: 15
 	drawSize: 150
 	trailLength: 25
-	buildingDamageMultiplier: 0.0
 } },
 category: "turret"
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+{
+type: RegionPart
+suffix: -side-r
+mirror: false
+under: false
+
+moveX: 1
+moveY: -1
+moveRot: 5
+
+outline: true
+progress: warmup
+heatProgress: warmup
+}
+{
+type: RegionPart
+suffix: -side-l
+mirror: false
+under: false
+
+moveX: -1
+moveY: -1
+moveRot: -5
+
+outline: true
+progress: warmup
+heatProgress: warmup
+}
+{
+type: RegionPart
+suffix: -side-cl
+mirror: false
+under: false
+
+moveX: 0
+moveY: -1
+moveRot: 20
+
+outline: true
+progress: recoil
+heatProgress: warmup
+}
+{
+type: RegionPart
+suffix: -side-cr
+mirror: false
+under: false
+
+moveX: 0
+moveY: -1
+moveRot: -20
+
+outline: true
+progress: recoil
+heatProgress: warmup
+}
+]
+}

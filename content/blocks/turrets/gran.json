@@ -73,3 +73,53 @@ selitra:{
 	buildingDamageMultiplier: 0.5, 
 },},
 category: "turret"
+
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+{
+type: RegionPart
+suffix: -c
+mirror: false
+under: false
+
+moveX: 0
+moveY: -0.5
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+{
+type: RegionPart
+suffix: -r
+mirror: false
+under: false
+
+moveX: 1
+moveY: -1
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+{
+type: RegionPart
+suffix: -l
+mirror: false
+under: false
+
+moveX: -1
+moveY: -1
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+]
+}

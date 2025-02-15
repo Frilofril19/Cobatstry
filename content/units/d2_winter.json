@@ -1,0 +1,44 @@
+type: tank
+name: "Winter"
+description: "A high-speed tank that fires explosive shells"
+health: 212
+speed: 1.5
+hitSize: 10
+flying: false
+faceTarget: true
+research: "d1_inter"
+weapons: [{
+name: "d2_winter1"
+x: 0
+y: 0
+rotate: true
+mirror: false
+shoot: {
+	shots: 2
+	shotDelay: 20
+	autoTarget: true
+	}
+inaccuracy: 5
+reload: 100
+shootSound: "cannon"
+shootOnDeath: true
+bullet:{ 
+	type: "FlakBulletType"
+	scaledSplashDamage: true
+	splashDamage: 12
+	damage: 37
+	speed: 2
+	explodeRange: 50
+	explodeDelay: 7
+	flakInterval: 8
+	flakDelay: 2
+	trailLength: 20
+	trailWidth: 2
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	} 
+} 
+]
+abilities: [
+	]

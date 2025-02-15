@@ -27,8 +27,7 @@ shootSound: shoot
 ammoTypes:{cobalt:{
 	type:"BasicBulletType"
 	damage:62
-	lifeTime:200
-	speed:1
+	speed: 1.5
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
@@ -43,8 +42,7 @@ ammoTypes:{cobalt:{
 	fragRandomSpread:0
 	fragBullet: {type:"BasicBulletType"
 		damage:31
-		lifeTime:200
-		speed:2
+		speed: 1.5
 		trailLength: 20
 		trailWidth: 1	
 		backColor: FFFFFF
@@ -55,8 +53,7 @@ ammoTypes:{cobalt:{
 litiy:{
 	type:"BasicBulletType"
 	damage:75
-	lifeTime:100
-	speed:0.5
+	speed:1.5
 	trailLength: 20
 	trailWidth: 1, 
 	backColor: FFFFFF
@@ -71,8 +68,7 @@ litiy:{
 	fragRandomSpread:0
 	fragBullet: {type:"BasicBulletType"
 		damage:25
-		lifeTime:300
-		speed:3
+		speed:1.5
 		trailLength: 20
 		trailWidth: 1
 		backColor: FFFFFF
@@ -83,7 +79,6 @@ litiy:{
 sulfur:{
 	type:"BasicBulletType"
 	damage:50
-	lifeTime:100
 	speed:1.5
 	trailLength: 20
 	trailWidth: 1
@@ -100,8 +95,7 @@ sulfur:{
 	fragRandomSpread:0
 	fragBullet: {type:"BasicBulletType"
 		damage:13
-		lifeTime:100
-		speed:1
+		speed:1.5
 		trailLength: 20
 		trailWidth: 1
 		backColor: FFFFFF
@@ -110,3 +104,52 @@ sulfur:{
 	},
 },},
 category: "turret",
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+{
+type: RegionPart
+suffix: -center
+mirror: false
+under: false
+
+moveX: 0
+moveY: -4
+moveRot: 0
+
+outline: true
+progress: warmup
+heatProgress: warmup
+}
+{
+type: RegionPart
+suffix: -side-r
+mirror: false
+under: false
+
+moveX: 1
+moveY: -3
+moveRot: 20
+
+outline: true
+progress: warmup
+heatProgress: warmup
+}
+{
+type: RegionPart
+suffix: -side-l
+mirror: false
+under: false
+
+moveX: -1
+moveY: -3
+moveRot: -20
+
+outline: true
+progress: warmup
+heatProgress: warmup
+}
+]
+}
