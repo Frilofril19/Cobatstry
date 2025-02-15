@@ -11,12 +11,12 @@ quarc/1500
 itemCapacity: 5000
 unitCapModifier: 0
 unitType: "00_auwrora"
-incinerateNonBuildable: True
+incinerateNonBuildable: false
 isFirstTier: true
 requiresCoreZone: true
 squareSprite: false
-hidden: true
-incinerateNonBuildable: true
+buildVisibility: hidden,
+category: effect,
 research: {
 root: true
 name: Fralion
