@@ -15,20 +15,12 @@ power: 1
 }
 plans: [
 	{
-	unit: d1_inter
-	requirements: [
-		quarc/10
-		kristalit/45
-		]
-	time: 50
-	}
-	{
 	unit: a1_quark
 	requirements: [
 		cobalt/30
 		kristalit/45
 		]
-	time: 200
+	time: 900
 	}
 	{
 	unit: b1_vector
@@ -36,7 +28,7 @@ plans: [
 		litiy/25
 		kristalit/45
 		]
-	time: 300
+	time: 1200
 	}
 	{
 	unit: c1_primum
@@ -44,14 +36,7 @@ plans: [
 		magnetit/40
 		kristalit/45
 		]
-	time: 400
-	}
-	{
-	unit: e1_Indu
-	requirements: [
-		kristalit/90
-		]
-	time: 500
+	time: 2400
 	}
 ]
 category: "units",

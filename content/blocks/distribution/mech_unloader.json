@@ -3,7 +3,7 @@ name: "Mechanical loader"
 description: "Unloads buildings"
 health: 50
 size: 1
-research: "mech_router"
+research: "storage"
 speed: 0.01
 requirements:[
 kristalit/15
@@ -11,5 +11,5 @@ litiy/5
 ]
 connectedPower: false
 consumesPower: false
-category: "distribution"
+category: "effect"
 

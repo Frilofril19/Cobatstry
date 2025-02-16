@@ -7,7 +7,7 @@ hitSize: 10
 flying: true
 faceTarget: true
 trailLength: 5
-research: "c1_primum"
+research: "exp_construktor"
 weapons: [{
 x: 0
 y: 0

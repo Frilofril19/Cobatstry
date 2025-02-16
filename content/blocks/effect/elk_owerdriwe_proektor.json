@@ -13,14 +13,18 @@ preset: "Unlok_driwer"
 ]
 }
 "consumes": {
-"power": 4.75,
+"power": 3,
+items: [
+quarc/1
+]
 }
 "requirements":[
 galiy/20
 kristalit/15
 ],
+hasBoost: false
 reload: 120
 range: 60
-speedBoost: 3
+speedBoost: 1.75
 "category": "effect",
 
