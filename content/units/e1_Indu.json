@@ -1,0 +1,42 @@
+type: flying
+name: "Indu"
+description: "A flying drone that releases drones from inside when shot down"
+health: 1
+speed: 1
+hitSize: 10
+flying: true
+faceTarget: true
+trailLength: 5
+research: "exp_construktor"
+weapons: [{
+x: 0
+y: 0
+rotate: false
+mirror: false
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true
+	}
+inaccuracy: 0
+reload: 0
+shootSound: "cannon"
+bullet:{ 
+	type:"BombBulletType"
+	splashDamage: 10
+	splashDamageRadius: 100
+	lifetime: 0
+	speed: 0
+	killShooter: true
+	instantDisappear: true
+	delayFrags: true
+	} 
+} 
+]
+abilities: [
+{
+	"type": "SpawnDeathAbility",
+	"unit": c1_primum
+	"amount": 3,
+}
+	]

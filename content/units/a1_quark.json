@@ -1,0 +1,38 @@
+type: tank
+name: "Quark"
+description: "A small, weak tank can only be useful in large numbers."
+health: 50
+speed: 1
+hitSize: 5
+flying: false
+faceTarget: true
+research: "mech_construktor"
+weapons: [{
+name: "a1-quark1"
+x: 3
+y: 0
+rotate: false
+mirror: true
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true
+	}
+inaccuracy: 3
+reload: 50
+shootSound: "shoot"
+bullet:{ 
+	type:"BasicBulletType"
+	damage: 25
+	lifetime: 100
+	speed: 1
+	trailLength: 15
+	trailWidth: 1
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	} 
+} 
+]
+abilities: [
+	]

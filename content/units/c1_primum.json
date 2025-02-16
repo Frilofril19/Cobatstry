@@ -1,0 +1,38 @@
+type: flying
+name: "Premum"
+description: "A flying drone with a large health reserve"
+health: 212
+speed: 0.5
+hitSize: 10
+flying: true
+faceTarget: true
+trailLength: 5
+research: "mech_construktor"
+weapons: [{
+x: 0
+y: 0
+rotate: false
+mirror: false
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true
+	}
+inaccuracy: 2
+reload: 50
+shootSound: "artillery"
+bullet:{ 
+	type:"MissileBulletType"
+	damage: 50
+	speed: 2
+	trailLength: 20
+	trailWidth: 2
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	} 
+} 
+]
+
+abilities: [
+]
