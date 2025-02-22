@@ -23,11 +23,12 @@ shotDelay:2.5
 autoTarget: true }
 rotateSpeed: 5
 inaccuracy: 15
-shootSound: "cannon"
+shootSound: "shootC"
 ammoTypes:{quarc:{
 	type:"BasicBulletType"
-	damage:10
-	speed:5
+	damage: 15
+	speed: 6
+	ammoMultiplier: 2.0
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
@@ -37,8 +38,9 @@ ammoTypes:{quarc:{
 },
 kristalit:{
 	type:"MissileBulletType"
-	damage:15
+	damage: 10
 	speed:5
+	ammoMultiplier: 4.0
 	trailLength: 20
 	trailWidth: 2
 	backColor: FFFFFF
@@ -47,11 +49,14 @@ kristalit:{
 	buildingDamageMultiplier: 0.5
 },
 sulfur:{
-	type:"BasicBulletType"
+	type:"FlakBulletType"
 	damage:10
-	splashDamageRadius: 15
+	explodeRange: 15
 	splashDamage:10
 	speed:5
+	ammoMultiplier: 4.0
+	collidesGround: true
+	collidesAir: true
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
@@ -60,11 +65,14 @@ sulfur:{
 	buildingDamageMultiplier: 0.5,
 },
 selitra:{
-	type:"BasicBulletType"
+	type:"FlakBulletType"
 	damage:15
-	splashDamageRadius: 10,
+	explodeRange: 10,
 	splashDamage:10
 	speed:5
+	ammoMultiplier: 8.0
+	collidesGround: true
+	collidesAir: true
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
@@ -74,6 +82,7 @@ selitra:{
 },},
 category: "turret"
 
+minWarmup: 0.9
 
 drawer: {
 type: DrawTurret
@@ -81,12 +90,12 @@ basePrefix: regul-
 parts: [
 {
 type: RegionPart
-suffix: -c
+suffix: -r
 mirror: false
-under: false
+under: true
 
 moveX: 0
-moveY: -0.5
+moveY: -2
 moveRot: 0
 
 outline: true
@@ -95,11 +104,11 @@ heatProgress: recoil
 }
 {
 type: RegionPart
-suffix: -r
+suffix: -c
 mirror: false
-under: false
+under: true
 
-moveX: 1
+moveX: 0
 moveY: -1
 moveRot: 0
 
@@ -111,10 +120,10 @@ heatProgress: recoil
 type: RegionPart
 suffix: -l
 mirror: false
-under: false
+under: true
 
-moveX: -1
-moveY: -1
+moveX: 0
+moveY: -2
 moveRot: 0
 
 outline: true

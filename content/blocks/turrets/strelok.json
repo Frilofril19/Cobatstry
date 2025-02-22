@@ -1,6 +1,6 @@
 type: "powerTurret"
 name: "Archer"
-description: "Shoots lightning bolts and electric homing bullets"
+description: "Shoots charged homing projectiles at ground enemies"
 health: 125
 size:2
 research: "qwazar"
@@ -17,81 +17,123 @@ type: ConsumeCoolant
 allowLiquid: true
 amount: 0.1
 }
-shootY: 0
 targetAir: false
 targetGround: true
-reload: 120
+reload: 50
 range: 150
-shoot:{shots:1
-shotDelay: 120
+shoot:{shots:2
+shotDelay: 10
 autoTarget: true }
-rotateSpeed: 3
-inaccuracy: 5
-shootSound: star_shot
+rotateSpeed: 2
+inaccuracy: 25
+shootSound: "star_shoot"
 shootType:{
-	type:"LightningBulletType"
-	damage:50
-	lifeTime:100
-	speed:2
-	lightningLength: 30
-	lightningColor: FFFFFF
-	smokeEffect: shootBigSmoke
-	chargeEffect: lightningCharge,
-	delayFrags: true
-	fragSpread: 90
-	fragBullets: 2
-	fragOffsetMax: 1
-	fragVelocityMin: 1
-	fragVelocityMax: 1
-	fragAngle: 225
-	fragRandomSpread:0,
-	fragBullet: {type:"BasicBulletType"
-		damage:0
-		lifeTime:10
-		speed:0.5
-		trailLength: 20
-		trailWidth: 1
-		backColor: FFFFFF
-		frontColor: FFFFFF
-		trailColor: FFFFFF
-		despawnSound: shootAlt
-		delayFrags: true
-		fragSpread: 0
-		fragBullets: 1
-		fragOffsetMax: 1
-		fragVelocityMin: 1
-		fragVelocityMax: 1
-		fragAngle:180
-		fragRandomSpread:0
-		fragBullet: {type:"MissileBulletType"
-			damage:37
-			lifeTime:1500
-			speed:5
-			trailLength: 30
-			trailWidth: 2
-			pierce: true
-			backColor: FFFFFF
-			trailColor: FFFFFF
-			frontColor: FFFFFF
- 			bulletInterval: 5
-			intervalBullets: 4
-			intervalRandomSpread: 0
-			intervalSpread: 180
-			intervalAngle: 90
-			intervalBullet: {type:"LightningBulletType"
-				damage:3
-				lifeTime:1
-				speed:1
-				lightningLength: 5
-				lightningColor:  FFFFFF 
-} } } },
+type:"MissileBulletType"
+damage:37
+lifeTime:1500
+speed:5
+trailLength: 30
+trailWidth: 2
+pierce: true
+backColor: FFFFFF
+trailColor: FFFFFF
+frontColor: FFFFFF
+bulletInterval: 5
+intervalBullets: 4
+intervalRandomSpread: 0
+intervalSpread: 180
+intervalAngle: 90
+intervalBullet: {type:"LightningBulletType"
+	damage: 3
+	lifeTime:1
+	speed:1
+	lightningLength: 5
+	lightningColor:  FFFFFF 
+} },
 category: "turret",
 
 drawer: {
 type: DrawTurret
 basePrefix: regul-
 parts: [
-
+{
+type: ShapePart
+layer: 100
+progress: warmup
+rotateSpeed: 0
+sides: 360
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 5
+y: 6
+}
+{
+type: ShapePart
+layer: 100
+progress: recoil
+rotateSpeed: 5
+sides: 3
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 5
+y: 6
+}
+{
+type: ShapePart
+layer: 100
+progress: recoil
+rotateSpeed: -5
+sides: 3
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 5
+y: 6
+}
+{
+type: ShapePart
+layer: 100
+progress: warmup
+rotateSpeed: 0
+sides: 360
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 3
+y: 6
+}
+{
+type: ShapePart
+layer: 100
+progress: warmup
+rotateSpeed: -1
+sides: 3
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 3
+y: 6
+}
+{
+type: ShapePart
+layer: 100
+progress: recoil
+rotateSpeed: 3
+sides: 3
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 3
+y: 6
+}
 ]
 }
 

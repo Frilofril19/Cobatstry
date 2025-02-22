@@ -1,6 +1,6 @@
 type: "liquidTurret",
 name:"Hemix",
-description: "Turret that shoots acid at aerial targets and extinguishes fires",
+description: "The long-range turret fires a barrage of bullets at flying enemies, if charged with acid it will extinguish buildings",
 health: 82,
 size:1,
 research: "ion",
@@ -11,16 +11,16 @@ quarc/20
 canOverdrive: false
 targetAir: true,
 targetGround: false,
-reload: 100,
+reload: 20,
 range: 240,
-shoot: {shots: 9,
-shotDelay: 10,
+shoot: {shots: 1,
+shotDelay: 0,
 autoTarget: true
 },
 ammoPerShot: 20,
 rotateSpeed: 5,
-inaccuracy: 0,
-shootSound: shoot
+inaccuracy: 3,
+shootSound: "shootEho"
 ammoTypes:{ acid:{
 	type: "LiquidBulletType"
 	liquid: "acid"
@@ -32,8 +32,11 @@ ammoTypes:{ acid:{
 	hitSize: 15
 	drawSize: 150
 	trailLength: 25
+	knockback: 0.0
 } },
 category: "turret"
+
+shootY: -1.0
 
 drawer: {
 type: DrawTurret
@@ -41,59 +44,61 @@ basePrefix: regul-
 parts: [
 {
 type: RegionPart
-suffix: -side-r
+suffix: -r
 mirror: false
 under: false
 
 moveX: 1
 moveY: -1
-moveRot: 5
+moveRot: -25
 
 outline: true
 progress: warmup
 heatProgress: warmup
+children: [
+	{
+	type: RegionPart
+	suffix: -blade-r
+	mirror: false
+	under: true
+
+	moveX: 0
+	moveY: 1
+	moveRot: 25
+
+	outline: true
+	progress: warmup
+	}
+]
 }
 {
 type: RegionPart
-suffix: -side-l
+suffix: -l
 mirror: false
 under: false
 
 moveX: -1
 moveY: -1
-moveRot: -5
+moveRot: 25
 
 outline: true
 progress: warmup
 heatProgress: warmup
-}
-{
-type: RegionPart
-suffix: -side-cl
-mirror: false
-under: false
+children: [
+	{
+	type: RegionPart
+	suffix: -blade-l
+	mirror: false
+	under: true
 
-moveX: 0
-moveY: -1
-moveRot: 20
+	moveX: 0
+	moveY: 1
+	moveRot: -25
 
-outline: true
-progress: recoil
-heatProgress: warmup
-}
-{
-type: RegionPart
-suffix: -side-cr
-mirror: false
-under: false
-
-moveX: 0
-moveY: -1
-moveRot: -20
-
-outline: true
-progress: recoil
-heatProgress: warmup
+	outline: true
+	progress: warmup
+	}
+]
 }
 ]
 }

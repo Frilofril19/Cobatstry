@@ -1,6 +1,6 @@
 type: "ItemTurret",
-name: "Fog",
-description: "Turret that shoots lasers that slow down enemies",
+name: "Pulse",
+description: "Shoots explosive shells",
 health: 137,
 size: 2,
 research: "hemix",
@@ -19,17 +19,45 @@ cooldownTime: 60
 
 reload: 60,
 range: 100,
-shoot:{shots: 2,
-shotDelay: 0,
+shoot:{shots: 4,
+shotDelay: 5,
 autoTarget: true },
 rotateSpeed: 3,
 inaccuracy: 5,
-shootSound: shoot,
-ammoTypes:{selitra:{type:"LaserBulletType", damage:30, lifeTime:500, speed:0, length: 100, width: 7, sideLength: 5, sideAngle: 5, status: "frize_sus", 
-colors: [e39257, d0844d, bd743f]
+shootSound: "shootRoket",
+ammoTypes:{
+selitra:{
+	type:"FlakBulletType"
+	splashDamage: 12
+	damage: 12
+	speed: 3
+	recoil: 2
+	explodeRange: 35
+	ammoMultiplier: 10.0
+	collidesGround: true
+	collidesAir: true
+	trailLength: 20
+	trailWidth: 1
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
 },
-sulfur:{type:"LaserBulletType", damage:15, lifeTime:500, speed:0, length: 100, width: 7, sideLength: 5, sideAngle: 15, status: "frize_sus", 
-colors: [ecc34f, d9b245, c6a138]
+sulfur:{
+	type: "FlakBulletType"
+	splashDamage: 10
+	damage:10
+	recoil: 1
+	speed:2
+	explodeRange:20
+	ammoMultiplier: 5.0
+	collidesGround: true
+	collidesAir: true
+	trailLength: 20
+	trailWidth: 1
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+
 }, }
 
 drawer: {
@@ -38,12 +66,26 @@ basePrefix: regul-
 parts: [
 {
 type: RegionPart
-suffix: -center
+suffix: -r
 mirror: false
-under: false
+under: true
 
-moveX: 0
-moveY: -2
+moveX: 0.5
+moveY: -0.5
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+{
+type: RegionPart
+suffix: -l
+mirror: false
+under: true
+
+moveX: -0.5
+moveY: -0.5
 moveRot: 0
 
 outline: true

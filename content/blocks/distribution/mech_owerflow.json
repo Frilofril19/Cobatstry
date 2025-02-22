@@ -3,7 +3,7 @@ name: "Mechanical oversize hatch"
 description: "Moves resources to the front, if the front output is blocked, moves to free ones"
 health: 50
 size: 1
-research: "mech_router"
+research: "mech_junction"
 invert: false
 speed: 0.09
 requirements:[

@@ -8,4 +8,5 @@ cobalt/50
 kristalit/20
 ],
 itemCapacity: 500
-research: "mech_owerflow"
+research: "r_storage"
+category: "effect"

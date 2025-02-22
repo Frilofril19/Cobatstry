@@ -3,7 +3,7 @@ name: "Mechanical intersection"
 description: "Creates paths through ribbons without merging them"
 health: 25
 size: 1
-research: "mech_conveyor" 
+research: "mech_router" 
 researchCostMultiplier: 0.4
 speed: 0.1
 requirements: [

@@ -2,7 +2,7 @@ type: "MassDriver"
 name: "Mechanical catapult"
 description: "Shoots resources to another catapult, thereby transferring resources within its radius"
 health: 150
-size: 2
+size: 1
 research: {
 parent: "mech_bridge"
 objectives: [

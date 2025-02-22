@@ -3,7 +3,7 @@ name: "Support turret",
 description: "Heals robots within its radius",
 health: 200
 size: 1
-research: "large_heal_stantion"
+research: "flag"
 requirements: [
 cobalt/30
 kristalit/20

@@ -1,0 +1,21 @@
+type: "StorageBlock",
+name:"small resource storage station",
+description: "Saving resources, cannot connect to the kernel, use the mechanical loader to get the resources back"
+health: 50,
+size: 1
+requirements:[
+cobalt/50
+litiy/20
+],
+research: {
+parent: "mech_owerflow"
+objectives: [
+{
+type: onSector
+preset: "stone_deltas"
+}
+]
+}
+itemCapacity: 50
+category: "effect"
+coreMerge: false

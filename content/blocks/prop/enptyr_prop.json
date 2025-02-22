@@ -1,0 +1,5 @@
+type: Prop
+name: Емптір(блок)
+emitLight: false
+variants: 2
+breakSound: rock-crush

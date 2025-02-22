@@ -1,6 +1,6 @@
 type: "powerTurret"
 name: "Ion"
-description: "Electric turret that fires a barrage of lightning bolts with low damage"
+description: "Shoots lightning bolts in a small radius"
 health: 88
 size: 2
 research: "qwazar"
@@ -22,14 +22,14 @@ recoils: 5
 canOverdrive: true
 targetAir: true
 targetGround: true
-reload: 150
+reload: 10
 range: 70
-shoot:{shots: 5
+shoot:{shots: 1
 shotDelay: 10
 autoTarget: true }
 rotateSpeed: 5
-shootSound: shootAlt
-inaccuracy: 10
+shootSound: "shootCAlt"
+inaccuracy: 1
 shootType: {
 	type: "LightningBulletType"
 	lifetime: 100
@@ -45,7 +45,57 @@ type: DrawTurret
 basePrefix: regul-
 parts: [
 {
-type: Default
+type: RegionPart
+suffix: -c
+mirror: false
+under: false
+
+moveX: 0
+moveY: -3
+moveRot: 0
+
+outline: true
+progress: warmup
+heatProgress: warmup
+}
+{
+type: ShapePart
+layer: 100
+progress: warmup
+rotateSpeed: 0.7
+sides: 360
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 3.5
+y: -4
+}
+{
+type: ShapePart
+layer: 100
+progress: recoil
+rotateSpeed: 1
+sides: 3
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 3.5
+y: -4
+}
+{
+type: ShapePart
+layer: 100
+progress: recoil
+rotateSpeed: -1
+sides: 3
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 3.5
+y: -4
 }
 ]
 }

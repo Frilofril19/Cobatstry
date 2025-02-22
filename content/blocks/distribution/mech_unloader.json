@@ -3,10 +3,10 @@ name: "Mechanical loader"
 description: "Unloads buildings"
 health: 50
 size: 1
-research: "storage"
-speed: 0.01
+research: "r_storage"
+speed: 0.001
 requirements:[
-kristalit/15
+cobalt/15
 litiy/5
 ]
 connectedPower: false

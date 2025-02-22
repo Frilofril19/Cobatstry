@@ -20,7 +20,7 @@ shoot: {
 	}
 inaccuracy: 10
 reload: 40
-shootSound: "artillery"
+shootSound: "grantShoot"
 bullet:{ 
 	type:"MissileBulletType"
 	damage: 50

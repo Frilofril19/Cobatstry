@@ -3,10 +3,11 @@ name:"Mechanical bridge"
 description: "Transports resources over short distances"
 health: 37
 size:1
-research: "mech_router"
+research: "mech_junction"
 researchCostMultiplier: 0.4
 requirements:[
 cobalt/8
+litiy/1
 ],
 connectedPower: false
 consumesPower: false

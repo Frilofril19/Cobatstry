@@ -21,7 +21,7 @@ shoot: {
 	}
 inaccuracy: 25
 reload: 200
-shootSound: "cannon"
+shootSound: "shootRoket"
 bullet:{ 
 	type:"BasicBulletType"
 	scaledSplashDamage: true

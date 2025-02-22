@@ -24,7 +24,7 @@ shoot: {
 	}
 inaccuracy: 1
 reload: 40
-shootSound: "shoot"
+shootSound: "shootC"
 bullet:{ 
 	type:"MissileBulletType"
 	damage: 25

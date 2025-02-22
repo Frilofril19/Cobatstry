@@ -1,6 +1,6 @@
 type: "ItemTurret"
 name:"quantum"
-description: "Shoots bullets that split into fragmentation bullets"
+description: "Shoots bullets at ground enemiess"
 health:75
 size:1
 research: "core_fralion"
@@ -12,97 +12,73 @@ canOverdrive: false
 coolant: {
 type: ConsumeCoolant
 allowLiquid: true
-amount: 0.01
+amount: 0.08
 }
 targetAir: false
 targetGround: true
 reload: 150
-range: 90
+range: 120
 shoot:{shots:1
 shotDelay:150
 autoTarget: true }
 rotateSpeed: 5
-inaccuracy: 2
-shootSound: shoot
-ammoTypes:{cobalt:{
+inaccuracy: 1
+shootSound: "shootC"
+ammoTypes:{
+cobalt:{
 	type:"BasicBulletType"
 	damage:62
+	lifetime: 80
 	speed: 1.5
 	trailLength: 20
 	trailWidth: 1
+	ammoMultiplier: 1.0
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
-	delayFrags: true
-	fragSpread: 10
-	fragBullets: 2
-	fragOffsetMax: 1
-	fragVelocityMin: 0.5
-	fragVelocityMax: 0.5
-	fragRandomSpread:0
-	fragBullet: {type:"BasicBulletType"
-		damage:31
-		speed: 1.5
-		trailLength: 20
-		trailWidth: 1	
-		backColor: FFFFFF
-		trailColor: FFFFFF
-		frontColor: DBDBDB
 	},
-},
 litiy:{
 	type:"BasicBulletType"
-	damage:75
-	speed:1.5
+	damage:100
+	lifetime: 40
+	speed: 3
 	trailLength: 20
 	trailWidth: 1, 
+	ammoMultiplier: 1.0
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
-	delayFrags: true
-	fragSpread: 10
-	fragBullets: 3
-	fragOffsetMax: 1
-	fragVelocityMin: 0.5
-	fragVelocityMax: 0.5
-	fragRandomSpread:0
-	fragBullet: {type:"BasicBulletType"
-		damage:25
-		speed:1.5
-		trailLength: 20
-		trailWidth: 1
-		backColor: FFFFFF
-		trailColor: FFFFFF
-		frontColor: DBDBDB
 	},
-},
+kristalit:{
+	type:"MissileBulletType"
+	damage: 125
+	lifetime: 160
+	speed: 0.75
+	trailLength: 20
+	trailWidth: 2
+	ammoMultiplier: 4.0
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	},
 sulfur:{
-	type:"BasicBulletType"
-	damage:50
-	speed:1.5
+	type:"FlakBulletType"
+	explodeRange: 15
+	damage: 25
+	splashDamage: 37
+	scaledSplashDamage: true
+	lifetime: 80
+	speed: 1.5
+	collidesGround: true
+	collidesAir: true
 	trailLength: 20
 	trailWidth: 1
 	reloadMultiplier: 2.0
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
-	delayFrags: true
-	fragSpread: 90
-	fragBullets: 4
-	fragOffsetMax: 1
-	fragVelocityMin: 0.5
-	fragVelocityMax: 0.5
-	fragRandomSpread:0
-	fragBullet: {type:"BasicBulletType"
-		damage:13
-		speed:1.5
-		trailLength: 20
-		trailWidth: 1
-		backColor: FFFFFF
-		trailColor: FFFFFF
-		frontColor: DBDBDB
 	},
-},},
+},
 category: "turret",
 
 drawer: {
@@ -111,12 +87,26 @@ basePrefix: regul-
 parts: [
 {
 type: RegionPart
-suffix: -center
+suffix: -recoil
+mirror: false
+under: true
+
+moveX: 0
+moveY: -1
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+{
+type: RegionPart
+suffix: -c
 mirror: false
 under: false
 
 moveX: 0
-moveY: -4
+moveY: -2
 moveRot: 0
 
 outline: true
@@ -125,13 +115,13 @@ heatProgress: warmup
 }
 {
 type: RegionPart
-suffix: -side-r
+suffix: -r
 mirror: false
-under: false
+under: true
 
 moveX: 1
-moveY: -3
-moveRot: 20
+moveY: -1
+moveRot: 15
 
 outline: true
 progress: warmup
@@ -139,13 +129,13 @@ heatProgress: warmup
 }
 {
 type: RegionPart
-suffix: -side-l
+suffix: -l
 mirror: false
-under: false
+under: true
 
 moveX: -1
-moveY: -3
-moveRot: -20
+moveY: -1
+moveRot: -15
 
 outline: true
 progress: warmup

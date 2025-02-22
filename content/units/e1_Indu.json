@@ -20,7 +20,7 @@ shoot: {
 	}
 inaccuracy: 0
 reload: 0
-shootSound: "cannon"
+shootSound: "shootRoket"
 bullet:{ 
 	type:"BombBulletType"
 	splashDamage: 10
