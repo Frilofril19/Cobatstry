@@ -18,35 +18,119 @@ targetAir: true
 targetGround: true
 reload: 50
 range: 200
-shoot:{shots:5
-shotDelay:2.5
-autoTarget: true }
 rotateSpeed: 5
 inaccuracy: 15
 shootSound: "shootC"
-ammoTypes:{quarc:{
+shoot:{
+	shots:5
+	shotDelay:2.5
+	autoTarget: true 
+}
+shootEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 6
+	cone: 10 //Градуси
+	}
+	]
+}
+ammoTypes:{
+	quarc:{
 	type:"BasicBulletType"
 	damage: 15
 	speed: 6
 	ammoMultiplier: 2.0
+	buildingDamageMultiplier: 0.5
+
+	weaveMag: 2
+	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
-	buildingDamageMultiplier: 0.5
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 6
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 9
+		cone: 360 //Градуси
+		}
+		]
+	}
 },
 kristalit:{
 	type:"MissileBulletType"
 	damage: 10
 	speed:5
 	ammoMultiplier: 4.0
+	buildingDamageMultiplier: 0.5
+
+	weaveMag: 2
+	weaveScale: 4
 	trailLength: 20
 	trailWidth: 2
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
-	buildingDamageMultiplier: 0.5
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 8
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 10
+		cone: 360 //Градуси
+		}
+		]
+	}
 },
 sulfur:{
 	type:"FlakBulletType"
@@ -55,14 +139,39 @@ sulfur:{
 	splashDamage:10
 	speed:5
 	ammoMultiplier: 4.0
+	buildingDamageMultiplier: 0.5
 	collidesGround: true
 	collidesAir: true
+
+	weaveMag: 2
+	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
-	buildingDamageMultiplier: 0.5,
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
 },
 selitra:{
 	type:"FlakBulletType"
@@ -71,14 +180,39 @@ selitra:{
 	splashDamage:10
 	speed:5
 	ammoMultiplier: 8.0
+	buildingDamageMultiplier: 0.5
 	collidesGround: true
 	collidesAir: true
+
+	weaveMag: 2
+	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
-	trailColor: FFFFFF,
+	trailColor: FFFFFF
 	frontColor: DBDBDB
-	buildingDamageMultiplier: 0.5, 
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
 },},
 category: "turret"
 

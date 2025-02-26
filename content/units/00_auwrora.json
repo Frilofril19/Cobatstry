@@ -17,24 +17,71 @@ weapons: [{
 x: 0
 y: 1
 rotate: false,
+inaccuracy: 1
+reload: 40
+shootSound: "grantShoot"
 shoot: {
 	shots: 1
 	shotDelay: 0
 	autoTarget: true,
 	}
-inaccuracy: 1
-reload: 40
-shootSound: "shootC"
+ejectEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 6
+	cone: 5 //Градуси
+	}
+	]
+}
 bullet:{ 
 	type:"MissileBulletType"
 	damage: 25
-	lifetime: 100
 	speed: 2 
+
+	weaveMag: 2
+	weaveScale: 4
 	trailLength: 15
 	trailWidth: 2
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 8
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 10
+		cone: 360 //Градуси
+		}
+		]
+	}
 	} 
 } 
 ]

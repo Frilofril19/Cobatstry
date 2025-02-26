@@ -18,48 +18,164 @@ targetAir: false
 targetGround: true
 reload: 150
 range: 120
-shoot:{shots:1
-shotDelay:150
-autoTarget: true }
 rotateSpeed: 5
 inaccuracy: 1
 shootSound: "shootC"
+shoot:{
+	shots:1
+	shotDelay:150
+	autoTarget: true 
+}
+shootEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 3
+	cone: 0 //Градуси
+	}
+	]
+}
 ammoTypes:{
 cobalt:{
 	type:"BasicBulletType"
 	damage:62
 	lifetime: 80
 	speed: 1.5
+	ammoMultiplier: 1.0
+
+	weaveMag: 2
+	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
-	ammoMultiplier: 1.0
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 6
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 9
+		cone: 360 //Градуси
+		}
+		]
+	}
 	},
 litiy:{
 	type:"BasicBulletType"
 	damage:100
 	lifetime: 40
 	speed: 3
+	ammoMultiplier: 1.0
+
+	weaveMag: 2
+	weaveScale: 6
 	trailLength: 20
 	trailWidth: 1, 
-	ammoMultiplier: 1.0
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 6
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 9
+		cone: 360 //Градуси
+		}
+		]
+	}
 	},
 kristalit:{
 	type:"MissileBulletType"
 	damage: 125
 	lifetime: 160
 	speed: 0.75
+	ammoMultiplier: 4.0
+
+	weaveMag: 1
+	weaveScale: 2
 	trailLength: 20
 	trailWidth: 2
-	ammoMultiplier: 4.0
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 8
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 10
+		cone: 360 //Градуси
+		}
+		]
+	}
 	},
 sulfur:{
 	type:"FlakBulletType"
@@ -69,14 +185,40 @@ sulfur:{
 	scaledSplashDamage: true
 	lifetime: 80
 	speed: 1.5
+	reloadMultiplier: 2.0
 	collidesGround: true
 	collidesAir: true
+
+	weaveMag: 2
+	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
-	reloadMultiplier: 2.0
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
 	},
 },
 category: "turret",

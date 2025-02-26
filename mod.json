@@ -10,8 +10,8 @@ Available languages:
 --Ua
 --ru
 "
-version: "V0.7"
-subtitle: "V0.7 Alfa!"
+version: "V0.7.1"
+subtitle: "V0.7.1 Alfa!"
 minGameVersion: "146"
 dependencies: [ ]
 hidden: false

@@ -15,13 +15,16 @@ unitType: "00_auwrora"
 
 hasItems: true
 hasColor: true
+hidden: true
 
 isFirstTier: true
 alwaysUnlocked: true
+category: "effect"
 
 research: {
 root: true
 name: Fralion
 planet: fralion
+requiresUnlock: false
 }
 

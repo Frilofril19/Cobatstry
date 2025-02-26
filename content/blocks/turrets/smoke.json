@@ -19,12 +19,37 @@ cooldownTime: 60
 
 reload: 60,
 range: 100,
-shoot:{shots: 4,
-shotDelay: 5,
-autoTarget: true },
 rotateSpeed: 3,
 inaccuracy: 5,
 shootSound: "shootRoket",
+shoot:{shots: 4,
+shotDelay: 5,
+autoTarget: true },
+shootEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 3
+	cone: 5 //Градуси
+	}
+	{
+	type: ExplosionEffect
+	waveColor: FFFFFF
+	smokeColor: FFFFFF
+	sparkColor: FFFFFF
+	waveLife: 0
+	smokeSize: 2
+	smokes: 3
+	sparks: 10
+	}
+	]
+}
 ammoTypes:{
 selitra:{
 	type:"FlakBulletType"
@@ -36,11 +61,37 @@ selitra:{
 	ammoMultiplier: 10.0
 	collidesGround: true
 	collidesAir: true
+
+	weaveMag: 2
+	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
+
 },
 sulfur:{
 	type: "FlakBulletType"
@@ -52,12 +103,36 @@ sulfur:{
 	ammoMultiplier: 5.0
 	collidesGround: true
 	collidesAir: true
+
+	weaveMag: 2
+	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
-
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
 }, }
 
 drawer: {

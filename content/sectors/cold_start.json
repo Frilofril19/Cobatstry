@@ -2,12 +2,8 @@ Name: "Cold start"
 description: ""
 captureWave: 10
 difficulty: 1
-transportcost:{
-item:[{item: "cobalt" amount: 300}]
-}
 alwaysUnlocked: true
-useAI: "true"
-planet: "fralion"
+planet: fralion
 sector: 1
 
 research: "core_fralion"

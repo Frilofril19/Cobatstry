@@ -24,13 +24,11 @@ reload: 0
 shootSound: "shootRoket"
 shootOnDeath: true
 bullet:{ 
-	type:"BombBulletType"
+	type:"ExplosionBulletType"
 	scaledSplashDamage: true
 	damage: 100
 	splashDamage: 100
 	splashDamageRadius: 60
-	lifetime: 10
-	speed: 1
 	killShooter: true
 	instantDisappear: true
 	delayFrags: true
@@ -49,6 +47,17 @@ bullet:{
 		lifetime: 100
 		speed: 1
 	} 
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
 	} 
 } 
 ]

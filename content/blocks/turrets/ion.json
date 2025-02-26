@@ -24,12 +24,27 @@ targetAir: true
 targetGround: true
 reload: 10
 range: 70
-shoot:{shots: 1
-shotDelay: 10
-autoTarget: true }
 rotateSpeed: 5
 shootSound: "shootCAlt"
 inaccuracy: 1
+shoot:{shots: 1
+shotDelay: 10
+autoTarget: true }
+shootEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 3
+	cone: 0 //Градуси
+	}
+	]
+}
 shootType: {
 	type: "LightningBulletType"
 	lifetime: 100

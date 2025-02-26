@@ -3,6 +3,7 @@ name:"small resource storage station",
 description: "Saving resources, cannot connect to the kernel, use the mechanical loader to get the resources back"
 health: 50,
 size: 1
+squareSprite: false
 requirements:[
 cobalt/50
 litiy/20

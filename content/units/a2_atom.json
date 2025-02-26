@@ -13,42 +13,92 @@ x: 5
 y: -5
 rotate: true
 mirror: true
+inaccuracy: 3
+reload: 30
+shootSound: "shootC"
 shoot: {
 	shots: 1
 	shotDelay: 0
 	autoTarget: true
 	}
-inaccuracy: 3
-reload: 30
-shootSound: "shootC"
 bullet:{ 
 	type:"BasicBulletType"
 	damage: 25
 	speed: 3
+
+	weaveMag: 2
+	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
-	} 
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 6
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 9
+		cone: 360 //Градуси
+		}
+		]
+	}
 } 
+}
+
 {
 x: 0
 y: 3
 rotate: true
-mirror: falwe
+mirror: false
+inaccuracy: 3
+reload: 150
+shootSound: "shootCAlt"
 shoot: {
 	shots: 1
 	shotDelay: 0
 	autoTarget: true
 	}
-inaccuracy: 3
-reload: 150
-shootSound: "shootCAlt"
+ejectEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 6
+	cone: 10 //Градуси
+	}
+	]
+}
 bullet:{ 
 	type:"BasicBulletType"
 	damage: 25
 	speed: 1
+
 	trailLength: 20
 	trailWidth: 1
 	delayFrags: true
@@ -65,7 +115,6 @@ bullet:{
 		trailLength: 20
 		trailWidth: 1	
 	},
-
 	} 
 } 
 ]

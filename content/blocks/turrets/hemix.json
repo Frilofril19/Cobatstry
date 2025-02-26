@@ -13,26 +13,29 @@ targetAir: true,
 targetGround: false,
 reload: 20,
 range: 240,
-shoot: {shots: 1,
-shotDelay: 0,
-autoTarget: true
-},
 ammoPerShot: 20,
 rotateSpeed: 5,
 inaccuracy: 3,
 shootSound: "shootEho"
+shoot: {shots: 1,
+shotDelay: 0,
+autoTarget: true
+},
 ammoTypes:{ acid:{
 	type: "LiquidBulletType"
 	liquid: "acid"
-	damage: 12
+	damage: 6
 	lifeTime: 5000
 	speed: 7
+	knockback: 0.0
+
+	weaveMag: 4
+	weaveScale: 2
 	hitColor: a0c6a0
 	trailColor: a0c6a0
 	hitSize: 15
 	drawSize: 150
 	trailLength: 25
-	knockback: 0.0
 } },
 category: "turret"
 

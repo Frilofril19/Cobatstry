@@ -14,14 +14,29 @@ x: 0
 y: 0
 rotate: true
 mirror:false
+inaccuracy: 25
+reload: 200
+shootSound: "shootRoket"
 shoot: {
 	shots: 5
 	shotDelay: 5
 	autoTarget: true
 	}
-inaccuracy: 25
-reload: 200
-shootSound: "shootRoket"
+ejectEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 9
+	cone: 20 //Градуси
+	}
+	]
+}
 bullet:{ 
 	type:"BasicBulletType"
 	scaledSplashDamage: true
@@ -29,12 +44,45 @@ bullet:{
 	splashDamage: 25
 	splashDamageRadius: 10
 	speed: 2
+	recoil: 2
+
+	weaveMag: 2
+	weaveScale: 4
 	trailLength: 15
 	trailWidth: 1
-	recoil: 2
 	backColor: FFFFFF
 	trailColor: FFFFFF
 	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 6
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 9
+		cone: 360 //Градуси
+		}
+		]
+	}
 	} 
 } 
 ]
