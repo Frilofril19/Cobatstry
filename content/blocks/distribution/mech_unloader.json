@@ -1,0 +1,15 @@
+type: "Unloader"
+name: "Mechanical loader"
+description: "Unloads buildings"
+health: 50
+size: 1
+research: "r_storage"
+speed: 30
+requirements:[
+cobalt/15
+litiy/5
+]
+connectedPower: false
+consumesPower: false
+category: "effect"
+

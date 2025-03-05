@@ -1,0 +1,65 @@
+type: tank
+name: "inter"
+description: "I don't think I need to say what a kamikaze tank does."
+health: 100
+speed: 1.5
+hitSize: 5
+flying: false
+faceTarget: true
+research: "exp_construktor"
+crashDamageMultiplier: 5
+crushDamage: 100
+weapons: [{
+x: 0
+y: 0
+rotate: false
+mirror: false
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true
+	}
+inaccuracy: 0
+reload: 0
+shootSound: "shootRoket"
+shootOnDeath: true
+bullet:{ 
+	type:"ExplosionBulletType"
+	scaledSplashDamage: true
+	damage: 100
+	splashDamage: 100
+	splashDamageRadius: 60
+	killShooter: true
+	instantDisappear: true
+	delayFrags: true
+	fragSpread: 0
+	fragBullets: 4
+	fragOffsetMax: 1 
+	fragVelocityMin: 0.5
+	fragVelocityMax: 1 
+	fragAngle: 30
+	fragRandomSpread: 360,
+	fragBullet: { 
+		scaledSplashDamage: true
+		type:"BombBulletType"
+		splashDamage: 100
+		splashDamageRadius: 10
+		lifetime: 100
+		speed: 1
+	} 
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	} 
+} 
+]
+abilities: [
+	]

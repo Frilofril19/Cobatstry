@@ -1,0 +1,49 @@
+type: "MassDriver"
+name: "Mechanical catapult"
+description: "Shoots resources to another catapult, thereby transferring resources within its radius"
+health: 150
+size: 1
+research: {
+parent: "litiy_conveyor"
+objectives: [
+{
+type: onSector
+preset: "Unlok_driwer"
+}
+]
+}
+requirements:[
+litiy/10
+kristalit/25
+]
+connectedPower: false
+consumesPower: false
+category: "distribution"
+range: 200
+rotateSpeed: 20
+translation: 21
+minDistribute: 1
+knockback: 1
+reload: 45
+bulletSpeed: 10
+shake: 0
+
+shootSound: "shootLong"
+shootEffect: none
+smokeEffect: none
+receiveEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ExplosionEffect
+	waveColor: FFFFFF
+	smokeColor: FFFFFF
+	sparkColor: FFFFFF
+	smokes: 0
+	sparks: 5
+	}
+	]
+}
+
+
+

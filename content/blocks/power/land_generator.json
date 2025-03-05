@@ -1,0 +1,60 @@
+type: "ThermalGenerator"
+name: "Soil generator"
+description: "It produces energy using the unique internal processes of the local soils."
+health: 75
+size: 2
+squareSprite: false
+research: {
+parent: "galvanic_reaktor"
+objectives: [
+{
+type: onSector
+preset: "miceliy_moth"
+}
+]
+}
+requirements: [
+cobalt/25
+magnetit/15
+]
+hasPower: true
+hasItems: true
+outputsPower: true
+
+attribute: heat
+powerProduction: 0.417
+
+category: "power"
+hasShadow: false
+
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawGlowRegion
+suffix: -glow
+color: f8c166
+}
+{
+type: DrawRegion
+suffix: -rim
+layer: 3
+}
+{
+type: DrawRegion
+suffix: -base
+layer: 1
+}
+{
+type: DrawRegion
+suffix: -light
+layer: 2
+}
+{
+type: DrawRegion
+suffix: -rotator
+rotateSpeed: 15
+layer: 2
+}
+]
+}

@@ -1,0 +1,26 @@
+type: "CoreBlock",
+name:"Building module",
+description: "A kernel module that extends it and adds new functionality in the form of the ability to build 1 drone builder"
+health: 250,
+size: 2
+squareSprite: false
+requirements:[
+cobalt/1000
+litiy/1500
+kristalit/500
+galiy/750
+],
+buildCost: 3600
+itemCapacity: 500
+unitCapModifier: 0
+unitType: "01_arha"
+
+hasItems: true
+hasColor: true
+hidden: true
+
+isFirstTier: true
+alwaysUnlocked: true
+category: "effect"
+
+research: core_fralion

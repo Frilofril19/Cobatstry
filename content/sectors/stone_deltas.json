@@ -1,0 +1,13 @@
+captureWave: 15
+difficulty: 2
+planet: "fralion"
+sector: 3
+research: {
+parent: "lost_karier"
+objectives: [
+{
+type: SectorComplete
+preset: "lost_karier"
+}
+]
+}

@@ -1,0 +1,13 @@
+captureWave: 20
+difficulty: 6
+planet: "fralion"
+sector: 7
+research: {
+parent: "miceliy_moth"
+objectives: [
+{
+type: SectorComplete
+preset: "miceliy_moth"
+}
+]
+}

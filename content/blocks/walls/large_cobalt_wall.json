@@ -1,0 +1,13 @@
+type: "wall",
+name: "Large Cobalt Wall",
+description: "Protects structures from enemy shells",
+health: 350,
+size: 2,
+research: "cobalt_wall"
+researchCostMultiplier: 0.4
+requirements: [
+cobalt/25
+],
+flashHit: true,
+chanceDeflect: 0,
+category: "defense",

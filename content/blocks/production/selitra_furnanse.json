@@ -1,0 +1,53 @@
+type: "GenericCrafter"
+name: "Saltpeter double furnace"
+description: "Mixes sulfur, quartz, and acid to make saltpeter"
+"health": 200
+"size":3,
+research: "galiy_furnanse"
+requirements:[
+kristalit/25
+litiy/20
+galiy/15
+],
+squareSprite: false,
+hasPower: false,
+hasitem: true,
+hasliquids: true,
+craftTime: 125
+consumes:{
+power: 1.5
+liquids:[
+acid/1
+]
+items: [
+quarc/1
+sulfur/1
+]
+}
+updateEffect: "drillSteam"
+category: "crafting"
+idleSoundVolume: 0.5
+itemCapacity: 35
+liquidCapacity: 65
+outputItem: selitra/3
+
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawDefault
+}
+{
+type: DrawFlame
+flameRadius: 1
+flameRadiusIn: 0.4
+flameRadiusScl: 1.5
+flameRadiusMag: 0.5
+flameRadiusInMag: 0.5
+}
+{
+type: DrawCrucibleFlame
+}
+]
+}
+

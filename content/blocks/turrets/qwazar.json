@@ -1,0 +1,287 @@
+type: "ItemTurret"
+name:"quantum"
+description: "Shoots bullets at ground enemiess"
+health:75
+size:1
+research: "core_fralion"
+researchCostMultiplier: 0.4
+requirements:[
+cobalt/30
+]
+canOverdrive: false
+coolant: {
+type: ConsumeCoolant
+allowLiquid: true
+amount: 0.08
+}
+targetAir: false
+targetGround: true
+reload: 150
+range: 120
+rotateSpeed: 5
+inaccuracy: 1
+shootSound: "shootC"
+shoot:{
+	shots:1
+	shotDelay:150
+	autoTarget: true 
+}
+shootEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 3
+	cone: 0 //Градуси
+	}
+	]
+}
+ammoTypes:{
+cobalt:{
+	type:"BasicBulletType"
+	damage:62
+	lifetime: 80
+	speed: 1.5
+	ammoMultiplier: 1.0
+
+	weaveMag: 2
+	weaveScale: 4
+	trailLength: 20
+	trailWidth: 1
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 6
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 9
+		cone: 360 //Градуси
+		}
+		]
+	}
+	},
+litiy:{
+	type:"BasicBulletType"
+	damage:100
+	lifetime: 40
+	speed: 3
+	ammoMultiplier: 1.0
+
+	weaveMag: 2
+	weaveScale: 6
+	trailLength: 20
+	trailWidth: 1, 
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 6
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 9
+		cone: 360 //Градуси
+		}
+		]
+	}
+	},
+kristalit:{
+	type:"MissileBulletType"
+	damage: 125
+	lifetime: 160
+	speed: 0.75
+	ammoMultiplier: 4.0
+
+	weaveMag: 1
+	weaveScale: 2
+	trailLength: 20
+	trailWidth: 2
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 8
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 10
+		cone: 360 //Градуси
+		}
+		]
+	}
+	},
+sulfur:{
+	type:"FlakBulletType"
+	explodeRange: 15
+	damage: 25
+	splashDamage: 37
+	scaledSplashDamage: true
+	lifetime: 80
+	speed: 1.5
+	reloadMultiplier: 2.0
+	collidesGround: true
+	collidesAir: true
+
+	weaveMag: 2
+	weaveScale: 4
+	trailLength: 20
+	trailWidth: 1
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	},
+},
+category: "turret",
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+{
+type: RegionPart
+suffix: -recoil
+mirror: false
+under: true
+
+moveX: 0
+moveY: -1
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+{
+type: RegionPart
+suffix: -c
+mirror: false
+under: false
+
+moveX: 0
+moveY: -2
+moveRot: 0
+
+outline: true
+progress: warmup
+heatProgress: warmup
+}
+{
+type: RegionPart
+suffix: -r
+mirror: false
+under: true
+
+moveX: 1
+moveY: -1
+moveRot: 15
+
+outline: true
+progress: warmup
+heatProgress: warmup
+}
+{
+type: RegionPart
+suffix: -l
+mirror: false
+under: true
+
+moveX: -1
+moveY: -1
+moveRot: -15
+
+outline: true
+progress: warmup
+heatProgress: warmup
+}
+]
+}

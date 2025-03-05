@@ -1,0 +1,107 @@
+type: "liquidTurret",
+name:"Theta",
+description: "The long-range turret fires a barrage of bullets at flying enemies, if charged with acid it will extinguish buildings",
+health: 82,
+size:1,
+research: "ion",
+requirements:[
+litiy/30
+quarc/20
+],
+canOverdrive: false
+targetAir: true,
+targetGround: false,
+reload: 20,
+range: 240,
+ammoPerShot: 20,
+rotateSpeed: 5,
+inaccuracy: 3,
+shootSound: "shootEho"
+shoot: {shots: 1,
+shotDelay: 0,
+autoTarget: true
+},
+ammoTypes:{ acid:{
+	type: "LiquidBulletType"
+	liquid: "acid"
+	damage: 6
+	lifeTime: 5000
+	speed: 7
+	knockback: 0.0
+
+	weaveMag: 4
+	weaveScale: 2
+	hitColor: a0c6a0
+	trailColor: a0c6a0
+	hitSize: 15
+	drawSize: 150
+	trailLength: 25
+} },
+category: "turret"
+
+shootY: -1.0
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+{
+type: RegionPart
+suffix: -r
+mirror: false
+under: false
+
+moveX: 1
+moveY: -1
+moveRot: -25
+
+outline: true
+progress: warmup
+heatProgress: warmup
+children: [
+	{
+	type: RegionPart
+	suffix: -blade-r
+	mirror: false
+	under: true
+
+	moveX: 0
+	moveY: 1
+	moveRot: 25
+
+	outline: true
+	progress: warmup
+	}
+]
+}
+{
+type: RegionPart
+suffix: -l
+mirror: false
+under: false
+
+moveX: -1
+moveY: -1
+moveRot: 25
+
+outline: true
+progress: warmup
+heatProgress: warmup
+children: [
+	{
+	type: RegionPart
+	suffix: -blade-l
+	mirror: false
+	under: true
+
+	moveX: 0
+	moveY: 1
+	moveRot: -25
+
+	outline: true
+	progress: warmup
+	}
+]
+}
+]
+}

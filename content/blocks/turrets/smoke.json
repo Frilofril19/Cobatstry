@@ -1,0 +1,171 @@
+type: "ItemTurret",
+name: "Pulse",
+description: "Shoots explosive shells",
+health: 137,
+size: 2,
+research: "hemix",
+category: "turret",
+requirements:[
+galiy/5
+quarc/25
+litiy/30
+],
+canOverdrive: false
+targetAir: true,
+targetGround: true,
+
+recoilTime: 60
+cooldownTime: 60
+
+reload: 60,
+range: 100,
+rotateSpeed: 3,
+inaccuracy: 5,
+shootSound: "shootRoket",
+shoot:{shots: 4,
+shotDelay: 5,
+autoTarget: true },
+shootEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 3
+	cone: 5 //Градуси
+	}
+	{
+	type: ExplosionEffect
+	waveColor: FFFFFF
+	smokeColor: FFFFFF
+	sparkColor: FFFFFF
+	waveLife: 0
+	smokeSize: 2
+	smokes: 3
+	sparks: 10
+	}
+	]
+}
+ammoTypes:{
+selitra:{
+	type:"FlakBulletType"
+	splashDamage: 12
+	damage: 12
+	speed: 3
+	recoil: 2
+	explodeRange: 35
+	ammoMultiplier: 10.0
+	collidesGround: true
+	collidesAir: true
+
+	weaveMag: 2
+	weaveScale: 4
+	trailLength: 20
+	trailWidth: 1
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
+
+},
+sulfur:{
+	type: "FlakBulletType"
+	splashDamage: 10
+	damage:10
+	recoil: 1
+	speed:2
+	explodeRange:20
+	ammoMultiplier: 5.0
+	collidesGround: true
+	collidesAir: true
+
+	weaveMag: 2
+	weaveScale: 4
+	trailLength: 20
+	trailWidth: 1
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: FFFFFF
+		sparkColor: FFFFFF
+		}
+		]
+	}
+}, }
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+{
+type: RegionPart
+suffix: -r
+mirror: false
+under: true
+
+moveX: 0.5
+moveY: -0.5
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+{
+type: RegionPart
+suffix: -l
+mirror: false
+under: true
+
+moveX: -0.5
+moveY: -0.5
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+]
+}

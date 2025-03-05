@@ -1,0 +1,17 @@
+name: Dash
+speedMultiplier: 5.0
+effect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: ddec48
+	colorTo: b9c639
+	sizeFrom: 0.5
+	sizeTo: 0
+	particles: 9
+	length: 0
+	cone: 360 //Градуси
+	}
+	]
+}

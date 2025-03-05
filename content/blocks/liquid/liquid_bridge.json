@@ -1,0 +1,15 @@
+type: "LiquidBridge"
+name:"Path bridge"
+description: "Moves resources over structures"
+health: 50
+size:1
+squareSprite: false
+range: 3
+arrowSpacing: 8
+requirements:[
+quarc/8
+]
+connectedPower: false
+consumesPower: false
+category: "liquid"
+research: "liquid_router"

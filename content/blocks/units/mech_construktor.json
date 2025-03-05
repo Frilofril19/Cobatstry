@@ -1,0 +1,42 @@
+type: "UnitFactory",
+name: "Mechanical designer",
+description: "Produces robots",
+health: 150,
+size: 3,
+squareSprite: false
+research: "flag"
+requirements: [
+litiy/40
+cobalt/30
+kristalit/35
+],
+consumes: {
+power: 1
+}
+plans: [
+	{
+	unit: a1_quark
+	requirements: [
+		cobalt/30
+		kristalit/45
+		]
+	time: 900
+	}
+	{
+	unit: b1_vector
+	requirements: [
+		litiy/25
+		kristalit/45
+		]
+	time: 1200
+	}
+	{
+	unit: c1_primum
+	requirements: [
+		magnetit/40
+		kristalit/45
+		]
+	time: 2400
+	}
+]
+category: "units",

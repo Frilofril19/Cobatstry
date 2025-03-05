@@ -1,0 +1,96 @@
+type: flying
+name: "Sekundo"
+description: "A flying ship that creates primum-type drones on the go"
+health: 400
+speed: 0.4
+hitSize: 10
+flying: true
+faceTarget: true
+trailLength: 5
+research: "c1_primum"
+weapons: [{
+x: 0
+y: 0
+rotate: false
+mirror: false
+inaccuracy: 10
+reload: 40
+shootSound: "grantShoot"
+shootStatus: "unmoving"
+shootStatusDuration: 60
+shoot: {
+	shots: 2
+	shotDelay: 15
+	autoTarget: true
+	}
+ejectEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 9
+	length: 40
+	cone: 10 //Градуси
+	}
+	]
+}
+
+bullet:{ 
+	type:"MissileBulletType"
+	damage: 50
+	speed: 2
+
+	weaveMag: 2
+	weaveScale: 4
+	trailLength: 20
+	trailWidth: 2
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 8
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 10
+		cone: 360 //Градуси
+		}
+		]
+	}
+
+	} 
+} 
+]
+
+abilities: [
+{
+	"type": "UnitSpawnAbility",
+	unit: "c1_primum"
+	spawnTime: 900
+	}
+]
