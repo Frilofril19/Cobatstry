@@ -20,7 +20,14 @@ hasColor: true
 hidden: true
 
 isFirstTier: true
-alwaysUnlocked: true
 category: "effect"
 
-research: core_fralion
+research: {
+parent: "core_fralion"
+objectives: [
+{
+type: onSector
+preset: "miceliy_moth"
+}
+]
+}

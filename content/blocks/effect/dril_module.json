@@ -20,7 +20,6 @@ hasColor: true
 hidden: true
 
 isFirstTier: true
-alwaysUnlocked: true
 category: "effect"
 
 research: build_module
