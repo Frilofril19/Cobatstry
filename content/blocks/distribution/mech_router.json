@@ -1,5 +1,5 @@
 type: "Router"
-name: "Mechanical router"
+name: "Tape router"
 description: "Allocates resources"
 health:25
 size:1

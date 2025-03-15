@@ -1,7 +1,7 @@
 captureWave: 15
 difficulty: 2
 planet: "fralion"
-sector: 3
+sector: 5
 research: {
 parent: "lost_karier"
 objectives: [

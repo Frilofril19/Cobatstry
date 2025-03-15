@@ -28,6 +28,7 @@ ammoTypes:{ acid:{
 	lifeTime: 5000
 	speed: 7
 	knockback: 0.0
+	status: "with_acid"
 
 	weaveMag: 4
 	weaveScale: 2

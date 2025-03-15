@@ -1,5 +1,5 @@
 type: Prop
-name: Машліон(блок)
+name: Mashlion block
 emitLight: true
 lightRadius: 50
 albedo:50

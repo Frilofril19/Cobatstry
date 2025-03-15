@@ -2,7 +2,7 @@ type: "GenericCrafter"
 name: "Acid mixer"
 description: "Converts lithium to acid"
 "health": 100
-"size":3
+"size": 1
 research: "magnetit_furnanse"
 requirements:[
 cobalt/60
@@ -26,19 +26,5 @@ updateEffect: "reactorsmoke"
 category: "crafting"
 idleSoundVolume: 0.5
 itemCapacity: 30
-liquidCapacity: 30
+liquidCapacity: 400
 outputLiquid: acid/3
-
-drawer: {
-type: DrawMulti
-drawers: [
-{
-type: DrawLiquidRegion
-drawLiquid: acid
-}
-{
-type: DrawDefault
-}
-]
-}
-

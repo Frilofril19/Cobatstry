@@ -1,7 +1,7 @@
 captureWave: 10
 difficulty: 1
 planet: "fralion"
-sector: 2
+sector: 3
 research: {
 parent: "cold_start"
 objectives: [

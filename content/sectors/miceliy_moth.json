@@ -1,7 +1,7 @@
 captureWave: 15
 difficulty: 6
 planet: "fralion"
-sector: 6
+sector: 11
 research: {
 parent: "galtanis"
 objectives: [

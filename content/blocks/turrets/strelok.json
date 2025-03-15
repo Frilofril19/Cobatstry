@@ -29,7 +29,7 @@ shotDelay: 10
 autoTarget: true }
 shootType:{
 	type:"MissileBulletType"
-	damage:37
+	damage:15
 	lifeTime:1500
 	speed:5
 	pierce: true
@@ -41,7 +41,7 @@ shootType:{
 	intervalAngle: 90
 	intervalBullet: {
 		type:"LightningBulletType"
-		damage: 3
+		damage: 1
 		lifeTime:1
 		speed:1
 		lightningLength: 5

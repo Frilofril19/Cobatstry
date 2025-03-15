@@ -1,5 +1,5 @@
 type: "junction"
-name: "Mechanical intersection"
+name: "Tape crossroads"
 description: "Creates paths through ribbons without merging them"
 health: 25
 size: 1

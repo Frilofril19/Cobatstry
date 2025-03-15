@@ -1,5 +1,5 @@
 type: "OverflowGate"
-name: "Mechanical oversize hatch"
+name: "Oversize hatch"
 description: "Moves resources to the front, if the front output is blocked, moves to free ones"
 health: 50
 size: 1

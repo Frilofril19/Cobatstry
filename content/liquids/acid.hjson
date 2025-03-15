@@ -6,4 +6,4 @@ temperature: 0
 heatCapacity: 0.5
 viscosity: 0.5
 alwaysUnlocked: false
-research: quarc
+research: "cobalt"

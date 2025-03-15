@@ -1,7 +1,7 @@
 type: "CoreBlock",
 name:"Command core",
 description: "The core of your base. Can store a small amount of resources and fly around sectors of the planet. When destroyed, all contacts on and with the sector are cut off, do not let this happen"
-health: 500,
+health: 1500,
 size: 4
 squareSprite: false
 requirements:[

@@ -1,17 +1,15 @@
 name: "cobatstry"
 displayName: "Cobatstry"
 author: "FriloFril"
-description: "New campaign on a new planet - Fralion, a cold hell filled with new resources and enemies.
----
-Remember that the mod is still in development and everything can change
+description: "A new independent company on the planet - Fralion, a cold hell that complements the game with new resources, enemies, buildings and not-so-great mechanics that you will definitely like.
 ---
 Available languages:
 --Eng
 --Ua
 --ru
 "
-version: "V0.8"
-subtitle: "V0.8 Alfa!"
+version: "V0.8.1"
+subtitle: "V0.8.1 Alfa!"
 minGameVersion: "146"
 dependencies: [ ]
 hidden: false

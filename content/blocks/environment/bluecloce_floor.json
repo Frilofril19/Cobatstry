@@ -1,5 +1,5 @@
 type: Floor
-name: Машліон
+name: Mashlion
 emitLight: true
 lightRadius: 35
 albedo: 60

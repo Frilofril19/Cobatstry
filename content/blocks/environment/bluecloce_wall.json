@@ -1,5 +1,5 @@
 type: StaticWall
-name: Машліон(стіна)
+name: Mashlion wall
 emitLight: true
 lightRadius: 20
 albedo: 75

@@ -1,7 +1,7 @@
 captureWave: 15
 difficulty: 3
 planet: "fralion"
-sector: 4
+sector: 7
 research: {
 parent: "stone_deltas"
 objectives: [

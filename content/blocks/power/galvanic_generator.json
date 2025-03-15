@@ -21,6 +21,7 @@ magnetit/6
 itemDuration: 140
 powerProduction: 1
 category: "power"
+generateEffect: "reactorsmoke"
 drawer: {
 type: DrawMulti
 drawers: [
