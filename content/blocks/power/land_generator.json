@@ -14,18 +14,17 @@ preset: "miceliy_moth"
 ]
 }
 requirements: [
-cobalt/25
-magnetit/15
+kristalit/20
+magnetit/40
 ]
 hasPower: true
 hasItems: true
 outputsPower: true
 
 attribute: heat
-powerProduction: 0.417
+powerProduction: 0.4
 
 category: "power"
-hasShadow: false
 
 drawer: {
 type: DrawMulti
@@ -38,23 +37,23 @@ color: f8c166
 {
 type: DrawRegion
 suffix: -rim
-layer: 3
+layer: 53
 }
 {
 type: DrawRegion
 suffix: -base
-layer: 1
+layer: 51
 }
 {
 type: DrawRegion
 suffix: -light
-layer: 2
+layer: 52
 }
 {
 type: DrawRegion
 suffix: -rotator
 rotateSpeed: 15
-layer: 2
+layer: 52
 }
 ]
 }

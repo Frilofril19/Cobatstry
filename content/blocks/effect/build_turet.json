@@ -13,6 +13,9 @@ type: ConsumeCoolant
 allowLiquid: true
 amount: 0.01
 }
+consumes: {
+power: 0.083
+}
 buildSpeed: 0.5
 range: 100
 "category": "effect"

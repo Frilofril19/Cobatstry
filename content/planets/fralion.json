@@ -1,18 +1,4 @@
-generator: {
-  octaves: 2
-  persistence: 0.58
-  scale: 24
-  mag: 0.79
-  thresh: 1.14
-  min: 100
-  max: 100
-  radMin: 220
-  radMax: 600
-  iceChance: 0.3
-  carbonChance: 0.32
-  berylChance: 0.2
-  ferricChance: 0.2
-}
+generator: "PlanetGenerator"
 Name: "fralion"
 solarSystem: sun
 parent: sun
@@ -97,4 +83,41 @@ mesh: [
 	scl: 1.2
 	mag: 2.4
 }
+{
+	type: NoiseMesh
+	planet: fralion
+	seed: 7
+	color1: 665097
+	color2: 9e9eea
+	divisions: 3.5
+	radius: 0.8
+	octaves: 2
+	persistence: 1.5
+	scl: 1.2
+	mag: 2.4
+}
+]
+hiddenItems: [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "titanium"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "sand"
+    "surge-alloy"
+    "spore-pod"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
 ]

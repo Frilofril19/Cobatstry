@@ -2,7 +2,8 @@ type: "SolarGenerator"
 name: "Windmill"
 description: "Generates energy from wind"
 health: 25
-size: 3
+size: 1
+offset: 3
 squareSprite: false
 research: {
 parent: "galvanic_generator"
@@ -22,9 +23,8 @@ hasItems: true
 outputsPower: true
 
 itemCapacity: 0
-powerProduction: 0.083
+powerProduction: 0.08
 category: "power"
-hasShadow: false
 
 drawer: {
 type: DrawMulti
@@ -32,13 +32,13 @@ drawers: [
 {
 type: DrawRegion
 suffix: -base
-layer: 90
+layer: 50
 }
 {
 type: DrawRegion
 suffix: -rotate
 rotateSpeed: 5
-layer: 91
+layer: 51
 }
 ]
 }
