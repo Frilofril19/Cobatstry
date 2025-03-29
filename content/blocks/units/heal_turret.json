@@ -5,9 +5,9 @@ health: 200
 size: 1
 research: "flag"
 requirements: [
-cobalt/30
-kristalit/20
-galiy/15
+cobalt/10
+kristalit/50
+galiy/5
 ],
 repairRadius: 200
 length: 5

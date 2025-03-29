@@ -7,11 +7,12 @@ squareSprite: false
 research: "flag"
 requirements: [
 litiy/20
-cobalt/30
-kristalit/25
+cobalt/90
+kristalit/80
+magnetit/60
 ],
 consumes: {
-power: 1
+power: 2
 }
 plans: [
 	{

@@ -5,7 +5,8 @@ health: 137,
 size: 2,
 research: "beginer-dril"
 "requirements":[
-litiy/25
+cobalt/15
+litiy/15
 kristalit/30
 ],
 "consumes": {

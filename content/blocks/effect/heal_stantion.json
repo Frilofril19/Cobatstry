@@ -3,7 +3,7 @@ type: "MendProjector",
 "description" :"Repairs buildings in a small radius, requires energy"
 "health": 75,
 "size":1,
-research: "galvanic_generator"
+research: "cobalt_node"
 "consumes": {
 "power": 0.5,
 liquid: {
@@ -14,8 +14,8 @@ optional: true
 }
 }
 "requirements":[
-cobalt/50
-litiy/15
+cobalt/10
+magnetit/25
 ],
 itemCapacity: 0
 range: 50

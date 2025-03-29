@@ -3,11 +3,12 @@ name: "Saltpeter double furnace"
 description: "Mixes sulfur, quartz, and acid to make saltpeter"
 "health": 200
 "size":3,
-research: "galiy_furnanse"
+research: "kristalit_furnanse"
 requirements:[
-kristalit/25
+cobalt/80
+magnetit/90
 litiy/20
-galiy/15
+kristalit/30
 ],
 squareSprite: false,
 hasPower: false,

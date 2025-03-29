@@ -91,3 +91,7 @@ abilities: [ {
 	amount:0.03
 	}
 	]
+
+immunities: [
+"hacking"
+	]

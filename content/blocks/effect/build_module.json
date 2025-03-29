@@ -6,9 +6,9 @@ size: 2
 squareSprite: false
 requirements:[
 cobalt/1000
-litiy/1500
+litiy/1000
 kristalit/500
-galiy/750
+galiy/250
 ],
 buildCost: 3600
 itemCapacity: 500

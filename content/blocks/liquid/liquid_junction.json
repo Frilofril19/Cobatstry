@@ -5,7 +5,7 @@ health: 50
 size:1
 squareSprite: false
 requirements:[
-quarc/3
+quarc/4
 ]
 connectedPower: false
 consumesPower: false

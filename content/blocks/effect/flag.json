@@ -5,8 +5,9 @@ type: "Wall",
 "size": 1,
 research: core_fralion
 "requirements":[
-cobalt/100
-kristalit/25
+cobalt/10
+litiy/45
+kristalit/125
 ],
 unitCapModifier: 1
 priority: 10

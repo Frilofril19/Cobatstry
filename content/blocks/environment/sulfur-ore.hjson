@@ -5,4 +5,4 @@
 oreDefault: true
 wallOre: true
 "itemDrop": "sulfur"
-
+variants:2

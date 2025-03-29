@@ -3,10 +3,11 @@ name: "Archer"
 description: "Shoots charged homing projectiles at ground enemies"
 health: 125
 size:2
-research: "qwazar"
+research: trident
 requirements:[
-litiy/20
-galiy/10
+cobalt/60
+galiy/53
+magnetit/70
 ]
 "consumes": {
 "power": 4

@@ -5,10 +5,10 @@ health: 250,
 size: 2
 squareSprite: false
 requirements:[
-cobalt/750
+cobalt/1000
 litiy/1000
-kristalit/1000
-galiy/500
+kristalit/450
+galiy/100
 ],
 buildCost: 2800
 itemCapacity: 500

@@ -5,9 +5,9 @@ health: 112
 size: 2
 squareSprite: false
 requirements:[
-quarc/37
-kristalit/25
-cobalt/10
+quarc/60
+kristalit/10
+cobalt/30
 ]
 pumpAmount: 0.35
 liquidCapacity: 200

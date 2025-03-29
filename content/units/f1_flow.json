@@ -1,14 +1,16 @@
 type: legs
 name: "flow"
-description: "A large spider robot that shoots a continuous laser, accelerating when used. [gray]The robot left to defend the red lands"
+description: "A large spider robot that shoots a continuous laser. [gray]The robot left to defend the red lands"
 health: 825
 speed: 1
 hitSize: 20
 flying: false
 faceTarget: true
-legCount: 16
+legCount: 12
 legLength: 50
 alwaysUnlocked: true
+range: 160
+maxRange: 160
 weapons: [{
 name: "f1_flow1"
 x: 0
@@ -21,8 +23,8 @@ alwaysContinuous: true
 inaccuracy: 0
 reload: 200
 shootSound: "shootRoket"
-shootStatus: "jerk"
-shootStatusDuration: 20
+shootStatus: "unmoving"
+shootStatusDuration: 50
 shoot: {
 	shots: 1
 	shotDelay: 0
@@ -47,10 +49,9 @@ ejectEffect: {
 
 bullet:{ 
 	type:"ContinuousLaserBulletType"
-	damage: 75
+	damage: 50
 	speed: 0
 	divisions: 14
-	makeFire: false
 
 	colors: [DBDBDB, FFFFFF, DBDBDB, FFFFFF]
 	width: 18
@@ -62,4 +63,5 @@ bullet:{
 
 immunities: [
 "burning"
+"hacking"
 	]

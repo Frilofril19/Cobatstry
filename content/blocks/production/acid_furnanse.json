@@ -5,8 +5,8 @@ description: "Converts lithium to acid"
 "size": 1
 research: "magnetit_furnanse"
 requirements:[
-cobalt/60
-litiy/25
+cobalt/10
+litiy/30
 quarc/40
 ]
 squareSprite: false

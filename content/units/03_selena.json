@@ -15,3 +15,7 @@ mineWalls: true
 coreUnitDock: true
 trailLength: 5
 alwaysUnlocked: false
+
+immunities: [
+"hacking"
+	]

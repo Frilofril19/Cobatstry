@@ -19,7 +19,8 @@ quarc/1
 ]
 }
 "requirements":[
-galiy/20
+cobalt/10
+galiy/25
 kristalit/15
 ],
 hasBoost: false

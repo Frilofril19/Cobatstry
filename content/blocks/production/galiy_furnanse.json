@@ -5,8 +5,9 @@ description: "Combining sulfur and magnetite produces gallium"
 "size":3,
 research: "kristalit_furnanse"
 requirements:[
-litiy/30
-kristalit/20
+litiy/70
+kristalit/90
+magnetit/30
 ],
 squareSprite: false
 hasPower: true

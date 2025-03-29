@@ -14,8 +14,9 @@ preset: "post_stone_deltas"
 }
 
 requirements:[
-cobalt/45
-litiy/20
+cobalt/20
+litiy/40
+magnetit/45
 ],
 squareSprite: false
 hasPower: true

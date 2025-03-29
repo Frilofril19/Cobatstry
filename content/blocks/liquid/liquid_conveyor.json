@@ -4,6 +4,7 @@ description: "Transports liquids"
 health: 50
 size:1
 requirements:[
+litiy/5
 quarc/1
 ]
 connectedPower: false

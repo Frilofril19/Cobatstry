@@ -5,8 +5,8 @@ description: "Oxidizes cobalt to magnetite"
 "size":2,
 research: "beginer-dril"
 requirements:[
-litiy/10
-cobalt/30
+litiy/30
+cobalt/20
 ],
 squareSprite: false
 hasPower: false

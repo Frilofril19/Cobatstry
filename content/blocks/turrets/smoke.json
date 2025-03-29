@@ -6,9 +6,8 @@ size: 2,
 research: "hemix",
 category: "turret",
 requirements:[
-galiy/5
-quarc/25
-litiy/30
+cobalt/60
+kristalit/40
 ],
 canOverdrive: false
 targetAir: true,
@@ -62,20 +61,18 @@ selitra:{
 	collidesGround: true
 	collidesAir: true
 
-	weaveMag: 2
-	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
-	trailColor: FFFFFF
-	frontColor: DBDBDB
+	trailColor: e39257
+	frontColor: e39257
 	hitEffect: {
 		type: MultiEffect
 		effects:[
 		{
 		type: ExplosionEffect
 		waveColor: FFFFFF
-		smokeColor: FFFFFF
+		smokeColor: e39257
 		sparkColor: FFFFFF
 		}
 		]
@@ -86,7 +83,7 @@ selitra:{
 		{
 		type: ExplosionEffect
 		waveColor: FFFFFF
-		smokeColor: FFFFFF
+		smokeColor: e39257
 		sparkColor: FFFFFF
 		}
 		]
@@ -104,20 +101,18 @@ sulfur:{
 	collidesGround: true
 	collidesAir: true
 
-	weaveMag: 2
-	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
-	trailColor: FFFFFF
-	frontColor: DBDBDB
+	trailColor: ecc34f 
+	frontColor: ecc34f 
 	hitEffect: {
 		type: MultiEffect
 		effects:[
 		{
 		type: ExplosionEffect
 		waveColor: FFFFFF
-		smokeColor: FFFFFF
+		smokeColor: ecc34f 
 		sparkColor: FFFFFF
 		}
 		]
@@ -128,7 +123,7 @@ sulfur:{
 		{
 		type: ExplosionEffect
 		waveColor: FFFFFF
-		smokeColor: FFFFFF
+		smokeColor: ecc34f 
 		sparkColor: FFFFFF
 		}
 		]

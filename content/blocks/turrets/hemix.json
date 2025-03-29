@@ -5,8 +5,8 @@ health: 82,
 size:1,
 research: "ion",
 requirements:[
-litiy/30
-quarc/20
+cobalt/30
+quarc/80
 ],
 canOverdrive: false
 targetAir: true,
@@ -30,8 +30,6 @@ ammoTypes:{ acid:{
 	knockback: 0.0
 	status: "with_acid"
 
-	weaveMag: 4
-	weaveScale: 2
 	hitColor: a0c6a0
 	trailColor: a0c6a0
 	hitSize: 15

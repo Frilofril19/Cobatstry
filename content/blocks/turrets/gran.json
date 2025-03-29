@@ -5,8 +5,8 @@ health: 88
 size:1
 research: "ion"
 requirements:[
-litiy/30
-kristalit/10
+cobalt/30
+kristalit/55
 ]
 coolant: {
 type: ConsumeCoolant
@@ -49,8 +49,6 @@ ammoTypes:{
 	ammoMultiplier: 2.0
 	buildingDamageMultiplier: 0.5
 
-	weaveMag: 2
-	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
@@ -94,8 +92,6 @@ kristalit:{
 	ammoMultiplier: 4.0
 	buildingDamageMultiplier: 0.5
 
-	weaveMag: 2
-	weaveScale: 4
 	trailLength: 20
 	trailWidth: 2
 	backColor: FFFFFF
@@ -143,20 +139,18 @@ sulfur:{
 	collidesGround: true
 	collidesAir: true
 
-	weaveMag: 2
-	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
-	trailColor: FFFFFF
-	frontColor: DBDBDB
+	trailColor: ecc34f
+	frontColor: ecc34f
 	hitEffect: {
 		type: MultiEffect
 		effects:[
 		{
 		type: ExplosionEffect
 		waveColor: FFFFFF
-		smokeColor: FFFFFF
+		smokeColor: ecc34f
 		sparkColor: FFFFFF
 		}
 		]
@@ -167,7 +161,7 @@ sulfur:{
 		{
 		type: ExplosionEffect
 		waveColor: FFFFFF
-		smokeColor: FFFFFF
+		smokeColor: ecc34f
 		sparkColor: FFFFFF
 		}
 		]
@@ -184,20 +178,18 @@ selitra:{
 	collidesGround: true
 	collidesAir: true
 
-	weaveMag: 2
-	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
-	trailColor: FFFFFF
-	frontColor: DBDBDB
+	trailColor: e39257
+	frontColor: e39257
 	hitEffect: {
 		type: MultiEffect
 		effects:[
 		{
 		type: ExplosionEffect
 		waveColor: FFFFFF
-		smokeColor: FFFFFF
+		smokeColor: e39257
 		sparkColor: FFFFFF
 		}
 		]
@@ -208,7 +200,7 @@ selitra:{
 		{
 		type: ExplosionEffect
 		waveColor: FFFFFF
-		smokeColor: FFFFFF
+		smokeColor: e39257
 		sparkColor: FFFFFF
 		}
 		]

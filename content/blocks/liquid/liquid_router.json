@@ -5,7 +5,8 @@ health: 50
 size:1
 squareSprite: false
 requirements:[
-quarc/5
+quarc/3
+litiy/10
 ]
 connectedPower: false
 consumesPower: false

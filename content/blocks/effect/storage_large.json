@@ -5,8 +5,8 @@ health: 350,
 size: 3
 squareSprite: false
 requirements:[
-cobalt/100
-kristalit/60
+cobalt/90
+kristalit/280
 ],
 itemCapacity: 1500
 research: "storage"

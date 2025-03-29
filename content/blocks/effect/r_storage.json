@@ -5,8 +5,8 @@ health: 50,
 size: 1
 squareSprite: false
 requirements:[
-cobalt/50
-litiy/20
+cobalt/10
+litiy/70
 ],
 research: {
 parent: "mech_junction"

@@ -6,9 +6,10 @@ size: 3,
 squareSprite: false
 research: "flag"
 requirements: [
-litiy/40
-cobalt/30
-kristalit/35
+litiy/35
+cobalt/90
+kristalit/50
+magnetit/60
 ],
 consumes: {
 power: 1

@@ -6,8 +6,10 @@
 "category": "units",
 "research": "mech_construktor",
 "requirements":[
-litiy/30 ,
-galiy/35
+cobalt/90
+litiy/150
+galiy/60
+magnetit/90
 ],
 "squareSprite": false ,
 "consumes": {

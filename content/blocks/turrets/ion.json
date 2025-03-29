@@ -10,8 +10,8 @@ allowLiquid: true
 amount: 0.1
 }
 requirements:[
-cobalt/40
-litiy/10
+cobalt/60
+magnetit/70
 ]
 consumes: {
 power: 1

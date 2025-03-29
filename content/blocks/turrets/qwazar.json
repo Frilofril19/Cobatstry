@@ -19,7 +19,7 @@ targetGround: true
 reload: 150
 range: 120
 rotateSpeed: 5
-inaccuracy: 1
+inaccuracy: 16
 shootSound: "shootC"
 shoot:{
 	shots:1
@@ -49,8 +49,6 @@ cobalt:{
 	speed: 1.5
 	ammoMultiplier: 1.0
 
-	weaveMag: 2
-	weaveScale: 4
 	trailLength: 20
 	trailWidth: 1
 	backColor: FFFFFF
@@ -94,8 +92,6 @@ litiy:{
 	speed: 3
 	ammoMultiplier: 1.0
 
-	weaveMag: 2
-	weaveScale: 6
 	trailLength: 20
 	trailWidth: 1, 
 	backColor: FFFFFF
@@ -139,8 +135,6 @@ kristalit:{
 	speed: 0.75
 	ammoMultiplier: 4.0
 
-	weaveMag: 1
-	weaveScale: 2
 	trailLength: 20
 	trailWidth: 2
 	backColor: FFFFFF
@@ -189,20 +183,18 @@ sulfur:{
 	collidesGround: true
 	collidesAir: true
 
-	weaveMag: 2
-	weaveScale: 4
 	trailLength: 20
-	trailWidth: 1
+	trailWidth: 2
 	backColor: FFFFFF
-	trailColor: FFFFFF
-	frontColor: DBDBDB
+	trailColor: ecc34f
+	frontColor: ecc34f
 	hitEffect: {
 		type: MultiEffect
 		effects:[
 		{
 		type: ExplosionEffect
 		waveColor: FFFFFF
-		smokeColor: FFFFFF
+		smokeColor: ecc34f
 		sparkColor: FFFFFF
 		}
 
@@ -214,7 +206,7 @@ sulfur:{
 		{
 		type: ExplosionEffect
 		waveColor: FFFFFF
-		smokeColor: FFFFFF
+		smokeColor: ecc34f
 		sparkColor: FFFFFF
 		}
 		]

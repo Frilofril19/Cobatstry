@@ -7,7 +7,8 @@ squareSprite: false
 range: 3
 arrowSpacing: 8
 requirements:[
-quarc/8
+quarc/6
+litiy/10
 ]
 connectedPower: false
 consumesPower: false

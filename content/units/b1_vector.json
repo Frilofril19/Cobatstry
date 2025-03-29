@@ -7,6 +7,7 @@ hitSize: 5
 flying: false
 faceTarget: true
 legCount: 6
+legLength: 8
 research: "mech_construktor"
 weapons: [{
 name: "b1_vector1"

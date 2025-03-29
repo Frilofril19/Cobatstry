@@ -138,3 +138,7 @@ bullet:{
 ]
 abilities: [
 	]
+
+immunities: [
+"hacking"
+	]
