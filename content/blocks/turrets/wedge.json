@@ -45,7 +45,7 @@ shootEffect: {
 ammoTypes:{
 cobalt:{
 	type:"BasicBulletType"
-	damage: 12
+	damage: 25
 	lifetime: 50
 	speed: 0.8
 	ammoMultiplier: 5.0
@@ -58,7 +58,7 @@ cobalt:{
 	fragRandomSpread: 0
 	fragBullet: {
 		type:"BasicBulletType"
-		damage: 12
+		damage: 37
 		lifetime: 50
 		speed: 1
 		
@@ -138,7 +138,7 @@ cobalt:{
 	},
 quarc:{
 	type:"BasicBulletType"
-	damage: 12
+	damage: 37
 	lifetime: 50
 	speed: 1
 	ammoMultiplier: 5.0
@@ -232,7 +232,7 @@ quarc:{
 
 kristalit:{
 	type:"MissileBulletType"
-	damage: 12
+	damage: 37
 	lifetime: 50
 	speed: 1
 	ammoMultiplier: 5.0
@@ -245,7 +245,7 @@ kristalit:{
 	fragRandomSpread: 0
 	fragBullet: {
 		type:"BasicBulletType"
-		damage: 25
+		damage: 37
 		lifetime: 50
 		speed: 0.8
 		
