@@ -3,7 +3,12 @@ name: "Ion"
 description: "Shoots lightning bolts in a small radius"
 health: 88
 size: 2
-research: "qwazar"
+research: {
+parent: "qwazar"
+objectives: [
+galvanic_generator
+]
+}
 coolant: {
 type: ConsumeCoolant
 allowLiquid: true

@@ -6,7 +6,7 @@ size: 1
 research: "r_storage"
 speed: 30
 requirements:[
-cobalt/5
+cobalt/4
 litiy/15
 ]
 connectedPower: false

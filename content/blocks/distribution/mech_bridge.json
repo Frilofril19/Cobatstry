@@ -6,13 +6,12 @@ size:1
 research: "mech_junction"
 researchCostMultiplier: 0.4
 requirements:[
-cobalt/8
-litiy/15
+cobalt/7
 ],
 connectedPower: false
 consumesPower: false
 timerCheckMoved: 0.4
 transportTime: 0.09
-range: 4
+range: 3
 category: "distribution"
 

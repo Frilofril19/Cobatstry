@@ -1,0 +1,87 @@
+type: flying
+name: "Premum"
+description: "A flying drone with a large health reserve"
+health: 212
+speed: 0.5
+hitSize: 10
+flying: true
+faceTarget: true
+trailLength: 5
+research: "mech_construktor"
+weapons: [{
+x: 0
+y: 0
+rotate: false
+mirror: false
+inaccuracy: 2
+reload: 50
+shootSound: "grantShoot"
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true
+	}
+ejectEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 6
+	cone: 5 //Градуси
+	}
+	]
+}
+bullet:{ 
+	type:"MissileBulletType"
+	damage: 50
+	speed: 2
+
+	weaveMag: 2
+	weaveScale: 4
+	trailLength: 20
+	trailWidth: 2
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 8
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 10
+		cone: 360 //Градуси
+		}
+		]
+	}
+
+	} 
+} 
+]
+
+abilities: [
+]

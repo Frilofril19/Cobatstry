@@ -1,0 +1,144 @@
+type: legs
+name: "Radian"
+description: "A spider that walks on walls and shoots bullets that periodically release a circle of other bullets"
+health: 530
+speed: 1.1
+hitSize: 10
+flying: false
+faceTarget: true
+legCount: 4
+legLength: 30
+research: "b1_vector"
+weapons:
+[
+{
+name: "b2_radikal1"
+x: 0
+y: 0
+rotate: true
+mirror:false
+inaccuracy: 0
+reload: 250
+shootSound: "shootRoket"
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true
+	}
+ejectEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 9
+	cone: 0 //Градуси
+	}
+	]
+}
+bullet:{ 
+	type:"BasicBulletType"
+	scaledSplashDamage: true
+	damage: 55
+	splashDamage: 55
+	splashDamageRadius: 20
+	speed: 2.5
+	recoil: 5
+	bulletInterval: 10
+	intervalBullets: 10
+	intervalRandomSpread: 360
+	intervalSpread: 30
+	intervalAngle: 0
+	intervalBullet: {type:"BasicBulletType"
+		scaledSplashDamage: true
+		splashDamage: 18
+		splashDamageRadius: 10
+		speed: 1
+		weaveMag: 2
+		weaveScale: 4
+		trailLength: 20
+		trailWidth: 1
+		backColor: FFFFFF
+		trailColor: FFFFFF
+		frontColor: DBDBDB
+		hitEffect: {
+			type: MultiEffect
+			effects:[
+			{
+			type: ParticleEffect
+			colorFrom: FFFFFF
+			colorTo: DBDBDB
+			lightColor: DBDBDB
+			sizeFrom: 1
+			sizeTo: 0
+			particles: 6
+			cone: 180 //Градуси
+			}
+			]
+		}
+		despawnEffect: {
+			type: MultiEffect
+			effects:[
+			{
+			type: ParticleEffect
+			colorFrom: FFFFFF
+			colorTo: DBDBDB
+			lightColor: DBDBDB
+			sizeFrom: 1
+			sizeTo: 0
+			particles: 9
+			cone: 360 //Градуси
+			}
+			]
+	}
+	}
+	weaveMag: 2
+	weaveScale: 4
+	trailLength: 20
+	trailWidth: 1
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 6
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 9
+		cone: 360 //Градуси
+		}
+		]
+	}
+} 
+} 
+]
+abilities: [
+	]
+
+immunities: [
+"hacking"
+	]

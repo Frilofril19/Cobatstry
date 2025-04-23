@@ -25,7 +25,7 @@ sparks: 14
 hasLiquids: false
 squareSprite: false
 tier: 3
-range: 2
+range: 3
 drillTime: 125
 itemCapacity: 20
 category: "production",

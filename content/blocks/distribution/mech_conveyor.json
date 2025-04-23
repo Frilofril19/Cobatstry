@@ -9,7 +9,7 @@ cobalt/1
 connectedPower: false
 consumesPower: false
 speed: 0.1
-displayedSpeed: 0.5
+displayedSpeed: 12
 junctionReplacement: "mech_junction"
 bridgeReplacement: "mech_bridge"
 category: "distribution"

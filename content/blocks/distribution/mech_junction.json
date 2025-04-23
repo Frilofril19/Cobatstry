@@ -3,7 +3,7 @@ name: "Tape crossroads"
 description: "Creates paths through ribbons without merging them"
 health: 25
 size: 1
-research: "mech_router" 
+research: "mech_conveyor" 
 researchCostMultiplier: 0.4
 speed: 0.1
 requirements: [

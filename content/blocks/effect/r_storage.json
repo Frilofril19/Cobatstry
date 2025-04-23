@@ -9,7 +9,7 @@ cobalt/10
 litiy/70
 ],
 research: {
-parent: "mech_junction"
+parent: "mech_owerflow"
 objectives: [
 {
 type: onSector
