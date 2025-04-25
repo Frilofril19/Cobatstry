@@ -1,12 +1,16 @@
 name: "cobatstry"
 displayName: "Cobatstry"
-author: "FriloFril"
+author: "Frilofril"
 description: "A new independent company on the planet - Fralion, a cold hell that complements the game with new resources, enemies, buildings and not-so-great mechanics that you will definitely like.
 ---
 Available languages:
---Eng
---Ua
---ru
+--English
+--Українська
+--Русский
+--Deutsch
+--Polski
+---
+You can express your impressions and follow the mod on the author's YouTube channel.
 "
 version: "V0.8.4"
 subtitle: "V0.8.4 Alfa!"
