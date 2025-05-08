@@ -44,3 +44,5 @@ Each module also has its own drone for specific tasks, such as:
 - Construction
 - Resource mining
 - Sector capture
+
+## Link to the [author's YouTube channel](https://www.youtube.com/channel/UCRsIktIB6CPf7HCfjz8M3qg)
