@@ -3,7 +3,12 @@ name: "Pulse",
 description: "Shoots explosive shells",
 health: 137,
 size: 2,
-research: "hemix",
+research: {
+parent: "hemix"
+objectives: [
+sulfur
+]
+}
 category: "turret",
 requirements:[
 cobalt/60
