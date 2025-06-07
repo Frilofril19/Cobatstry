@@ -1,0 +1,16 @@
+name: Post
+type: tether
+flying: true
+speed: 2
+health: 125
+payloadCapacity: 0
+targetable: false
+bounded: false
+isEnemy: false
+hidden: true
+useUnitCap: false
+logicControllable: false
+playerControllable: false
+allowedInPayloads: false
+createWreck: false
+controller: AssemblerAI

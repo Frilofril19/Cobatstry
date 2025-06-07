@@ -1,0 +1,52 @@
+type: legs
+name: "Alius"
+description: "A small spider that shoots lasers"
+health: 725
+speed: 0.9
+hitSize: 10
+flying: true
+faceTarget: true
+trailLength: 5
+legCount: 6
+legLength: 15
+research: "em_reconstruktor"
+researchCostMultiplier: 0
+weapons: [{
+x: 0
+y: 0
+rotate: false
+mirror: false
+inaccuracy: 0
+reload: 100
+shootSound: "star_shoot"
+shootStatus: "unmoving"
+shootStatusDuration: 30
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true
+	}
+bullet:{ 
+	type:"LaserBulletType"
+	damage: 67
+	colors: [FFFFFF, FFFFFF, FFFFFF]
+	sideLength: 80
+	sideAngle: 45
+} 
+}
+]
+
+abilities: [
+{
+type:"ShieldArcAbility"
+radius: 30
+regen: 0.04
+max: 1000
+whenShooting: false
+}
+]
+
+immunities: [
+"with_acid"
+"hacking"
+	]

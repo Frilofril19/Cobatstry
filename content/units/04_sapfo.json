@@ -1,0 +1,33 @@
+type: flying
+name: "Sappho"
+description: "A drone that heals seeds and allied units in a radius and covers them in a large force field with a large reserve of strength."
+health: 150
+speed: 2
+flying: true
+faceTarget: true
+range: 40
+itemCapacity: 50
+coreUnitDock: true
+trailLength: 5
+alwaysUnlocked: false
+
+abilities: [
+	{
+	type: "RepairFieldAbility"
+	amount: 0.3
+	reload: 50
+	range: 65
+	}
+	{
+	type: "ForceFieldAbility"
+	radius: 100
+	regen: 10
+	max: 100000
+	cooldown: 0.1
+	sides: 361
+	}
+	]
+
+immunities: [
+"hacking"
+	]

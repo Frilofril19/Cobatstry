@@ -1,0 +1,74 @@
+type: flying
+name: "Plex"
+description: "Small fast drone"
+health: 62
+speed: 1
+hitSize: 5
+flying: true
+faceTarget: true
+research: "em_reconstruktor"
+researchCostMultiplier: 0
+weapons: [{
+x: 2
+y: 0
+rotate: false
+mirror: true
+inaccuracy: 3
+reload: 50
+shootSound: "shootC"
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true
+	}
+bullet:{ 
+	type:"BasicBulletType"
+	damage: 30
+	speed: 2
+
+	width: 3.75
+	height: 7
+	sprite: "circle"
+	trailEffect: "artilleryTrail"
+	trailInterval: 3.5
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+} 
+}
+]
+abilities: [
+	]

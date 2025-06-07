@@ -1,0 +1,79 @@
+type: tank
+name: "Quark"
+description: "A small, weak tank can only be useful in large numbers."
+health: 50
+speed: 1
+hitSize: 5
+flying: false
+faceTarget: true
+research: "mech_construktor"
+researchCostMultiplier: 0
+weapons: [{
+name: "a1-quark1"
+x: 3
+y: 0
+rotate: false
+mirror: true
+inaccuracy: 3
+reload: 50
+shootSound: "shootC"
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true
+	}
+bullet:{ 
+	type:"BasicBulletType"
+	damage: 25
+	speed: 3.3
+
+	width: 3.75
+	height: 7
+	sprite: "circle"
+	trailEffect: "artilleryTrail"
+	trailInterval: 3.5
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+} 
+}
+]
+abilities: [
+	]
+
+immunities: [
+"hacking"
+	]

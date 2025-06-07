@@ -1,0 +1,102 @@
+type: flying
+name: "Aurora"
+description: "Protects the Command core, builds structures"
+health: 150
+speed: 2
+flying: true
+faceTarget: true
+range: 40
+buildSpeed: 2
+mineTier: 1
+mineSpeed:5
+mineWalls: true
+coreUnitDock: true
+trailLength: 5
+alwaysUnlocked: true
+engineSize: 2
+weapons: [{
+x: 0
+y: 1
+rotate: false,
+inaccuracy: 1
+reload: 60
+shootSound: "grantShoot"
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true,
+	}
+ejectEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 6
+	cone: 5 //Градуси
+	}
+	]
+}
+bullet:{ 
+	type:"MissileBulletType"
+	damage: 50
+	speed: 3
+
+	weaveMag: 2
+	weaveScale: 4
+	trailLength: 15
+	trailWidth: 2
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	} 
+} 
+]
+abilities: [ {
+	type: "RegenAbility"
+	percentAmount: 0.01
+	amount:0.03
+	}
+	]
+
+immunities: [
+"hacking"
+	]

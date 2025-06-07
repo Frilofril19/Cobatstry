@@ -1,0 +1,29 @@
+type: flying
+name: "Hill"
+description: "A small flying drone that heals allied units"
+health: 125
+speed: 2
+flying: true
+faceTarget: true
+trailLength: 5
+research: "heal_unit_station"
+researchCostMultiplier: 0
+weapons: [{
+type: "repairBeamWeapon"
+x: 2
+y: 1
+rotate: false
+mirror: true
+targetBuildings: false
+targetUnits: true
+repairSpeed: 0.05
+laserColor: 84f490
+healColor: 84f490
+beamWidth: 0.5
+pulseStroke: 1
+widthSinScl: 2
+pulseRadius: 3
+} 
+]
+abilities: [
+	]

@@ -1,0 +1,15 @@
+type: flying
+name: "Post"
+description: "A small flying drone that helps with construction"
+health: 125
+speed: 2
+flying: true
+faceTarget: true
+trailLength: 5
+buildSpeed: 4
+buildRange: 330
+research: "build_unit_station"
+researchCostMultiplier: 0
+
+abilities: [
+	]

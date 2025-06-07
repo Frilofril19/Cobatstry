@@ -1,0 +1,154 @@
+type: legs
+name: "Radian"
+description: "A spider that walks on walls and shoots bullets that periodically release a circle of other bullets"
+health: 780
+speed: 1.1
+hitSize: 10
+flying: false
+faceTarget: true
+legCount: 4
+legLength: 30
+research: "elk_construktor"
+researchCostMultiplier: 0
+weapons:
+[
+{
+name: "b2_radikal1"
+x: 0
+y: 0
+rotate: true
+mirror:false
+inaccuracy: 0
+reload: 250
+shootSound: "shootRoket"
+shoot: {
+	shots: 1
+	shotDelay: 0
+	autoTarget: true
+	}
+ejectEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 9
+	cone: 0 //Градуси
+	}
+	]
+}
+bullet:{ 
+	type:"BasicBulletType"
+	scaledSplashDamage: true
+	damage: 55
+	splashDamage: 55
+	splashDamageRadius: 20
+	speed: 2.5
+	recoil: 5
+	bulletInterval: 10
+	intervalBullets: 10
+	intervalRandomSpread: 360
+	intervalSpread: 30
+	intervalAngle: 0
+	intervalBullet: {type:"BasicBulletType"
+		scaledSplashDamage: true
+		splashDamage: 18
+		splashDamageRadius: 10
+		speed: 1
+
+		width: 3.75
+		height: 7
+		sprite: "circle"
+		trailEffect: "artilleryTrail"
+		trailInterval: 3.5
+		trailColor: FFFFFF
+		frontColor: DBDBDB
+		hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+		}
+		despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	}
+	width: 3.75
+	height: 7
+	sprite: "circle"
+	trailEffect: "artilleryTrail"
+	trailInterval: 3.5
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+} 
+} 
+]
+abilities: [
+	]
+
+immunities: [
+"hacking"
+	]

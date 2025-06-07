@@ -1,0 +1,43 @@
+type: tank
+name: "Torch"
+description: "Fast small tank that fires a lot of fire forward in a small radius"
+health: 212
+speed: 1.35
+flying: false
+faceTarget: true
+research: "em_reconstruktor"
+researchCostMultiplier: 0
+weapons: [{
+x: 0
+y: 0
+rotate: false
+mirror: false
+inaccuracy: 90
+reload: 5
+shootSound: "shootCAlt"
+shoot: {
+	shots: 5
+	shotDelay: 0
+	autoTarget: true
+	}
+bullet:{ 
+	type:"FireBulletType"
+	damage: 38
+	lifetime: 35
+	speed: 0.5	
+
+	width: 3.75
+	height: 7
+	sprite: "circle"
+	trailEffect: "artilleryTrail"
+
+	} 
+}
+]
+abilities: [
+	]
+
+immunities: [
+"burning"
+"hacking"
+	]

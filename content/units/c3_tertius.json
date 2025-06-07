@@ -1,0 +1,118 @@
+type: flying
+name: "Tertius"
+description: "A large, slow-flying ship that fires a large barrage of charged homing bullets, regenerates health, and heals allied units."
+health: 3750
+speed: 0.25
+hitSize: 25
+flying: true
+faceTarget: true
+trailLength: 5
+rotateSpeed: 3
+research: "d_reconstruktor"
+researchCostMultiplier: 0
+weapons: [{
+x: 0
+y: 0
+rotate: false
+mirror: false
+inaccuracy: 5
+reload: 230
+shake: 2
+shootSound: "star_shoot"
+shootStatus: "unmoving"
+shootStatusDuration: 180
+shoot: {
+	shots: 30
+	shotDelay: 6
+	autoTarget: true
+	}
+ejectEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 9
+	length: 40
+	cone: 10 //Градуси
+	}
+	]
+}
+bullet:{ 
+	type:"MissileBulletType"
+	damage: 75
+	speed: 4.5
+	pierce: true
+	pierceBuilding: true
+
+	bulletInterval: 5
+	intervalBullets: 4
+	intervalRandomSpread: 0
+	intervalSpread: 180
+	intervalAngle: 90
+	intervalBullet: {
+		type:"LightningBulletType"
+		damage: 5
+		lifeTime:1
+		speed:1
+		lightningLength: 5
+		lightningColor:  FFFFFF 
+	} 
+	weaveMag: 2
+	weaveScale: 4
+	sprite: "circle"
+	trailEffect: "artilleryTrail"
+	trailInterval: 3.5
+	trailColor: FFFFFF
+	frontColor: FFFFFF
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 8
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 10
+		cone: 360 //Градуси
+		}
+		]
+	}
+	} 
+} 
+]
+
+abilities: [
+	{
+	type: "RepairFieldAbility"
+	amount: 0.5
+	reload: 50
+	range: 125
+	}
+	]
+
+immunities: [
+"hacking"
+"with_acid"
+	]
