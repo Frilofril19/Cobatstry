@@ -7,13 +7,13 @@ Available languages:
 --English
 --Українська
 --Русский
---Deutsch
+--Deutsch 
 --Polski
 ---
 You can express your impressions and follow the mod on the author's YouTube channel.
 "
-version: "V0.8.4"
-subtitle: "V0.8.4 Alfa!"
+version: "V0.9"
+subtitle: "V0.9 Alfa!"
 minGameVersion: "146"
 dependencies: [ ]
 hidden: false
