@@ -1,0 +1,12 @@
+type: "item",
+name: "Nickel"
+description: "Metal that has high temperature resistance, making it the best choice for heating and building fireproof buildings."
+color: "a4b2d0"
+hardness: 5
+cost: 2
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+research: "litiy"
+

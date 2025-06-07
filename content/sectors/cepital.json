@@ -1,0 +1,12 @@
+difficulty: 6
+planet: "fralion"
+sector: 23
+research: {
+parent: "laser_center"
+objectives: [
+{
+type: SectorComplete
+preset: "laser_center"
+}
+]
+}

@@ -1,0 +1,12 @@
+difficulty: 6
+planet: "fralion"
+sector: 21
+research: {
+parent: "white_gayzers"
+objectives: [
+{
+type: SectorComplete
+preset: "white_gayzers"
+}
+]
+}

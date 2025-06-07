@@ -1,0 +1,13 @@
+captureWave: 15
+difficulty: 3
+planet: "fralion"
+sector: 7
+research: {
+parent: "stone_deltas"
+objectives: [
+{
+type: SectorComplete
+preset: "stone_deltas"
+}
+]
+}

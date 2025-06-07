@@ -1,0 +1,13 @@
+difficulty: 8
+captureWave: 21
+planet: "fralion"
+sector: 25
+research: {
+parent: "laser_center"
+objectives: [
+{
+type: SectorComplete
+preset: "laser_center"
+}
+]
+}

@@ -1,0 +1,13 @@
+captureWave: 10
+difficulty: 1
+planet: "fralion"
+sector: 3
+research: {
+parent: "cold_start"
+objectives: [
+{
+type: SectorComplete
+preset: "cold_start"
+}
+]
+}

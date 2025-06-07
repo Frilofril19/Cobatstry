@@ -1,0 +1,18 @@
+name: Hacked
+damage: 0.5
+
+effect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: 9257c6
+	colorTo: a3a3e3
+	sizeFrom: 2
+	sizeTo: 1
+	particles: 9
+	length: 2
+	cone: 360 //Градуси
+	}
+	]
+}

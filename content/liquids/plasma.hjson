@@ -1,0 +1,22 @@
+type: Liquid
+name: "Plasma"
+description: "A non-liquid, non-gaseous substance that can be moved by fluid means and stores a large amount of energy."
+color: ffffff
+barColor: ffffff
+lightColor: ffffff
+temperature: 9
+heatCapacity: 0
+viscosity: 0
+coolant: false
+moveThroughBlocks: true
+effect: hacking
+particleEffect: circleColorSpark
+particleSpacing: 4
+capPuddles: false
+alwaysUnlocked: false
+research: {
+parent: "acid"
+objectives: [
+fur_plasma
+]
+}
