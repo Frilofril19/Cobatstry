@@ -1,0 +1,33 @@
+type: "BeamDrill",
+name: "Advanced drill",
+description: "Extracts more heavy resources from the planet's surface",
+health: 74,
+size: 2,
+research: "beginer-dril"
+"requirements":[
+cobalt/52
+litiy/60
+kristalit/30
+magnetit/15
+quarc/15
+],
+"consumes": {
+"power": 0.25
+liquid: {
+liquid: acid
+amount: 0.05
+booster: true
+optional: true
+}
+},
+liquidBoostIntensity: 1.2
+sparkColor: d96f6f
+heatColor: d96f6f
+sparks: 14
+hasLiquids: false
+squareSprite: false
+tier: 3
+range: 3
+drillTime: 125
+itemCapacity: 20
+category: "production",

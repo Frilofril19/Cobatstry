@@ -1,0 +1,34 @@
+type: "CoreBlock",
+name: "Tactical module",
+description: "A core module that expands its size and properties, namely adding the ability to build 1 tactical drone"
+health: 350,
+size: 2
+squareSprite: false
+requirements:[
+cobalt/400
+litiy/500
+kristalit/45
+nikel/175
+],
+buildCost: 3600
+itemCapacity: 500
+unitCapModifier: 0
+unitType: "04_sapfo"
+
+hasItems: true
+hasColor: true
+hidden: true
+
+isFirstTier: true
+category: "effect"
+
+research: {
+parent: "dril_module"
+objectives: [
+{
+type: onSector
+preset: "cepital"
+}
+]
+}
+researchCostMultiplier: 0.4

@@ -1,0 +1,15 @@
+type: "PowerDiode"
+name:"Simple diode"
+description: "Moves energy between batteries in one direction, but only if there is less energy in the other"
+health: 30
+size:1
+squareSprite: false
+research: "cobalt_batery"
+requirements:[
+cobalt/10
+galiy/30
+]
+category: "power"
+
+
+

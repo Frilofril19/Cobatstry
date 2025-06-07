@@ -1,0 +1,29 @@
+type: "DroneCenter",
+name: "Medical Drone Center",
+description: "Creates medical drone of the Hill type",
+health: 94,
+size: 2,
+squareSprite: false
+research: "flag"
+requirements: [
+cobalt/40
+litiy/55
+kristalit/45
+magnetit/75
+],
+consumes: {
+power: 1.5
+items:
+[
+kristalit/20
+magnetit/35
+]
+}
+itemCapacity: 35
+unitsSpawned: 1
+droneType: "g1_heal_drone"
+statusDuration: -1
+droneConstructTime: 270
+configurable: false
+commandable: false
+category: "units",

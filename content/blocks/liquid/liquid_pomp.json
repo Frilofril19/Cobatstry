@@ -1,0 +1,23 @@
+type: "Pump"
+name:"Chemical pump"
+description: "Pumps chemical liquids from the surface of the liquid"
+health: 120
+size: 2
+squareSprite: false
+requirements:[
+cobalt/40
+quarc/100
+kristalit/100
+]
+pumpAmount: 0.35
+liquidCapacity: 200
+category: "liquid"
+research: {
+parent: "acid_furnanse"
+objectives: [
+{
+type: onSector
+preset: "miceliy_moth"
+}
+]
+}

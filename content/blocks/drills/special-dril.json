@@ -1,0 +1,26 @@
+type: "Drill",
+name: "Special drill",
+description: "Extracts resources from the surface on the sector, requires constant cooling with acid",
+health: 161,
+size: 3,
+research: "upgrade-dril",
+"requirements":[
+cobalt/90
+quarc/105
+magnetit/45
+galiy/45
+],
+"consumes": {
+"power": 0.75
+liquids: [
+acid/0.5
+]
+},
+liquidCapacity: 100
+squareSprite: false
+tier: 5
+drillTime: 110
+rotateSpeed: 5
+updateEffectChance: 0.005
+updateEffect: "mineImpact"
+category: "production",

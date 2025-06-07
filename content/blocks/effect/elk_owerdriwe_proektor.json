@@ -1,0 +1,30 @@
+type: "OverdriveProjector",
+"name":"Accelerator station",
+"description" :"Pins everything except individual structures within its radius, requires energy"
+"health": 90,
+"size": 2,
+research: {
+parent: "heal_stantion"
+objectives: [
+{
+type: onSector
+preset: "Unlok_driwer"
+}
+]
+}
+"consumes": {
+"power": 1,
+items: [
+quarc/1
+]
+}
+"requirements":[
+cobalt/40
+galiy/60
+],
+hasBoost: false
+reload: 120
+range: 60
+speedBoost: 1.75
+"category": "effect",
+

@@ -1,0 +1,7 @@
+type: Prop
+name: Mashlion block
+emitLight: true
+lightRadius: 50
+albedo:50
+lightColor: 463C83
+variants: 2

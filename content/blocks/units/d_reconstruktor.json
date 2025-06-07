@@ -1,0 +1,58 @@
+"type": "UnitAssembler",
+"name": "Professional reenactor",
+"description": "Constructs the third tier of units",
+"health": 385,
+"size": 4,
+"category": "units",
+"research": "elk_construktor",
+"requirements":[
+cobalt/160
+litiy/775
+galiy/70
+kristalit/225
+magnetit/200
+quarc/100
+nikel/50
+],
+"squareSprite": false ,
+itemCapacity: 550
+"consumes": {
+"power": 4.5
+items: {
+items: [
+kristalit/225
+]
+}
+liquids:{
+liquids:[
+plasma/1
+]
+}
+},
+droneType: "build_drone"
+droneConstructTime: 270
+areaSize: 6
+plans: [
+{
+unit: a3_micro
+requirements: [
+cobatstry-a2_atom/1
+]
+time: 5700
+}
+{
+unit: c3_tertius
+requirements: [
+cobatstry-c2_sekundo/2
+]
+time: 5700
+}
+{
+unit: b3_dodecahedron
+requirements: [
+cobatstry-b2_radikal/1
+cobatstry-b1_vector/2
+]
+time: 5700
+}
+]

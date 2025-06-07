@@ -1,0 +1,57 @@
+type: "ConsumeGenerator"
+name: "Piezoelectric generator"
+description: "Converts pressure and winds on the planet into electrical energy, using quartz"
+health: 88
+size: 2
+squareSprite: false
+research: {
+parent: "land_generator"
+objectives: [
+{
+type: SectorComplete
+preset: "acid_ilands"
+}
+{
+type: onSector
+preset: "black_fotesr"
+}
+]
+}
+requirements: [
+cobalt/40
+litiy/50
+magnetit/60
+galiy/45
+]
+hasPower: true
+hasItems: true
+outputsPower: true
+itemCapacity: 40
+"consumes": {
+"items": [
+quarc/10
+]
+}
+itemDuration: 275
+powerProduction: 1.75
+category: "power"
+generateEffect: "lightningCharge"
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawDefault
+}
+{
+type: DrawRegion
+suffix: -top
+layer: 53
+}
+{
+type: DrawRegion
+suffix: -rotator
+rotateSpeed: 30
+layer: 52
+}
+]
+}

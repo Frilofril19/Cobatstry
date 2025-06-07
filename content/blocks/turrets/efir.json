@@ -1,0 +1,304 @@
+type: "ItemTurret"
+name: "Ether"
+description: "Shoots enemies in a large radius with a double shot, requires heating to work, the more heating you have, the faster the turret works"
+health: 378
+size:3
+research: "wedge"
+requirements:[
+cobalt/90
+litiy/62
+nikel/500
+kristalit/500
+]
+canOverdrive: false
+targetAir: true
+targetGround: true
+reload: 200
+range: 200
+rotateSpeed: 8
+inaccuracy: 0
+heatRequirement:  10
+maxHeatEfficiency: 10
+shootSound: "grantShoot"
+shake: 0.1
+shoot:{
+	shots: 2
+	shotDelay: 25
+	autoTarget: true 
+}
+shootEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 3
+	cone: 0 //Градуси
+	}
+	]
+}
+ammoTypes:{
+nikel:{
+	type:"BasicBulletType"
+	damage: 75
+	speed: 5
+	ammoMultiplier: 5
+	buildingDamageMultiplier: 0.1
+
+	bulletInterval: 30
+	intervalBullets: 1
+	intervalRandomSpread: 0
+	intervalSpread: 0
+	intervalAngle: 0
+	intervalBullet: {
+		type:"BasicBulletType"
+		damage: 25
+		speed: 4
+
+		weaveMag: 4
+		weaveScale: 4
+		width: 3.75
+		height: 7
+		sprite: "circle"
+		trailEffect: "artilleryTrail"
+		trailInterval: 3.5
+		trailColor: FFFFFF
+		frontColor: DBDBDB
+		hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+		}
+		despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	}
+
+	width: 3.75
+	height: 7
+	sprite: "circle"
+	trailEffect: "artilleryTrail"
+	trailInterval: 3.5
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+		}
+	},
+kristalit:{
+	type:"MissileBulletType"
+	damage: 18
+	speed: 5
+	ammoMultiplier: 10
+	buildingDamageMultiplier: 0.1
+	reloadMultiplier: 2.0
+
+	bulletInterval: 30
+	intervalBullets: 1
+	intervalRandomSpread: 0
+	intervalSpread: 0
+	intervalAngle: 0
+	intervalBullet: {
+		type:"MissileBulletType"
+		damage: 6
+		speed: 4
+
+		weaveMag: 4
+		weaveScale: 4
+		width: 3.75
+		height: 7
+		trailEffect: "artilleryTrail"
+		trailInterval: 3.5
+		trailColor: FFFFFF
+		frontColor: DBDBDB
+		hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+		}
+		despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	}
+
+	width: 3.75
+	height: 7
+	trailEffect: "artilleryTrail"
+	trailInterval: 3.5
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+		}
+	},
+},
+category: "turret",
+
+shootY: 2.5
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+{
+type: RegionPart
+suffix: -blade-r
+mirror: false
+under: false
+
+moveX: 2
+moveY: -3
+moveRot: -15
+
+outline: true
+progress: warmup
+heatProgress: recoil
+}
+{
+type: RegionPart
+suffix: -blade-l
+mirror: false
+under: false
+
+moveX: -2
+moveY: -3
+moveRot: 15
+
+outline: true
+progress: warmup
+heatProgress: recoil
+}
+{
+type: RegionPart
+suffix: -recoil
+mirror: false
+under: true
+
+moveX: 0
+moveY: -5
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+]
+}

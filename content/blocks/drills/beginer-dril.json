@@ -1,0 +1,18 @@
+type: "BeamDrill",
+name: "Initial drill",
+description: "Extracts resources from the walls",
+health: 57,
+size: 1,
+research: "core_fralion"
+researchCost: [
+cobalt/25
+]
+"requirements":[
+cobalt/37
+],
+hasLiquids: false
+squareSprite: false
+tier: 2
+range: 2
+drillTime: 275
+category: "production",

@@ -1,0 +1,14 @@
+type: Floor
+name: "Acid"
+
+speedMultiplier: 0.35
+variants: 0
+cacheLayer: water
+drownTime: 300
+isLiquid: true
+liquidDrop: acid
+liquidMultiplier: 1
+status: with_acid
+shallow: true
+supportsOverlay: true
+placeableOn: true

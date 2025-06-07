@@ -1,0 +1,13 @@
+type: "wall",
+name: "Cobalt Wall",
+description: "Protects structures from enemy shells",
+health: 100,
+size: 1,
+research: "qwazar"
+researchCostMultiplier: 0.4
+requirements: [
+cobalt/5
+],
+flashHit: true,
+chanceDeflect: 0,
+category: "defense",

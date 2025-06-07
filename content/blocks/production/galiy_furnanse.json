@@ -1,0 +1,45 @@
+type: "GenericCrafter"
+name: "Gallium Factory"
+description: "Combining sulfur and magnetite produces gallium"
+"health": 132
+"size":3,
+research: "kristalit_furnanse"
+requirements:[
+cobalt/90
+litiy/68
+kristalit/30
+magnetit/180
+],
+squareSprite: false
+hasPower: true
+hasitem: true
+hasliquids: false
+craftTime: 100,
+consumes: {
+power: 3
+items: [
+sulfur/4
+magnetit/2
+]
+}
+updateEffect: "reactorsmoke"
+craftEffect: "smokePuff"
+category: "crafting"
+idleSoundVolume: 0.5
+itemCapacity: 60
+outputItem: galiy/3
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: -base
+layer: -1
+}
+{
+type: DrawGlowRegion
+suffix: -glow
+color: e3bd54
+}
+]
+}

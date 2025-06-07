@@ -1,0 +1,48 @@
+type: "powerTurret"
+name: "Rapier"
+description: "Shoots a laser beam that penetrates through, or shoots at airborne enemies"
+health: 231
+size: 3
+research: "strelok"
+requirements:[
+cobalt/90
+litiy/100
+galiy/180
+magnetit/180
+nikel/150
+kristalit/150
+]
+"consumes": {
+"power": 6
+},
+canOverdrive: false
+targetAir: true
+targetGround: false
+reload: 200
+range: 180
+rotateSpeed: 4
+inaccuracy: 0
+shootSound: "star_shoot"
+heatRequirement:  6
+maxHeatEfficiency: 5
+shoot:{shots: 1
+shotDelay: 0
+autoTarget: true }
+shootType:{
+	type:"LaserBulletType"
+	damage: 100
+	lifeTime: 3255
+	speed: 5
+	ammoMultiplier: 1
+	colors: [FFFFFF, FFFFFF, FFFFFF]
+	sideLength: 40
+	sideAngle: 178
+	length: 80
+},
+category: "turret",
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+}
+

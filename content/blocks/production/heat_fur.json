@@ -1,0 +1,23 @@
+type: "HeatProducer"
+name: "Simple heater"
+description: "Creates working heat through the combustion of sulfur"
+"health": 93
+"size": 2
+research: "kristalit_furnanse"
+requirements:[
+cobalt/40
+litiy/20
+nikel/100
+]
+squareSprite: false
+craftTime: 125
+consumes: {
+items: [
+sulfur/2
+]
+}
+heatOutput: 2
+warmupRate: 0.055
+updateEffect: smoke
+category: "crafting"
+itemCapacity: 4

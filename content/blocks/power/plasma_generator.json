@@ -1,0 +1,27 @@
+type: "ConsumeGenerator"
+name: "Recombinant generator"
+description: "Releases energy from plasma"
+health: 115
+size: 2
+squareSprite: false
+research: "piezo_generator"
+requirements: [
+cobalt/40
+quarc/65
+magnetit/120
+galiy/120
+nikel/34
+]
+hasPower: true
+hasItems: true
+outputsPower: true
+liquidCapacity: 60
+"consumes": {
+"liquids": [
+plasma/0.5
+]
+}
+itemDuration: 320
+powerProduction: 4
+category: "power"
+generateEffect: "mine"

@@ -1,0 +1,16 @@
+type: "OverflowGate"
+name: "Insufficient hatch"
+description: "Moves resources to the sides, if the side output is blocked, moves to the front"
+health: 22
+size: 1
+research: "mech_owerflow"
+invert: true
+speed: 0.09
+requirements:[
+cobalt/5
+litiy/20
+]
+connectedPower: false
+consumesPower: false
+category: "distribution"
+

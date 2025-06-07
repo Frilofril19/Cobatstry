@@ -1,0 +1,16 @@
+type: "LiquidBridge"
+name:"Path bridge"
+description: "Moves resources over structures"
+health: 18
+size:1
+squareSprite: false
+range: 3
+arrowSpacing: 8
+requirements:[
+cobalt/10
+quarc/6
+]
+connectedPower: false
+consumesPower: false
+category: "liquid"
+research: "liquid_junction"

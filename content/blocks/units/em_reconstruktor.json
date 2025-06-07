@@ -1,0 +1,39 @@
+"type": "Reconstructor",
+"name": "Modification reconstructor",
+"description": "Modifies some units",
+"health": 256,
+"size": 3,
+"category": "units",
+research: {
+parent: "elk_construktor"
+objectives: [
+{
+type: SectorComplete
+preset: "laser_center"
+}
+]
+}
+"requirements":[
+cobalt/90
+litiy/340
+galiy/60
+kristalit/180
+nikel/160
+],
+"squareSprite": false ,
+"consumes": {
+"power": 2
+items: {
+items: [
+nikel/25
+kristalit/45
+]
+}
+},
+constructTime: 1450
+upgrades: [
+[b1_vector, bb1_torch], 
+[a1_quark, ab1_plex],
+[c1_primum, cb1_alius],
+]
+researchCostMultiplier: 0.4

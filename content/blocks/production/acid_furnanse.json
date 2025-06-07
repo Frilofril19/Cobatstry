@@ -1,0 +1,31 @@
+type: "GenericCrafter"
+name: "Acid mixer"
+description: "Converts lithium to acid"
+"health": 91
+"size": 1
+research: "magnetit_furnanse"
+requirements:[
+cobalt/60
+litiy/36
+quarc/50
+magnetit/60
+]
+squareSprite: false
+hasPower: false
+hasitem: true
+hasliquids: true
+hasLiquids: true
+hasliquid: true
+craftTime: 80
+consumes: {
+power: 0.5
+items: [
+litiy/3
+]
+}
+updateEffect: "reactorsmoke"
+category: "crafting"
+idleSoundVolume: 0.5
+itemCapacity: 30
+liquidCapacity: 100
+outputLiquid: acid/1

@@ -1,0 +1,17 @@
+type: "LightBlock",
+"name":"Searchlight",
+"description" :"Illuminates an area using energy"
+"health": 18,
+"size": 1,
+research: "magnetit_furnanse"
+"requirements":[
+cobalt/10
+magnetit/6
+],
+consumes: {
+power: 0.1
+}
+brightness: 0.5
+radius: 100
+"category": "effect",
+

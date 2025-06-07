@@ -1,0 +1,15 @@
+type: "UnitAssemblerModule",
+"name":"Advanced level flag",
+"description" :"Increases the maximum number of active units and raises the level of a professional reconstructor"
+"health": 256,
+"size": 3,
+research: flag2
+"requirements":[
+cobalt/90
+kristalit/135
+nikel/275
+],
+unitCapModifier: 3
+priority: 100
+tier: 2
+"category": "units",

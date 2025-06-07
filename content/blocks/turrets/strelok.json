@@ -1,0 +1,178 @@
+type: "powerTurret"
+name: "Archer"
+description: "Shoots charged homing projectiles at ground enemies"
+health: 113
+size:2
+research: trident
+requirements:[
+cobalt/40
+litiy/13
+galiy/120
+magnetit/120
+]
+"consumes": {
+"power": 4
+},
+canOverdrive: false
+coolant: {
+type: ConsumeCoolant
+allowLiquid: true
+amount: 0.1
+}
+targetAir: false
+targetGround: true
+reload: 50
+range: 150
+rotateSpeed: 2
+inaccuracy: 25
+shootSound: "star_shoot"
+shoot:{shots:2
+shotDelay: 10
+autoTarget: true }
+shootType:{
+	type:"MissileBulletType"
+	damage: 25
+	lifeTime:1500
+	speed:5
+	pierce: true
+	ammoMultiplier: 1
+
+	bulletInterval: 5
+	intervalBullets: 4
+	intervalRandomSpread: 0
+	intervalSpread: 180
+	intervalAngle: 90
+	intervalBullet: {
+		type:"LightningBulletType"
+		damage: 1
+		lifeTime:1
+		speed:1
+		lightningLength: 5
+		lightningColor:  FFFFFF 
+	} 
+	weaveMag: 2
+	weaveScale: 4
+	sprite: "circle"
+	trailEffect: "artilleryTrail"
+	trailInterval: 3.5
+	trailColor: FFFFFF
+	frontColor: FFFFFF
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 8
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 10
+		cone: 360 //Градуси
+		}
+		]
+	}
+
+},
+category: "turret",
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+{
+type: ShapePart
+layer: 100
+progress: warmup
+rotateSpeed: 0
+sides: 360
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 5
+y: 6
+}
+{
+type: ShapePart
+layer: 100
+progress: recoil
+rotateSpeed: 5
+sides: 3
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 5
+y: 6
+}
+{
+type: ShapePart
+layer: 100
+progress: recoil
+rotateSpeed: -5
+sides: 3
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 5
+y: 6
+}
+{
+type: ShapePart
+layer: 100
+progress: warmup
+rotateSpeed: 0
+sides: 360
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 3
+y: 6
+}
+{
+type: ShapePart
+layer: 100
+progress: warmup
+rotateSpeed: -1
+sides: 3
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 3
+y: 6
+}
+{
+type: ShapePart
+layer: 100
+progress: recoil
+rotateSpeed: 3
+sides: 3
+hollow: true
+color: FFFFFF
+stroke: 0
+strokeTo: 0.8
+radius: 3
+y: 6
+}
+]
+}
+

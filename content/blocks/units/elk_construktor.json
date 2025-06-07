@@ -1,0 +1,31 @@
+"type": "Reconstructor",
+"name": "Іnitial reenactor",
+"description": "Rebuilds robots to their second level",
+"health": 262,
+"size": 3,
+"category": "units",
+"research": "mech_construktor",
+"requirements":[
+cobalt/90
+litiy/350
+galiy/50
+kristalit/270
+magnetit/100
+],
+"squareSprite": false ,
+"consumes": {
+"power": 2.5
+items: {
+items: [
+galiy/45
+kristalit/30
+]
+}
+},
+constructTime: 2700
+upgrades: [
+[b1_vector, b2_radikal], 
+[a1_quark, a2_atom], 
+[c1_primum, c2_sekundo], 
+]
+researchCostMultiplier: 0.4

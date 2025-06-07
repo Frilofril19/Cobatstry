@@ -1,0 +1,41 @@
+type: "HeatCrafter"
+name: "Ferromagnetic converter factory"
+description: "Ionizes and saturates nickel, converting it into its ferromagnetic counterpart, cobalt"
+"health": 213
+"size": 3,
+research: "galiy_furnanse"
+requirements:[
+cobalt/90
+litiy/72
+galiy/180
+nikel/150
+],
+squareSprite: false
+hasliquids: false
+craftTime: 36.67
+consumes: {
+power: 3
+items: [
+nikel/1
+]
+}
+heatRequirement: 3
+overheatScale: 3
+maxEfficiency: 1
+updateEffect: "smeltsmoke"
+category: "crafting"
+idleSoundVolume: 0.5
+itemCapacity: 40
+outputItem: cobalt/1
+
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawDefault
+}
+{
+type: DrawHeatInput
+}
+]
+}

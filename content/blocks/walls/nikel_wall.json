@@ -1,0 +1,13 @@
+{
+"type": "wall",
+"name": "Nickel wall",
+"description": "Protects against enemy projectiles and lasers",
+"health": 450,
+"size": 1,
+"research": "kristalit_wall",
+"requirements": [
+nikel/4
+],
+absorbLasers: true
+"category": "defense"
+}

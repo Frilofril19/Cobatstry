@@ -1,0 +1,16 @@
+type: "StorageBlock",
+name:"Large Resource Storage Station",
+description: "Stores resources, and can join the core and expand it yourself, resources can be obtained through a mechanical loader"
+health: 620,
+size: 3
+squareSprite: false
+requirements:[
+cobalt/90
+litiy/500
+kristalit/500
+nikel/500
+],
+itemCapacity: 1500
+research: "storage"
+category: "effect"
+researchCostMultiplier: 0.3

@@ -1,0 +1,16 @@
+type: "ItemBridge"
+name:"Tape bridge"
+description: "Transports resources over short distances"
+health: 17
+size:1
+research: "mech_junction"
+researchCostMultiplier: 0.4
+requirements:[
+cobalt/7
+],
+connectedPower: false
+consumesPower: false
+timerCheckMoved: 0.4
+transportTime: 0.09
+range: 3
+category: "distribution"

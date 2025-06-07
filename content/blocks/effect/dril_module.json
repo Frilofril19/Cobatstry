@@ -1,0 +1,26 @@
+type: "CoreBlock",
+name:"Drilling module",
+description: "A kernel module that extends it and adds new functionality in the form of the ability to create 1 drilling drone"
+health: 312,
+size: 2
+squareSprite: false
+requirements:[
+cobalt/400
+litiy/500
+kristalit/45
+galiy/145
+],
+buildCost: 2800
+itemCapacity: 500
+unitCapModifier: 0
+unitType: "03_selena"
+
+hasItems: true
+hasColor: true
+hidden: true
+
+isFirstTier: true
+category: "effect"
+
+research: build_module
+researchCostMultiplier: 0.4

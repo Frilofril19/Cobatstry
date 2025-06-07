@@ -1,0 +1,41 @@
+type: "NuclearReactor"
+name: "Thermo-reactor"
+description: "Produces energy by burning an explosive element, i.e. saltpeter, requires cooling, takes a long time to heat up"
+health: 216
+size: 3
+squareSprite: false
+research: "galvanic_reaktor"
+requirements: [
+cobalt/90
+litiy/100
+quarc/110
+magnetit/160
+galiy/230
+nikel/70
+]
+hasPower: true
+hasItems: true
+outputsPower: true
+itemCapacity: 90
+liquidCapacity: 90
+"consumes": {
+"liquid": acid/2
+"items": [
+selitra/1
+]
+}
+fuelItem: selitra
+itemDuration: 42
+powerProduction: 6.5
+
+explodeEffect: "scatheExplosion"
+explodeSound: "thermo-reactor-explotion"
+explosionPuddleLiquid: acid
+explosionMinWarmup: 5000
+explosionShake: 10
+explosionDamage: 100
+explosionRadius: 400
+coolantPower: 0.002
+heating: 0.001
+
+category: "power"

@@ -1,0 +1,19 @@
+type: "UnitAssemblerModule",
+"name":"Entry level flag",
+"description" :"Increases the maximum number of active units and raises the level of a professional reconstructor"
+"health": 163,
+"size": 2,
+research: {
+parent: "flag"
+objectives: [
+d_reconstruktor
+]
+}
+"requirements":[
+nikel/40
+kristalit/236
+],
+unitCapModifier: 2
+priority: 100
+tier: 1
+"category": "units",

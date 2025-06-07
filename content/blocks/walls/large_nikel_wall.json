@@ -1,0 +1,13 @@
+{
+"type": "wall",
+"name": "Large nickel wall",
+"description": "Protects against enemy projectiles and lasers",
+"health": 1010,
+"size": 2,
+"research": "nikel_wall",
+"requirements": [
+nikel/24
+],
+absorbLasers: true
+"category": "defense"
+}

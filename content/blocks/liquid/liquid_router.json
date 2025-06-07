@@ -1,0 +1,20 @@
+type: "LiquidRouter"
+name:"Path router"
+description: "Distributes liquids"
+health: 16
+size:1
+squareSprite: false
+requirements:[
+cobalt/10
+quarc/3
+]
+connectedPower: false
+consumesPower: false
+liquidPadding: 2
+category: "liquid"
+research: {
+parent: "liquid_junction"
+objectives: [
+liquid_bridge
+]
+}

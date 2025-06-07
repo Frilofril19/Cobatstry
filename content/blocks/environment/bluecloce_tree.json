@@ -1,0 +1,6 @@
+type: TreeBlock
+name: Mashlion tree
+emitLight: true
+lightRadius: 40
+albedo: 30
+lightColor: 463C83

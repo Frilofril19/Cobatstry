@@ -1,0 +1,29 @@
+type: "DroneCenter",
+name: "Construction Drone Center",
+description: "Creates a construction drone like Post",
+health: 94,
+size: 2,
+squareSprite: false
+research: "heal_unit_station"
+requirements: [
+litiy/55
+cobalt/40
+kristalit/45
+magnetit/75
+],
+consumes: {
+power: 2
+items:
+[
+kristalit/20
+magnetit/35
+]
+}
+itemCapacity: 35
+unitsSpawned: 1
+droneType: "g2_build_drone"
+statusDuration: -1
+droneConstructTime: 270
+configurable: false
+commandable: false
+category: "units",

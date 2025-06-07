@@ -1,0 +1,277 @@
+type: "ItemTurret"
+name:"Facet"
+description: "Long-range turret that fires in bursts"
+health: 34
+size:1
+research: "hemix"
+requirements:[
+cobalt/10
+litiy/42
+kristalit/20
+]
+coolant: {
+type: ConsumeCoolant
+allowLiquid: true
+amount: 0.09
+}
+canOverdrive: false
+targetAir: true
+targetGround: true
+reload: 50
+range: 200
+rotateSpeed: 5
+inaccuracy: 2
+shootSound: "shootC"
+xRand: 1.5
+shootY: 1.5
+shoot:{
+	shots: 3
+	shotDelay:2.5
+	autoTarget: true 
+}
+shootEffect: {
+	type: MultiEffect
+	effects:[
+	{
+	type: ParticleEffect
+	colorFrom: FFFFFF
+	colorTo: DBDBDB
+	lightColor: DBDBDB
+	sizeFrom: 1
+	sizeTo: 0
+	particles: 6
+	cone: 10 //Градуси
+	}
+	]
+}
+ammoTypes:{
+	quarc:{
+	type:"BasicBulletType"
+	damage: 20
+	speed: 6
+	ammoMultiplier: 2.0
+	buildingDamageMultiplier: 0.5
+	collidesGround: true
+	collidesAir: true
+
+	width: 3.75
+	height: 7
+	sprite: "circle"
+	trailEffect: "artilleryTrail"
+	trailInterval: 3.5
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveLife: 12
+		waveStroke: 1
+		waveRadBase: 0
+		waveRad: 5
+		waveColor: FFFFFF
+		smokes: 0
+		sparkLen: 1.5
+		sparkStroke: 2
+		sparkColor: FFFFFF
+		}
+		]
+	}
+},
+kristalit:{
+	type:"MissileBulletType"
+	damage: 10
+	speed:5
+	ammoMultiplier: 4.0
+	buildingDamageMultiplier: 0.5
+
+	width: 3.75
+	height: 7
+	sprite: "circle"
+	trailEffect: "artilleryTrail"
+	trailInterval: 3.5
+	trailColor: FFFFFF
+	frontColor: DBDBDB
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 8
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: DBDBDB
+		lightColor: DBDBDB
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 10
+		cone: 360 //Градуси
+		}
+		]
+	}
+},
+sulfur:{
+	type:"FlakBulletType"
+	damage: 10
+	explodeRange: 15
+	splashDamage: 25
+	speed:5
+	ammoMultiplier: 4.0
+	buildingDamageMultiplier: 0.5
+	collidesGround: true
+	collidesAir: true
+
+	width: 3.75
+	height: 7
+	sprite: "circle"
+	trailEffect: "artilleryTrail"
+	trailInterval: 3.5
+	trailColor: ecc34f
+	frontColor: ecc34f
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: ecc34f
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: ecc34f
+		sparkColor: FFFFFF
+		}
+		]
+	}
+},
+selitra:{
+	type:"FlakBulletType"
+	damage: 15
+	explodeRange: 10,
+	splashDamage: 10
+	speed:5
+	ammoMultiplier: 8.0
+	buildingDamageMultiplier: 0.5
+	collidesGround: true
+	collidesAir: true
+
+	width: 3.75
+	height: 7
+	sprite: "circle"
+	trailEffect: "artilleryTrail"
+	trailInterval: 3.5
+	trailColor: e39257
+	frontColor: e39257
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: e39257
+		sparkColor: FFFFFF
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ExplosionEffect
+		waveColor: FFFFFF
+		smokeColor: e39257
+		sparkColor: FFFFFF
+		}
+		]
+	}
+},},
+category: "turret"
+
+minWarmup: 0.9
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+{
+type: RegionPart
+suffix: -r
+mirror: false
+under: true
+
+moveX: 0
+moveY: -2
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+{
+type: RegionPart
+suffix: -c
+mirror: false
+under: true
+
+moveX: 0
+moveY: -1
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+{
+type: RegionPart
+suffix: -l
+mirror: false
+under: true
+
+moveX: 0
+moveY: -2
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+]
+}

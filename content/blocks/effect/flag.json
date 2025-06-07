@@ -1,0 +1,14 @@
+type: "Wall",
+"name":"flag",
+"description" :"Increases the maximum possible number of friendly robots"
+"health": 60,
+"size": 1,
+research: core_fralion
+"requirements":[
+cobalt/10
+kristalit/90
+],
+unitCapModifier: 1
+priority: 100
+"category": "units",
+researchCostMultiplier: 0.4

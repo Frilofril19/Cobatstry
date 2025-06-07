@@ -1,0 +1,42 @@
+type: "HeatCrafter"
+name: "Pyrohydrogeneration plasma factory"
+description: "Superheats and energizes the acid to a plasma state"
+"health": 474
+"size": 4
+research: "galiy_furnanse"
+requirements:[
+cobalt/180
+quarc/230
+kristalit/340
+galiy/540
+nikel/280
+],
+squareSprite: false
+hasliquids: true
+craftTime: 320
+consumes: {
+power: 9
+liquids:[
+acid/4
+]
+}
+heatRequirement: 28
+maxEfficiency: 3
+updateEffect: "mine"
+craftEffect: "mineImpactWave"
+category: "crafting"
+idleSoundVolume: 0.5
+liquidCapacity: 180
+outputLiquid: plasma/1
+
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawDefault
+}
+{
+type: DrawHeatInput
+}
+]
+}

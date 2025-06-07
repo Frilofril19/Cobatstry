@@ -1,0 +1,25 @@
+type: "HeatConductor"
+name: "Heat guide"
+description: "Transports heat"
+"health": 17
+"size": 1
+research: "heat_fur"
+requirements:[
+cobalt/10
+nikel/5
+]
+squareSprite: false
+visualMaxHeat: 5
+category: "crafting"
+
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawDefault
+}
+{
+type: DrawHeatOutput
+}
+]
+}

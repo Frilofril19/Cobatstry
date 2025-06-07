@@ -1,0 +1,172 @@
+type: "liquidTurret",
+name: "Trident",
+description: "Shoots bullets that gradually deal damage and pierce 3 enemies",
+health: 86,
+size:2,
+research: "ion",
+requirements:[
+cobalt/40
+litiy/40
+quarc/60
+],
+canOverdrive: false
+targetAir: true,
+targetGround: true,
+reload: 70,
+range: 130,
+ammoPerShot: 60,
+rotateSpeed: 3,
+inaccuracy: 5,
+shootSound: "shootEho"
+shoot: {shots: 3,
+shotDelay: 10,
+autoTarget: true
+},
+ammoTypes:{ 
+	acid:{
+	type:"BasicBulletType"
+	damage: 12
+	lifetime: 20
+	speed: 7
+	pierceCap: 3
+	status: "hacking"
+	statusDuration: 240
+	
+	width: 7.5
+	height: 14
+	trailLength: 20
+	trailWidth: 1.5
+	backColor: a0c6a0
+	trailColor: a0c6a0
+	frontColor: a0c6a0
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: a0c6a0
+		colorTo: a0c6a0
+		lightColor: a0c6a0
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 6
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: a0c6a0
+		colorTo: a0c6a0
+		lightColor: a0c6a0
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 9
+		cone: 360 //Градуси
+		}
+		]
+	}
+},
+	plasma:{
+	type:"MissileBulletType"
+	damage: 24
+	lifetime: 50
+	speed: 3
+	ammoMultiplier: 6
+	pierceCap: 5
+	status: "hacking"
+	statusDuration: 480
+	bulletInterval: 5
+	intervalBullets: 4
+	intervalRandomSpread: 0
+	intervalSpread: 180
+	intervalAngle: 90
+	intervalBullet: {
+		type:"LightningBulletType"
+		damage: 6
+		lifeTime:1
+		speed:1
+		lightningLength: 5
+		lightningColor:  FFFFFF 
+	} 
+	
+	weaveMag: 1
+	weaveScale: 2
+	width: 7.5
+	height: 14
+	trailLength: 20
+	trailWidth: 1.5
+	sprite: "circle"
+	backColor: FFFFFF
+	trailColor: FFFFFF
+	frontColor: FFFFFF
+	hitEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: FFFFFF
+		lightColor: FFFFFF
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 6
+		cone: 180 //Градуси
+		}
+		]
+	}
+	despawnEffect: {
+		type: MultiEffect
+		effects:[
+		{
+		type: ParticleEffect
+		colorFrom: FFFFFF
+		colorTo: FFFFFF
+		lightColor: FFFFFF
+		sizeFrom: 1
+		sizeTo: 0
+		particles: 9
+		cone: 360 //Градуси
+		}
+		]
+	}
+} },
+category: "turret"
+
+drawer: {
+type: DrawTurret
+basePrefix: regul-
+parts: [
+{
+type: RegionPart
+suffix: -center
+mirror: false
+under: false
+
+moveX: 0
+moveY: -1
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+{
+type: RegionPart
+suffix: -under
+mirror: false
+under: true
+
+moveX: 0
+moveY: -2
+moveRot: 0
+
+outline: true
+progress: recoil
+heatProgress: recoil
+}
+]
+}

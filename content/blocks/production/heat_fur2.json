@@ -1,0 +1,24 @@
+type: "HeatProducer"
+name: "Plasma heater"
+description: "Releases and directs plasma thermal energy"
+"health": 191
+"size": 3
+research: "heat_fur"
+requirements:[
+cobalt/90
+quarc/44
+nikel/100
+kristalit/170
+]
+squareSprite: false
+craftTime: 80
+liquidCapacity: 40
+consumes: {
+liquids: [
+plasma/0.25
+]
+}
+heatOutput: 6
+warmupRate: 0.055
+updateEffect: "mineSmall"
+category: "crafting"

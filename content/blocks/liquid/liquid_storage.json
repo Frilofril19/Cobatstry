@@ -1,0 +1,18 @@
+type: "LiquidRouter"
+name: "Liquid storage station"
+description: "Stores liquids, can be spread by placing them side by side"
+health: 443
+size: 3
+squareSprite: false
+requirements:[
+cobalt/310
+quarc/250
+kristalit/300
+]
+connectedPower: false
+consumesPower: false
+liquidPadding: 2
+liquidCapacity: 1000
+category: "liquid"
+research: "liquid_router"
+researchCostMultiplier: 0.4

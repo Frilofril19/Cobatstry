@@ -1,0 +1,35 @@
+type: "UnitFactory",
+name: "Explosive constructor",
+description: "Produces kamikaze robots that do not have upgraded versions",
+health: 218,
+size: 3,
+squareSprite: false
+research: "mech_construktor"
+requirements: [
+cobalt/90
+litiy/215
+kristalit/90
+magnetit/120
+],
+consumes: {
+power: 2
+}
+plans: [
+	{
+	unit: d1_inter
+	requirements: [
+		kristalit/15
+		]
+	time: 2500
+	}
+	{
+	unit: e1_Indu
+	requirements: [
+		kristalit/90
+		magnetit/80
+		]
+	time: 1500
+	}
+	]
+category: "units",
+researchCostMultiplier: 0.4
