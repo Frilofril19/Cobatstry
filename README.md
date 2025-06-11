@@ -14,10 +14,10 @@ And turrets have a number of characteristics by which they can be distributed an
 - Short-range
 
 ## New Mechanics
-#### Flag
+#### Flags
 ![flagImg](sprites/blocks/effect/flag.png) ![flagImg](sprites/blocks/effect/flag2.png) ![flagImg](sprites/blocks/effect/flag3.png)
 
-A new, expensive and slow-to-build block that increases your maximum unit cap by +1. Unlike cores, it provides unit capacity, enabling players to build limitless armies. However, units are not overpowered — victory comes through numbers and strategy, not brute strength.
+A new, expensive and slow-to-build blocks that increases your maximum unit cap by +1 (+2 or +3). Unlike cores, it provides unit capacity, enabling players to build limitless armies. However, units are not overpowered — victory comes through numbers and strategy, not brute strength.
 
 #### Modules
 ![modul1Img](sprites/blocks/effect/build_module.png) ![modul1Img](sprites/blocks/effect/dril_module.png) ![modul1Img](sprites/blocks/effect/tactic_module.png)
