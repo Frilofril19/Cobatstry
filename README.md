@@ -15,12 +15,12 @@ And turrets have a number of characteristics by which they can be distributed an
 
 ## New Mechanics
 #### Flag
-![flagImg](sprites/blocks/effect/flag.png)
+![flagImg](sprites/blocks/effect/flag.png) ![flagImg](sprites/blocks/effect/flag2.png) ![flagImg](sprites/blocks/effect/flag3.png)
 
 A new, expensive and slow-to-build block that increases your maximum unit cap by +1. Unlike cores, it provides unit capacity, enabling players to build limitless armies. However, units are not overpowered — victory comes through numbers and strategy, not brute strength.
 
 #### Modules
-![modul1Img](sprites/blocks/effect/build_module.png) ![modul1Img](sprites/blocks/effect/dril_module.png)
+![modul1Img](sprites/blocks/effect/build_module.png) ![modul1Img](sprites/blocks/effect/dril_module.png) ![modul1Img](sprites/blocks/effect/tactik_module.png)
 
 Small cores that are placed in module zones around the main core in each sector. They expand the core’s functionality, especially the storage system.
 By holding Ctrl and hovering over a module, you can choose your new primary unit — the one you’ll play as. You can switch this at any time.
