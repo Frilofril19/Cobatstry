@@ -13,9 +13,9 @@ preset: "Unlok_driwer"
 ]
 }
 requirements:[
-cobalt/140
+cobalt/10
 litiy/250
-kristalit/190
+kristalit/220
 ]
 connectedPower: false
 consumesPower: false
