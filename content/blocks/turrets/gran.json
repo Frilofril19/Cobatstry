@@ -145,7 +145,7 @@ sulfur:{
 	type:"FlakBulletType"
 	damage: 10
 	explodeRange: 15
-	splashDamage: 25
+	splashDamage: 5
 	speed:5
 	ammoMultiplier: 4.0
 	buildingDamageMultiplier: 0.5
@@ -186,7 +186,7 @@ selitra:{
 	type:"FlakBulletType"
 	damage: 15
 	explodeRange: 10,
-	splashDamage: 10
+	splashDamage: 7
 	speed:5
 	ammoMultiplier: 8.0
 	buildingDamageMultiplier: 0.5
