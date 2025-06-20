@@ -58,7 +58,7 @@ shootEffect: {
 ammoTypes:{
 selitra:{
 	type:"FlakBulletType"
-	splashDamage: 12
+	splashDamage: 7
 	damage: 12
 	speed: 3
 	recoil: 2
@@ -98,7 +98,7 @@ selitra:{
 },
 sulfur:{
 	type: "FlakBulletType"
-	splashDamage: 10
+	splashDamage: 5
 	damage:10
 	recoil: 1
 	speed:2
