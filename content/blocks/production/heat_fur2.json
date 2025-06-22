@@ -3,7 +3,12 @@ name: "Plasma heater"
 description: "Releases and directs plasma thermal energy"
 "health": 191
 "size": 3
-research: "heat_fur"
+research: {
+parent: "heat_fur"
+objectives: [
+plasma
+]
+}
 requirements:[
 cobalt/90
 quarc/44
