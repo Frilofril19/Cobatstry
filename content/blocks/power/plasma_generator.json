@@ -4,7 +4,12 @@ description: "Releases energy from plasma"
 health: 115
 size: 2
 squareSprite: false
-research: "piezo_generator"
+research: {
+parent: "piezo_generator"
+objectives: [
+plasma
+]
+}
 requirements: [
 cobalt/40
 quarc/65
