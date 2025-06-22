@@ -3,7 +3,15 @@ name: "Special drill",
 description: "Extracts resources from the surface on the sector, requires constant cooling with acid",
 health: 161,
 size: 3,
-research: "upgrade-dril",
+research: {
+parent: "upgrade-dril"
+objectives: [
+{
+type: onSector
+present: white_gayzers
+}
+]
+}
 "requirements":[
 cobalt/90
 quarc/105
