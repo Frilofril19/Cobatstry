@@ -8,7 +8,7 @@ parent: "upgrade-dril"
 objectives: [
 {
 type: onSector
-present: white_gayzers
+preset: "white_gayzers"
 }
 ]
 }
