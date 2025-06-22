@@ -4,7 +4,12 @@
 "health": 385,
 "size": 4,
 "category": "units",
-"research": "elk_construktor",
+research: {
+parent: "elk_construktor"
+objectives: [
+plasma
+]
+}
 "requirements":[
 cobalt/160
 litiy/775
